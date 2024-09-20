@@ -48,3 +48,24 @@ string Replaced2 = Exemplo2.Replace(busca, troca);
 //string palavraSemU = palavraSemO.Replace("u", "");
 
 //Console.WriteLine(palavraSemU);
+
+//Aqui não é dificil, mas sei que vai se confundir algum momento com isso
+//no foreach, a cada iteração, ele está censurando uma palavra
+//na primeira passada, ele censurou todos os "porra" e armazenou essa frase sem porra
+//na proxima, ele pegou a frase sem o "porra" e censurou os "merda" e armazenou sem esses dois
+//e assim por diante até acabar todo o array de palavras para censurar 
+//no fim ele imprime tudo censurado
+
+//Console.WriteLine("digite uma frase xingando");
+//string fraseXingada = Console.ReadLine();
+//string Censurado = " ";
+
+//string[] xingamentos = { "porra", "merda", "caralho", "arrombado", "burro", "inutil", "corno", "viado", "puta"  };
+
+//foreach(string palavrao in xingamentos)
+//{
+//    fraseXingada = fraseXingada.Replace(palavrao.ToString(), "*****");
+
+//}
+
+//Console.WriteLine(fraseXingada);
