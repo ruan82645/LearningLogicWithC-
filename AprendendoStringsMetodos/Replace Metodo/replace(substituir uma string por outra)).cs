@@ -69,3 +69,18 @@ string Replaced2 = Exemplo2.Replace(busca, troca);
 //}
 
 //Console.WriteLine(fraseXingada);
+
+Console.WriteLine("digite uma palavra com numeros");
+string palavraComNumerais = Console.ReadLine();
+
+string[] numerais = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+string[] numeraisExtenso = { "zero","um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove" };
+
+//eu tenho 9 gatos e 1 cachorro
+
+for(int i = 0; i < palavraComNumerais.Length; i++)
+{
+    palavraComNumerais = palavraComNumerais.Replace(numerais[i], numeraisExtenso[i]);
+}
+
+Console.WriteLine(palavraComNumerais);
