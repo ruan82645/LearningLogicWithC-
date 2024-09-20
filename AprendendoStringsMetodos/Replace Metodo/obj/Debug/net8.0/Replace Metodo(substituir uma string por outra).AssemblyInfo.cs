@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Replace Metodo(substituir uma string por outra)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0733ad91b3b585d7ccede713e22dcda5c828ff3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a5a341d1b42f82c1cf6815cb1f097fd21e20f20")]
 [assembly: System.Reflection.AssemblyProductAttribute("Replace Metodo(substituir uma string por outra)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Replace Metodo(substituir uma string por outra)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

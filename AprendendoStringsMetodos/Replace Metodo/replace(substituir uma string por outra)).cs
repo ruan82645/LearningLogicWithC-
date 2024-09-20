@@ -70,17 +70,53 @@ string Replaced2 = Exemplo2.Replace(busca, troca);
 
 //Console.WriteLine(fraseXingada);
 
-Console.WriteLine("digite uma palavra com numeros");
-string palavraComNumerais = Console.ReadLine();
 
-string[] numerais = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
-string[] numeraisExtenso = { "zero","um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove" };
+//Nesse, o usuario deve informar uma frase que contenham numeros
+//então o programa  deve substituir os números por numeros por extenso
 
-//eu tenho 9 gatos e 1 cachorro
+//Console.WriteLine("digite uma palavra com numeros");
+//string palavraComNumerais = Console.ReadLine();
 
-for(int i = 0; i < palavraComNumerais.Length; i++)
+//string[] numerais = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+//string[] numeraisExtenso = { "zero","um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove" };
+
+////eu tenho 9 gatos e 1 cachorro
+
+//for(int i = 0; i < numerais.Length; i++)
+//{
+//    palavraComNumerais = palavraComNumerais.Replace(numerais[i], numeraisExtenso[i]);
+//}
+
+//Console.WriteLine(palavraComNumerais);
+
+
+//bom.. é só pra trocar http por https, esse eu nem vou explicar
+
+//Console.WriteLine("digite uma url com http");
+//string urlErrada = Console.ReadLine();
+
+//string urlCorreta = urlErrada.Replace("http", "https");
+
+//Console.WriteLine(urlCorreta);
+
+//Nesse exercicio, devemos retirar todos os acentos das letras
+//infelizmente não consegui pensar numa forma mais inteligente de fazer isso
+//pelo menos não com o que tenho de aprendizado até o momento
+//ele utiliza a mesma lógica do exercicio anterior
+
+Console.WriteLine("digite palavras com acentos");
+string acentuado = Console.ReadLine();
+
+//amanhã todos nós iremos comer pão
+
+string[] acentos = { "á", "ã", "à", "â", "é", "è", "ê", "í", "ì", "î", "ó", "õ", "ò", "ô", "ú", "ù", "û" };
+string[] semAcentos = { "a", "a ", "a", "a", "e", "e", "e", "i", "i", "i", "o", "o", "o", "o", "u", "u", "u" };
+
+for (int i = 0; i < acentos.Length; i++)
 {
-    palavraComNumerais = palavraComNumerais.Replace(numerais[i], numeraisExtenso[i]);
+    acentuado = acentuado.Replace(acentos[i], semAcentos[i]);
 }
 
-Console.WriteLine(palavraComNumerais);
+Console.WriteLine(acentuado);
+
+

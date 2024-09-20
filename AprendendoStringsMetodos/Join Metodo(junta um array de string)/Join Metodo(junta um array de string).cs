@@ -7,9 +7,10 @@
 // ela foi desmontada num array pelo split.
 // se imprimir, vai vir tudo junto: "amanhãvoucomprarpipa"
 // mas com o Join, especificamos o que queremos entre cada string
-// devemos determinar uma string ou char que será colocada e um array de strings
+// devemos determinar uma string ou char que será colocada entre cada palavra
+// E após isso, um array de strings para que seja unido
 // ele vai juntar cada palavra com aquilo que voce determinou
-// NÃO É POSSIVEL JUNTAR UM TEXTO EM OUTRO
+// NÃO É POSSIVEL JUNTAR UM TEXTO EM OUTRO TEXTO
 
 string Exemplo1 = "meu pai foi no médico hoje";
 string[] palavras = Exemplo1.Split();
@@ -25,6 +26,8 @@ string[] palavras2 = Exemplo2.Split(",");
 string TudoJuntoMisturado2 = string.Join("-", palavras2);
 Console.WriteLine(TudoJuntoMisturado2);
 //vai retornar: "nome: ruan"
+
+
 
 
 
