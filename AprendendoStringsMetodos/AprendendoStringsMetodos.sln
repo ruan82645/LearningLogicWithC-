@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replace Metodo(substituir u
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contains Metodo(tem essa coisa nesse texto)", "Contains Metodo\Contains Metodo(tem essa coisa nesse texto).csproj", "{28E8FF4E-43B1-42D3-8AE7-D5CDCF78539D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Join Metodo(junta um array de string)", "Join Metodo(junta um array de string)\Join Metodo(junta um array de string).csproj", "{C0892608-885E-4FED-A379-E3D4B56016A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{28E8FF4E-43B1-42D3-8AE7-D5CDCF78539D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28E8FF4E-43B1-42D3-8AE7-D5CDCF78539D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28E8FF4E-43B1-42D3-8AE7-D5CDCF78539D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0892608-885E-4FED-A379-E3D4B56016A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0892608-885E-4FED-A379-E3D4B56016A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0892608-885E-4FED-A379-E3D4B56016A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0892608-885E-4FED-A379-E3D4B56016A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

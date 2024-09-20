@@ -21,3 +21,46 @@ string troca = "A";
 string Replaced2 = Exemplo2.Replace(busca, troca);
 // "Hoje eu fui nA prAiA e Almocei nA AguA"
 // viu? coloquei variaveis tipo string lá nas propriedades obrigatorias
+
+//vamos para as atividades;
+
+
+//Bem simples, pedir para o usuario digitar algo
+//depois substituir os espaços por "-"
+
+//Console.WriteLine("digite uma frase por favor");
+//string frase = Console.ReadLine();
+
+//string substituido = frase.Replace(" ", "-");
+//Console.WriteLine(substituido);
+
+
+//Esse foi bem tranquilo também
+//O usuario passa alguma coisa e o programa remove todas as vogais
+
+//Console.WriteLine("diga uma palavra para tirar as vogais");
+//string palavraComVogal = Console.ReadLine();
+
+//string palavraSemA = palavraComVogal.Replace("a", "");
+//string palavraSemE = palavraSemA.Replace("e", "");
+//string palavraSemI = palavraSemE.Replace("i", "");
+//string palavraSemO = palavraSemI.Replace("o", "");
+//string palavraSemU = palavraSemO.Replace("u", "");
+
+//Console.WriteLine(palavraSemU);
+
+
+Console.WriteLine("digite uma frase xingando");
+string fraseXingada = Console.ReadLine();
+string Censurado = " ";
+
+string[] xingamentos = { "porra", "merda", "caralho", "arrombado", "burro", "inutil", "corno", "viado", "puta"  };
+
+foreach(string palavrao in xingamentos)
+{
+    fraseXingada = fraseXingada.Replace(palavrao.ToString(), "*****");
+    
+    
+}
+
+Console.WriteLine(fraseXingada);

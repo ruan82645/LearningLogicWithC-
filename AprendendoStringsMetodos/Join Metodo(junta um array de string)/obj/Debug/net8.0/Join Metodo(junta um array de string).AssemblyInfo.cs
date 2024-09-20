@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Join Metodo(junta um array de string)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fc7a9ea3b94a36a65964ece7960e5aeaef5df2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Join Metodo(junta um array de string)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Join Metodo(junta um array de string)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

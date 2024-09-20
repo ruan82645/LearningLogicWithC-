@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\bin\Debug\net8.0\Replace Metodo(substituir uma string por outra).exe
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\bin\Debug\net8.0\Replace Metodo(substituir uma string por outra).deps.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\bin\Debug\net8.0\Replace Metodo(substituir uma string por outra).runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\bin\Debug\net8.0\Replace Metodo(substituir uma string por outra).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\bin\Debug\net8.0\Replace Metodo(substituir uma string por outra).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\obj\Debug\net8.0\Replace Metodo(substituir uma string por outra).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\obj\Debug\net8.0\Replace Metodo(substituir uma string por outra).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\obj\Debug\net8.0\Replace Metodo(substituir uma string por outra).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\obj\Debug\net8.0\Replace Metodo(substituir uma string por outra).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\obj\Debug\net8.0\Replace Metodo(substituir uma string por outra).sourcelink.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\obj\Debug\net8.0\Replace Metodo(substituir uma string por outra).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\obj\Debug\net8.0\refint\Replace Metodo(substituir uma string por outra).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\obj\Debug\net8.0\Replace Metodo(substituir uma string por outra).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\obj\Debug\net8.0\Replace Metodo(substituir uma string por outra).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Replace Metodo\obj\Debug\net8.0\ref\Replace Metodo(substituir uma string por outra).dll

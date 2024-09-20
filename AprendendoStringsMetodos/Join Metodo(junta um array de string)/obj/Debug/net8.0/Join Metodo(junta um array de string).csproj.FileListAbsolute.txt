@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\obj\Debug\net8.0\Join Metodo(junta um array de string).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\bin\Debug\net8.0\Join Metodo(junta um array de string).exe
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\bin\Debug\net8.0\Join Metodo(junta um array de string).deps.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\bin\Debug\net8.0\Join Metodo(junta um array de string).runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\bin\Debug\net8.0\Join Metodo(junta um array de string).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\bin\Debug\net8.0\Join Metodo(junta um array de string).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\obj\Debug\net8.0\Join Metodo(junta um array de string).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\obj\Debug\net8.0\Join Metodo(junta um array de string).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\obj\Debug\net8.0\Join Metodo(junta um array de string).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\obj\Debug\net8.0\Join Metodo(junta um array de string).sourcelink.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\obj\Debug\net8.0\Join Metodo(junta um array de string).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\obj\Debug\net8.0\refint\Join Metodo(junta um array de string).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\obj\Debug\net8.0\Join Metodo(junta um array de string).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\obj\Debug\net8.0\Join Metodo(junta um array de string).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Join Metodo(junta um array de string)\obj\Debug\net8.0\ref\Join Metodo(junta um array de string).dll
