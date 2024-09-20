@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\DateTime\DateTime\bin\Debug\net8.0\DateTime.exe
+C:\Users\ruanp\source\repos\DateTime\DateTime\bin\Debug\net8.0\DateTime.deps.json
+C:\Users\ruanp\source\repos\DateTime\DateTime\bin\Debug\net8.0\DateTime.runtimeconfig.json
+C:\Users\ruanp\source\repos\DateTime\DateTime\bin\Debug\net8.0\DateTime.dll
+C:\Users\ruanp\source\repos\DateTime\DateTime\bin\Debug\net8.0\DateTime.pdb
+C:\Users\ruanp\source\repos\DateTime\DateTime\obj\Debug\net8.0\DateTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\DateTime\DateTime\obj\Debug\net8.0\DateTime.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\DateTime\DateTime\obj\Debug\net8.0\DateTime.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\DateTime\DateTime\obj\Debug\net8.0\DateTime.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\DateTime\DateTime\obj\Debug\net8.0\DateTime.dll
+C:\Users\ruanp\source\repos\DateTime\DateTime\obj\Debug\net8.0\refint\DateTime.dll
+C:\Users\ruanp\source\repos\DateTime\DateTime\obj\Debug\net8.0\DateTime.pdb
+C:\Users\ruanp\source\repos\DateTime\DateTime\obj\Debug\net8.0\DateTime.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\DateTime\DateTime\obj\Debug\net8.0\ref\DateTime.dll

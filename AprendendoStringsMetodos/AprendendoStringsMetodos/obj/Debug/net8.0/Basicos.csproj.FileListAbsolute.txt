@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\bin\Debug\net8.0\Basicos.exe
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\bin\Debug\net8.0\Basicos.deps.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\bin\Debug\net8.0\Basicos.runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\bin\Debug\net8.0\Basicos.dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\bin\Debug\net8.0\Basicos.pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\obj\Debug\net8.0\Basicos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\obj\Debug\net8.0\Basicos.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\obj\Debug\net8.0\Basicos.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\obj\Debug\net8.0\Basicos.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\obj\Debug\net8.0\Basicos.dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\obj\Debug\net8.0\refint\Basicos.dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\obj\Debug\net8.0\Basicos.pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\obj\Debug\net8.0\Basicos.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\obj\Debug\net8.0\ref\Basicos.dll

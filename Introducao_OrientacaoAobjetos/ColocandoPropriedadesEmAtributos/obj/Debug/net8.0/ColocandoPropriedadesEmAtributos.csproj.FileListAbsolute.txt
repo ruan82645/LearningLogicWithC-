@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\bin\Debug\net8.0\ColocandoPropriedadesEmAtributos.exe
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\bin\Debug\net8.0\ColocandoPropriedadesEmAtributos.deps.json
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\bin\Debug\net8.0\ColocandoPropriedadesEmAtributos.runtimeconfig.json
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\bin\Debug\net8.0\ColocandoPropriedadesEmAtributos.dll
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\bin\Debug\net8.0\ColocandoPropriedadesEmAtributos.pdb
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\obj\Debug\net8.0\ColocandoPropriedadesEmAtributos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\obj\Debug\net8.0\ColocandoPropriedadesEmAtributos.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\obj\Debug\net8.0\ColocandoPropriedadesEmAtributos.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\obj\Debug\net8.0\ColocandoPropriedadesEmAtributos.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\obj\Debug\net8.0\ColocandoPropriedadesEmAtributos.dll
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\obj\Debug\net8.0\refint\ColocandoPropriedadesEmAtributos.dll
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\obj\Debug\net8.0\ColocandoPropriedadesEmAtributos.pdb
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\obj\Debug\net8.0\ColocandoPropriedadesEmAtributos.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\ColocandoPropriedadesEmAtributos\obj\Debug\net8.0\ref\ColocandoPropriedadesEmAtributos.dll

@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\bin\Debug\net8.0\vericifacoesNulleTryParse.exe
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\bin\Debug\net8.0\vericifacoesNulleTryParse.deps.json
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\bin\Debug\net8.0\vericifacoesNulleTryParse.runtimeconfig.json
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\bin\Debug\net8.0\vericifacoesNulleTryParse.dll
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\bin\Debug\net8.0\vericifacoesNulleTryParse.pdb
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\obj\Debug\net8.0\vericifacoesNulleTryParse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\obj\Debug\net8.0\vericifacoesNulleTryParse.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\obj\Debug\net8.0\vericifacoesNulleTryParse.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\obj\Debug\net8.0\vericifacoesNulleTryParse.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\obj\Debug\net8.0\vericifacoesNulleTryParse.dll
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\obj\Debug\net8.0\refint\vericifacoesNulleTryParse.dll
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\obj\Debug\net8.0\vericifacoesNulleTryParse.pdb
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\obj\Debug\net8.0\vericifacoesNulleTryParse.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\vericifacoesNulleTryParse\vericifacoesNulleTryParse\obj\Debug\net8.0\ref\vericifacoesNulleTryParse.dll

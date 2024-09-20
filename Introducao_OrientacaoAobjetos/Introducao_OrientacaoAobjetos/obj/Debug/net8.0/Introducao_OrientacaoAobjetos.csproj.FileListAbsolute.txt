@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\bin\Debug\net8.0\Introducao_OrientacaoAobjetos.exe
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\bin\Debug\net8.0\Introducao_OrientacaoAobjetos.deps.json
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\bin\Debug\net8.0\Introducao_OrientacaoAobjetos.runtimeconfig.json
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\bin\Debug\net8.0\Introducao_OrientacaoAobjetos.dll
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\bin\Debug\net8.0\Introducao_OrientacaoAobjetos.pdb
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\obj\Debug\net8.0\Introducao_OrientacaoAobjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\obj\Debug\net8.0\Introducao_OrientacaoAobjetos.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\obj\Debug\net8.0\Introducao_OrientacaoAobjetos.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\obj\Debug\net8.0\Introducao_OrientacaoAobjetos.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\obj\Debug\net8.0\Introducao_OrientacaoAobjetos.dll
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\obj\Debug\net8.0\refint\Introducao_OrientacaoAobjetos.dll
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\obj\Debug\net8.0\Introducao_OrientacaoAobjetos.pdb
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\obj\Debug\net8.0\Introducao_OrientacaoAobjetos.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Introducao_OrientacaoAobjetos\Introducao_OrientacaoAobjetos\obj\Debug\net8.0\ref\Introducao_OrientacaoAobjetos.dll

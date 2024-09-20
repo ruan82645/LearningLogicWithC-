@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Exercitando_Orientacao_A_Objetos/1.0.0": {
+        "runtime": {
+          "Exercitando_Orientacao_A_Objetos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exercitando_Orientacao_A_Objetos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

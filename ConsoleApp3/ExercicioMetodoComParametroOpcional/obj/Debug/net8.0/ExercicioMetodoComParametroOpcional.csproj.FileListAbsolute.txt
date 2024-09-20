@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\bin\Debug\net8.0\ExercicioMetodoComParametroOpcional.exe
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\bin\Debug\net8.0\ExercicioMetodoComParametroOpcional.deps.json
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\bin\Debug\net8.0\ExercicioMetodoComParametroOpcional.runtimeconfig.json
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\bin\Debug\net8.0\ExercicioMetodoComParametroOpcional.dll
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\bin\Debug\net8.0\ExercicioMetodoComParametroOpcional.pdb
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\obj\Debug\net8.0\ExercicioMetodoComParametroOpcional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\obj\Debug\net8.0\ExercicioMetodoComParametroOpcional.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\obj\Debug\net8.0\ExercicioMetodoComParametroOpcional.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\obj\Debug\net8.0\ExercicioMetodoComParametroOpcional.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\obj\Debug\net8.0\ExercicioMetodoComParametroOpcional.dll
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\obj\Debug\net8.0\refint\ExercicioMetodoComParametroOpcional.dll
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\obj\Debug\net8.0\ExercicioMetodoComParametroOpcional.pdb
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\obj\Debug\net8.0\ExercicioMetodoComParametroOpcional.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\ConsoleApp3\ExercicioMetodoComParametroOpcional\obj\Debug\net8.0\ref\ExercicioMetodoComParametroOpcional.dll

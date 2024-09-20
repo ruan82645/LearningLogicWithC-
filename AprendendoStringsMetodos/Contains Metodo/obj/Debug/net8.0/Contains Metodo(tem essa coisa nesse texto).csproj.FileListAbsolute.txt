@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\bin\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).exe
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\bin\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).deps.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\bin\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\bin\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\bin\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\net8.0\refint\Contains Metodo(tem essa coisa nesse texto).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\net8.0\ref\Contains Metodo(tem essa coisa nesse texto).dll

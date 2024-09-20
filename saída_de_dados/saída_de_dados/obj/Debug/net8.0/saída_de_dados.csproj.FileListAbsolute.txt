@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\bin\Debug\net8.0\saída_de_dados.exe
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\bin\Debug\net8.0\saída_de_dados.deps.json
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\bin\Debug\net8.0\saída_de_dados.runtimeconfig.json
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\bin\Debug\net8.0\saída_de_dados.dll
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\bin\Debug\net8.0\saída_de_dados.pdb
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\saída_de_dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\saída_de_dados.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\saída_de_dados.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\saída_de_dados.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\saída_de_dados.dll
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\refint\saída_de_dados.dll
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\saída_de_dados.pdb
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\saída_de_dados.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\ref\saída_de_dados.dll

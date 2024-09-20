@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8.0\Params.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8.0\Params.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8.0\Params.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8.0\Params.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\net8.0\Params.exe
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\net8.0\Params.deps.json
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\net8.0\Params.runtimeconfig.json
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\net8.0\Params.dll
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\net8.0\Params.pdb
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8.0\Params.dll
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8.0\refint\Params.dll
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8.0\Params.pdb
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8.0\Params.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8.0\ref\Params.dll

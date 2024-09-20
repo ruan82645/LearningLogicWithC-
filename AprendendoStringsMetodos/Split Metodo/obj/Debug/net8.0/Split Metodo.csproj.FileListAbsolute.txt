@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\bin\Debug\net8.0\Split Metodo.exe
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\bin\Debug\net8.0\Split Metodo.deps.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\bin\Debug\net8.0\Split Metodo.runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\bin\Debug\net8.0\Split Metodo.dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\bin\Debug\net8.0\Split Metodo.pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo.dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\refint\Split Metodo.dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo.pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\ref\Split Metodo.dll

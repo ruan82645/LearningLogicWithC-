@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\bin\Debug\net8.0\MaisExercicios.exe
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\bin\Debug\net8.0\MaisExercicios.deps.json
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\bin\Debug\net8.0\MaisExercicios.runtimeconfig.json
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\bin\Debug\net8.0\MaisExercicios.dll
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\bin\Debug\net8.0\MaisExercicios.pdb
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\obj\Debug\net8.0\MaisExercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\obj\Debug\net8.0\MaisExercicios.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\obj\Debug\net8.0\MaisExercicios.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\obj\Debug\net8.0\MaisExercicios.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\obj\Debug\net8.0\MaisExercicios.dll
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\obj\Debug\net8.0\refint\MaisExercicios.dll
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\obj\Debug\net8.0\MaisExercicios.pdb
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\obj\Debug\net8.0\MaisExercicios.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\ConsoleApp3\MiasExercicios\obj\Debug\net8.0\ref\MaisExercicios.dll

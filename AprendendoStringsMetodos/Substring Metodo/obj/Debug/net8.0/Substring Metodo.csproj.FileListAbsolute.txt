@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\bin\Debug\net8.0\Substring Metodo.exe
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\bin\Debug\net8.0\Substring Metodo.deps.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\bin\Debug\net8.0\Substring Metodo.runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\bin\Debug\net8.0\Substring Metodo.dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\bin\Debug\net8.0\Substring Metodo.pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo.dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\refint\Substring Metodo.dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo.pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\ref\Substring Metodo.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MaisExercicios/1.0.0": {
+        "runtime": {
+          "MaisExercicios.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MaisExercicios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\bin\Debug\net8.0\Vetor 01.exe
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\bin\Debug\net8.0\Vetor 01.deps.json
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\bin\Debug\net8.0\Vetor 01.runtimeconfig.json
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\bin\Debug\net8.0\Vetor 01.dll
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\bin\Debug\net8.0\Vetor 01.pdb
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\Vetor 01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\Vetor 01.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\Vetor 01.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\Vetor 01.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\Vetor 01.dll
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\refint\Vetor 01.dll
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\Vetor 01.pdb
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\Vetor 01.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\saída_de_dados\saída_de_dados\obj\Debug\net8.0\ref\Vetor 01.dll

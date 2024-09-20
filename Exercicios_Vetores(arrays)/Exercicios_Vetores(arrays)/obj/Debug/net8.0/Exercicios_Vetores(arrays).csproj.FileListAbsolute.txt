@@ -1,0 +1,14 @@
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\bin\Debug\net8.0\Exercicios_Vetores(arrays).exe
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\bin\Debug\net8.0\Exercicios_Vetores(arrays).deps.json
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\bin\Debug\net8.0\Exercicios_Vetores(arrays).runtimeconfig.json
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\bin\Debug\net8.0\Exercicios_Vetores(arrays).dll
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\bin\Debug\net8.0\Exercicios_Vetores(arrays).pdb
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\obj\Debug\net8.0\Exercicios_Vetores(arrays).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\obj\Debug\net8.0\Exercicios_Vetores(arrays).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\obj\Debug\net8.0\Exercicios_Vetores(arrays).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\obj\Debug\net8.0\Exercicios_Vetores(arrays).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\obj\Debug\net8.0\Exercicios_Vetores(arrays).dll
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\obj\Debug\net8.0\refint\Exercicios_Vetores(arrays).dll
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\obj\Debug\net8.0\Exercicios_Vetores(arrays).pdb
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\obj\Debug\net8.0\Exercicios_Vetores(arrays).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Exercicios_Vetores(arrays)\Exercicios_Vetores(arrays)\obj\Debug\net8.0\ref\Exercicios_Vetores(arrays).dll
