@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Split Metodo(transforma a string num array)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a44a62a2aa6296d91f0a72d88232f85e8444b84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+224ecaf835c480921d4c99beafb3244718873666")]
 [assembly: System.Reflection.AssemblyProductAttribute("Split Metodo(transforma a string num array)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Split Metodo(transforma a string num array)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Contains Metodo(tem essa coisa nesse texto)")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Trim Metodo(retirar espaços do inicio e fim)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+224ecaf835c480921d4c99beafb3244718873666")]
-[assembly: System.Reflection.AssemblyProductAttribute("Contains Metodo(tem essa coisa nesse texto)")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Contains Metodo(tem essa coisa nesse texto)")]
+[assembly: System.Reflection.AssemblyProductAttribute("Trim Metodo(retirar espaços do inicio e fim)")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Trim Metodo(retirar espaços do inicio e fim)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
