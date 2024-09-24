@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\bin\Debug\net8.0\Split Metodo(transforma a string num array).exe
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\bin\Debug\net8.0\Split Metodo(transforma a string num array).deps.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\bin\Debug\net8.0\Split Metodo(transforma a string num array).runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\bin\Debug\net8.0\Split Metodo(transforma a string num array).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\bin\Debug\net8.0\Split Metodo(transforma a string num array).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo(transforma a string num array).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo(transforma a string num array).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo(transforma a string num array).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo(transforma a string num array).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo(transforma a string num array).sourcelink.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo(transforma a string num array).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\refint\Split Metodo(transforma a string num array).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo(transforma a string num array).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\Split Metodo(transforma a string num array).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Split Metodo\obj\Debug\net8.0\ref\Split Metodo(transforma a string num array).dll

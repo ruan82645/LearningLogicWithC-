@@ -12,3 +12,4 @@ C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\ob
 C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\obj\Debug\net8.0\Basicos.pdb
 C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\obj\Debug\net8.0\Basicos.genruntimeconfig.cache
 C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\obj\Debug\net8.0\ref\Basicos.dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\AprendendoStringsMetodos\obj\Debug\net8.0\Basicos.sourcelink.json

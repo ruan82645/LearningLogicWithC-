@@ -6,14 +6,14 @@
 //Como assim?
 //vou te mostrar uns exemplos:
 
-//string exemplo1 = "minha lista de compras";
+string exemplo1 = "minha lista de compras";
 
 //Se escolhermos usar " "(espaço) para dividir essa frase, o Split vai pegar cada palavra
 //e então colocar ela dentro de um array
 //ele funciona criando um array novo e passando o valor da string criada + .Split()
 //dentro do Split, colocamos o que desejamos usar para dividir:
 
-//string[] ArrayExemplo = exemplo1.Split(" ");
+string[] ArrayExemplo = exemplo1.Split(" ");
 
 //Usei espaço para dividir, então tudo que tiver antes e depois de um espaço, será armazendo
 //Lembrando que oq for usado para dividir, irá sumir, só ficara o que vem antes e depois

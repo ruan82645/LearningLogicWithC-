@@ -12,3 +12,4 @@ C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\n
 C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).pdb
 C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).genruntimeconfig.cache
 C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\net8.0\ref\Contains Metodo(tem essa coisa nesse texto).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Contains Metodo\obj\Debug\net8.0\Contains Metodo(tem essa coisa nesse texto).sourcelink.json

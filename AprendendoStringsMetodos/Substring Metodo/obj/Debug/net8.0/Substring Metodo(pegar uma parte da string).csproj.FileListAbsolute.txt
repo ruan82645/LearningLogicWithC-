@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\bin\Debug\net8.0\Substring Metodo(pegar uma parte da string).exe
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\bin\Debug\net8.0\Substring Metodo(pegar uma parte da string).deps.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\bin\Debug\net8.0\Substring Metodo(pegar uma parte da string).runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\bin\Debug\net8.0\Substring Metodo(pegar uma parte da string).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\bin\Debug\net8.0\Substring Metodo(pegar uma parte da string).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo(pegar uma parte da string).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo(pegar uma parte da string).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo(pegar uma parte da string).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo(pegar uma parte da string).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo(pegar uma parte da string).sourcelink.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo(pegar uma parte da string).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\refint\Substring Metodo(pegar uma parte da string).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo(pegar uma parte da string).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\Substring Metodo(pegar uma parte da string).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\Substring Metodo\obj\Debug\net8.0\ref\Substring Metodo(pegar uma parte da string).dll

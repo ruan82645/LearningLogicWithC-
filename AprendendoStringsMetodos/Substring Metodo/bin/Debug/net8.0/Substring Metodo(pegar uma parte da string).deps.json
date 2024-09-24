@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Substring Metodo(pegar uma parte da string)/1.0.0": {
+        "runtime": {
+          "Substring Metodo(pegar uma parte da string).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Substring Metodo(pegar uma parte da string)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

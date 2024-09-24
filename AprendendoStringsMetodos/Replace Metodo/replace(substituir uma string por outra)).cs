@@ -7,6 +7,10 @@
 
 // exemplo: 
 
+using Replace_Metodo;
+using System.Globalization;
+using System.Text;
+
 string Exemplo1 = "meu carro é vermelho brilhante";
 
 string Replaced = Exemplo1.Replace("vermelho", "azul");
@@ -60,11 +64,11 @@ string Replaced2 = Exemplo2.Replace(busca, troca);
 //string fraseXingada = Console.ReadLine();
 //string Censurado = " ";
 
-//string[] xingamentos = { "porra", "merda", "caralho", "arrombado", "burro", "inutil", "corno", "viado", "puta"  };
+//string[] xingamentos = { "porra", "merda", "caralho", "arrombado", "burro", "inutil", "corno", "viado", "puta" };
 
-//foreach(string palavrao in xingamentos)
+//foreach (string palavrao in xingamentos)
 //{
-//    fraseXingada = fraseXingada.Replace(palavrao.ToString(), "*****");
+//    fraseXingada = fraseXingada.Replace(palavrao, "*****");
 
 //}
 
@@ -104,19 +108,23 @@ string Replaced2 = Exemplo2.Replace(busca, troca);
 //pelo menos não com o que tenho de aprendizado até o momento
 //ele utiliza a mesma lógica do exercicio anterior
 
-Console.WriteLine("digite palavras com acentos");
-string acentuado = Console.ReadLine();
+//Console.WriteLine("digite palavras com acentos");
+//string acentuado = Console.ReadLine();
 
-//amanhã todos nós iremos comer pão
+////amanhã todos nós iremos comer pão
 
-string[] acentos = { "á", "ã", "à", "â", "é", "è", "ê", "í", "ì", "î", "ó", "õ", "ò", "ô", "ú", "ù", "û" };
-string[] semAcentos = { "a", "a ", "a", "a", "e", "e", "e", "i", "i", "i", "o", "o", "o", "o", "u", "u", "u" };
+//string[] acentos = { "á", "ã", "à", "â", "é", "è", "ê", "í", "ì", "î", "ó", "õ", "ò", "ô", "ú", "ù", "û", "ç" };
+//string[] semAcentos = { "a", "a", "a", "a", "e", "e", "e", "i", "i", "i", "o", "o", "o", "o", "u", "u", "u", "c" };
 
-for (int i = 0; i < acentos.Length; i++)
-{
-    acentuado = acentuado.Replace(acentos[i], semAcentos[i]);
-}
+//for (int i = 0; i < acentos.Length; i++)
+//{
+//    acentuado = acentuado.Replace(acentos[i], semAcentos[i]);
+//}
 
-Console.WriteLine(acentuado);
+//Console.WriteLine(acentuado);
+
+
+
+
 
 

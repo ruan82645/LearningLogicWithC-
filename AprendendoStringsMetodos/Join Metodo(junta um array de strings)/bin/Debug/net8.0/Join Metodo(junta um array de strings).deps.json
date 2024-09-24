@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Join Metodo(junta um array de strings)/1.0.0": {
+        "runtime": {
+          "Join Metodo(junta um array de strings).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Join Metodo(junta um array de strings)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

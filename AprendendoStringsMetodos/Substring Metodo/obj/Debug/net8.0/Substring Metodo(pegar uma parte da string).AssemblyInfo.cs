@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Substring Metodo(pegar uma parte da string)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a44a62a2aa6296d91f0a72d88232f85e8444b84")]
 [assembly: System.Reflection.AssemblyProductAttribute("Substring Metodo(pegar uma parte da string)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Substring Metodo(pegar uma parte da string)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

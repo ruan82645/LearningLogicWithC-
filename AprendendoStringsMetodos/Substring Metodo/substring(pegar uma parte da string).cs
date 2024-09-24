@@ -1,4 +1,4 @@
-﻿//ele serve para pegar somente uma parte desejada de uma string
+﻿//Substring serve para pegar somente uma parte desejada de uma string
 //lembre, o valor alterado de uma string, tem que ir para outra string
 //simples assim, mas como funciona?
 
@@ -12,6 +12,7 @@
 
 using System;
 using System.ComponentModel.DataAnnotations;
+
 
 string Exemplo1 = "ruan pablo alves da costa";
 string GuardaValor = Exemplo1.Substring(3, 10);
