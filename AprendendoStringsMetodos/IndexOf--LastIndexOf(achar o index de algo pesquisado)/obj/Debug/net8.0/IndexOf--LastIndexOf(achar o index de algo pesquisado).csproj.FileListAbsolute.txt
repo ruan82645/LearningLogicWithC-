@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\bin\Debug\net8.0\IndexOf--LastIndexOf(achar o index de algo pesquisado).exe
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\bin\Debug\net8.0\IndexOf--LastIndexOf(achar o index de algo pesquisado).deps.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\bin\Debug\net8.0\IndexOf--LastIndexOf(achar o index de algo pesquisado).runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\bin\Debug\net8.0\IndexOf--LastIndexOf(achar o index de algo pesquisado).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\bin\Debug\net8.0\IndexOf--LastIndexOf(achar o index de algo pesquisado).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\obj\Debug\net8.0\IndexOf--LastIndexOf(achar o index de algo pesquisado).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\obj\Debug\net8.0\IndexOf--LastIndexOf(achar o index de algo pesquisado).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\obj\Debug\net8.0\IndexOf--LastIndexOf(achar o index de algo pesquisado).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\obj\Debug\net8.0\IndexOf--LastIndexOf(achar o index de algo pesquisado).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\obj\Debug\net8.0\IndexOf--LastIndexOf(achar o index de algo pesquisado).sourcelink.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\obj\Debug\net8.0\IndexOf--LastIndexOf(achar o index de algo pesquisado).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\obj\Debug\net8.0\refint\IndexOf--LastIndexOf(achar o index de algo pesquisado).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\obj\Debug\net8.0\IndexOf--LastIndexOf(achar o index de algo pesquisado).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\obj\Debug\net8.0\IndexOf--LastIndexOf(achar o index de algo pesquisado).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\IndexOf--LastIndexOf(achar o index de algo pesquisado)\obj\Debug\net8.0\ref\IndexOf--LastIndexOf(achar o index de algo pesquisado).dll

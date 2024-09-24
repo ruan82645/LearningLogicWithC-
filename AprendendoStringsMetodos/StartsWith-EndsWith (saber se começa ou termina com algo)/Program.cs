@@ -51,6 +51,7 @@ if (TiNaoAutorizado)
 }
 else
 {
+    //Se não se lembra, Thread.Sleep() para o programa por um tempo determinado
     Console.WriteLine("verificando email...");
     for(int i = 0; i < 3; i++)
     {

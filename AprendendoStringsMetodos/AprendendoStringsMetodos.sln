@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trim Metodo(retirar espaço
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartsWith-EndsWith (começa ou termina com alguma coisa)", "StartsWith-EndsWith (saber se começa ou termina com algo)\StartsWith-EndsWith (começa ou termina com alguma coisa).csproj", "{29A3E8B0-D195-4E4C-9AE3-703BC74451CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexOf--LastIndexOf(achar o index de algo pesquisado)", "IndexOf--LastIndexOf(achar o index de algo pesquisado)\IndexOf--LastIndexOf(achar o index de algo pesquisado).csproj", "{E4488339-2134-45BC-9D4F-73B62A3A926B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{29A3E8B0-D195-4E4C-9AE3-703BC74451CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29A3E8B0-D195-4E4C-9AE3-703BC74451CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29A3E8B0-D195-4E4C-9AE3-703BC74451CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4488339-2134-45BC-9D4F-73B62A3A926B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4488339-2134-45BC-9D4F-73B62A3A926B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4488339-2134-45BC-9D4F-73B62A3A926B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4488339-2134-45BC-9D4F-73B62A3A926B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

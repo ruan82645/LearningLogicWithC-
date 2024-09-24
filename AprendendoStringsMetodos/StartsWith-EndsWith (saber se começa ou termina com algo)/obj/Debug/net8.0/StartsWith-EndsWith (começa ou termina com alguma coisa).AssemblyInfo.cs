@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StartsWith-EndsWith (começa ou termina com alguma coisa)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7436ff5cbeba44b62d9066b2214828b4a4bf5a7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bce58560b487e00e125fbbca913ba07f6fcd6ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("StartsWith-EndsWith (começa ou termina com alguma coisa)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StartsWith-EndsWith (começa ou termina com alguma coisa)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

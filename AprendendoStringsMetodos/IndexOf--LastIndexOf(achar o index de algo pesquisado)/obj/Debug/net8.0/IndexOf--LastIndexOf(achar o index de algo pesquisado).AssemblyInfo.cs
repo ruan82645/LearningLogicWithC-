@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Join Metodo(junta um array de strings)")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("IndexOf--LastIndexOf(achar o index de algo pesquisado)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bce58560b487e00e125fbbca913ba07f6fcd6ab")]
-[assembly: System.Reflection.AssemblyProductAttribute("Join Metodo(junta um array de strings)")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Join Metodo(junta um array de strings)")]
+[assembly: System.Reflection.AssemblyProductAttribute("IndexOf--LastIndexOf(achar o index de algo pesquisado)")]
+[assembly: System.Reflection.AssemblyTitleAttribute("IndexOf--LastIndexOf(achar o index de algo pesquisado)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
