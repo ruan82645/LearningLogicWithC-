@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\bin\Debug\net8.0\StartsWith-EndsWith (começa ou termina com alguma coisa).exe
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\bin\Debug\net8.0\StartsWith-EndsWith (começa ou termina com alguma coisa).deps.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\bin\Debug\net8.0\StartsWith-EndsWith (começa ou termina com alguma coisa).runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\bin\Debug\net8.0\StartsWith-EndsWith (começa ou termina com alguma coisa).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\bin\Debug\net8.0\StartsWith-EndsWith (começa ou termina com alguma coisa).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\obj\Debug\net8.0\StartsWith-EndsWith (começa ou termina com alguma coisa).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\obj\Debug\net8.0\StartsWith-EndsWith (começa ou termina com alguma coisa).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\obj\Debug\net8.0\StartsWith-EndsWith (começa ou termina com alguma coisa).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\obj\Debug\net8.0\StartsWith-EndsWith (começa ou termina com alguma coisa).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\obj\Debug\net8.0\StartsWith-EndsWith (começa ou termina com alguma coisa).sourcelink.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\obj\Debug\net8.0\StartsWith-EndsWith (começa ou termina com alguma coisa).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\obj\Debug\net8.0\refint\StartsWith-EndsWith (começa ou termina com alguma coisa).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\obj\Debug\net8.0\StartsWith-EndsWith (começa ou termina com alguma coisa).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\obj\Debug\net8.0\StartsWith-EndsWith (começa ou termina com alguma coisa).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\StartsWith-EndsWith (saber se começa ou termina com algo)\obj\Debug\net8.0\ref\StartsWith-EndsWith (começa ou termina com alguma coisa).dll
