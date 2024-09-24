@@ -116,15 +116,37 @@ Console.WriteLine(string.Join(" ", listaDePalavras));
 //Console.WriteLine(final);
 
 
-Console.WriteLine("digite palavras separadas por virgula");
-string text = Console.ReadLine();
+//Bem simples esse, colocar "item: " antes de cada palavra digitada
+//
+//
+//Console.WriteLine("digite palavras separadas por virgula");
+//string text = Console.ReadLine();
 
-//maçã,banana,melancia,morango
-//item: maçã, item: banana, item: melancia
+////maçã,banana,melancia,morango
+////item: maçã, item: banana, item: melancia
 
-string[] ArrayCompras = text.Split(",");
+//string[] ArrayCompras = text.Split(",");
 
-string Compras = string.Join(",item: ", ArrayCompras);
-string ComprasFinal = $"item: {Compras}";
+//string Compras = string.Join(",item: ", ArrayCompras);
+//string ComprasFinal = $"item: {Compras}";
 
-Console.WriteLine(ComprasFinal);
+//Console.WriteLine(ComprasFinal);
+
+
+//aqui, o usuario diz algumas palavras, e essas palavras devem aparecer como ul
+//formatado como se fosse um html
+// escrevi: "ronaldo,jorge"
+// e apareceu: <ul>
+//                 <li>ronaldo</li>
+//                 <li>jorge</li>
+//             </ul>
+// entendeu? simples e fácil, só usar alguns /n para isso
+
+Console.WriteLine("escreva palavras para entrarem na lista HTML");
+string ul =  Console.ReadLine();
+string[] ArrayUl = ul.Split(",");
+
+//ruan,jorge,renato,garcia
+string html = string.Join("</li>\n    <li>", ArrayUl);
+string htmlFinal = $"<ul>\n    <li>{html}</li>\n</ul>";
+Console.WriteLine(htmlFinal);

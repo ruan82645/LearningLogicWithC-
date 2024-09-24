@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Contains Metodo(tem essa coisa nesse texto)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a44a62a2aa6296d91f0a72d88232f85e8444b84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+075aec93911dde807a1824a105125757615862fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Contains Metodo(tem essa coisa nesse texto)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Contains Metodo(tem essa coisa nesse texto)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
