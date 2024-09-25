@@ -106,36 +106,8 @@
 //será feito um loop, onde ele vai encontrar a primeira ocorrencia, aumentar o int
 //então buscar a proxima ocorrencia
 //devemos exibir os "{exemplo}" de todo o texto, um após o outro
-
-//string texto = Console.ReadLine();
-////"Olá {nome}, sei que você mora em {endereço} e vou te ligar em {celular}
-
-//int posicaoFirst = 0;
-//int posicaoLast = 0;
-//string substring = "";
-//int diferença = 0;
-
-//while (true)
-//{
-//    posicaoFirst = texto.IndexOf("{", posicaoFirst);
-//    posicaoLast = texto.IndexOf("}", posicaoLast);
-
-//    if (posicaoFirst == -1)
-//    {
-//        Console.WriteLine("não encontrei mais \"{\"");
-//        break;
-//    }
-
-//    diferença = posicaoLast - posicaoFirst;
-
-//    substring = texto.Substring(posicaoFirst, diferença+1);
-//    Console.WriteLine(substring);
-
-//    posicaoFirst += diferença + 1;
-//    posicaoLast ++;
-//}
-
-
+//"Olá {nome}, sei que você mora em {endereço} e vou te ligar em {celular}
+//vai imprimir de linha em linha: {nome}\n{endereço}\n{celular}
 string texto = Console.ReadLine();
 
 int posicao = 0;
@@ -156,4 +128,3 @@ while (true)
     Console.WriteLine(variavel);
 
 }
-//{nome}

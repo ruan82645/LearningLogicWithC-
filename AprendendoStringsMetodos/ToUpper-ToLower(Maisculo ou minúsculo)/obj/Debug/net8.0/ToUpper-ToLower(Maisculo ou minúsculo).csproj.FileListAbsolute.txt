@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\bin\Debug\net8.0\ToUpper-ToLower(Maisculo ou minúsculo).exe
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\bin\Debug\net8.0\ToUpper-ToLower(Maisculo ou minúsculo).deps.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\bin\Debug\net8.0\ToUpper-ToLower(Maisculo ou minúsculo).runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\bin\Debug\net8.0\ToUpper-ToLower(Maisculo ou minúsculo).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\bin\Debug\net8.0\ToUpper-ToLower(Maisculo ou minúsculo).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\obj\Debug\net8.0\ToUpper-ToLower(Maisculo ou minúsculo).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\obj\Debug\net8.0\ToUpper-ToLower(Maisculo ou minúsculo).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\obj\Debug\net8.0\ToUpper-ToLower(Maisculo ou minúsculo).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\obj\Debug\net8.0\ToUpper-ToLower(Maisculo ou minúsculo).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\obj\Debug\net8.0\ToUpper-ToLower(Maisculo ou minúsculo).sourcelink.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\obj\Debug\net8.0\ToUpper-ToLower(Maisculo ou minúsculo).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\obj\Debug\net8.0\refint\ToUpper-ToLower(Maisculo ou minúsculo).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\obj\Debug\net8.0\ToUpper-ToLower(Maisculo ou minúsculo).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\obj\Debug\net8.0\ToUpper-ToLower(Maisculo ou minúsculo).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ToUpper-ToLower(Maisculo ou minúsculo)\obj\Debug\net8.0\ref\ToUpper-ToLower(Maisculo ou minúsculo).dll

@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Replace Metodo(substituir u
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contains Metodo(tem essa coisa nesse texto)", "Contains Metodo\Contains Metodo(tem essa coisa nesse texto).csproj", "{28E8FF4E-43B1-42D3-8AE7-D5CDCF78539D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Join Metodo(junta um array de strings)", "Join Metodo(junta um array de strings)\Join Metodo(junta um array de strings).csproj", "{CC642069-46B6-4804-A592-3F40BE2F6CC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Join Metodo(junta um array de strings)", "Join Metodo(junta um array de strings)\Join Metodo(junta um array de strings).csproj", "{CC642069-46B6-4804-A592-3F40BE2F6CC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trim Metodo(retirar espaços do inicio e fim)", "Trim Metodo(retirar espaços do inicio e fim)\Trim Metodo(retirar espaços do inicio e fim).csproj", "{9C59C815-1DA2-4E74-B99B-5DB1DEA2011E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trim Metodo(retirar espaços do inicio e fim)", "Trim Metodo(retirar espaços do inicio e fim)\Trim Metodo(retirar espaços do inicio e fim).csproj", "{9C59C815-1DA2-4E74-B99B-5DB1DEA2011E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartsWith-EndsWith (começa ou termina com alguma coisa)", "StartsWith-EndsWith (saber se começa ou termina com algo)\StartsWith-EndsWith (começa ou termina com alguma coisa).csproj", "{29A3E8B0-D195-4E4C-9AE3-703BC74451CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StartsWith-EndsWith (começa ou termina com alguma coisa)", "StartsWith-EndsWith (saber se começa ou termina com algo)\StartsWith-EndsWith (começa ou termina com alguma coisa).csproj", "{29A3E8B0-D195-4E4C-9AE3-703BC74451CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexOf--LastIndexOf(achar o index de algo pesquisado)", "IndexOf--LastIndexOf(achar o index de algo pesquisado)\IndexOf--LastIndexOf(achar o index de algo pesquisado).csproj", "{E4488339-2134-45BC-9D4F-73B62A3A926B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexOf--LastIndexOf(achar o index de algo pesquisado)", "IndexOf--LastIndexOf(achar o index de algo pesquisado)\IndexOf--LastIndexOf(achar o index de algo pesquisado).csproj", "{E4488339-2134-45BC-9D4F-73B62A3A926B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToUpper-ToLower(Maisculo ou minúsculo)", "ToUpper-ToLower(Maisculo ou minúsculo)\ToUpper-ToLower(Maisculo ou minúsculo).csproj", "{33D3D870-A225-40C4-99E9-FE59D9768B04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{E4488339-2134-45BC-9D4F-73B62A3A926B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4488339-2134-45BC-9D4F-73B62A3A926B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4488339-2134-45BC-9D4F-73B62A3A926B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D3D870-A225-40C4-99E9-FE59D9768B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D3D870-A225-40C4-99E9-FE59D9768B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D3D870-A225-40C4-99E9-FE59D9768B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D3D870-A225-40C4-99E9-FE59D9768B04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
