@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IndexOf--LastIndexOf(achar o index de algo pesquisado)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bce58560b487e00e125fbbca913ba07f6fcd6ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41d30621050394c2337d5de8a6c97884c00d02e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("IndexOf--LastIndexOf(achar o index de algo pesquisado)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IndexOf--LastIndexOf(achar o index de algo pesquisado)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
