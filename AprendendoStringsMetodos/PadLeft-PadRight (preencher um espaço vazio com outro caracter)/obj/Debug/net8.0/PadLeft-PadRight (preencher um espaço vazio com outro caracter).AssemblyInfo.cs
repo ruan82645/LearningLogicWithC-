@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PadLeft-PadRight (preencher um espaço vazio com outro caracter)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+901198126e7178b69b589be4bce4a0c1831cc3b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd2ef52414eaaff99f589908298862de9d5d113f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PadLeft-PadRight (preencher um espaço vazio com outro caracter)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PadLeft-PadRight (preencher um espaço vazio com outro caracter)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
