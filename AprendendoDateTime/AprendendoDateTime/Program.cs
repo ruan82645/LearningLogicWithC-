@@ -1,6 +1,11 @@
 ﻿// o DateTime é o que usamos para trabalhar com data e hora em todo o programa
 // ele acessa as informações do calendário e relógio do computador e não do horario real da sua região
 // o que significa que se a hora do computador estiver errada, a hora do DateTime também vai estar
+// Date Time é um método do sistema, ou seja, quando criamos uma variavel que armazena data, devemos inicializa-la com "new"
+// também pense em DateTime como um tipo, então uma variavel é do tipo DateTime
+// então como assim inicia-la ao criar uma variavel?
+
+   DateTime Exemplo = new DateTime();
 
 // uma informação importante é que o DateTime não fica se atualizando como um relógio
 // ele salva o valor do momento exato em que o programa foi iniciado
@@ -20,9 +25,9 @@
 
 // O DateTime.Today passa somente as informações sobre o dia, mês e ano. Sem hora, minutos ou etc
 
-DateTime normal = DateTime.Now;
-// dd/MM/yyyy  HH:mm:ss (dados de quando você rodar o programa)
-Console.WriteLine(normal);
+   DateTime normal = DateTime.Now;
+   // dd/MM/yyyy  HH:mm:ss (dados de quando você rodar o programa)
+   Console.WriteLine(normal);
 
 // Ok, mas como podemos alterar as informações passadas para o usuário em tela? 
 // para isso, temos que ter um DateTime.Now, que garante mais informações a serem passadas, ou...
@@ -33,11 +38,13 @@ Console.WriteLine(normal);
 // usando o Console.WriteLine("variavelAqui".ToString("bla,bla,bla")) 
 
 // métodos utilizados:
+
 // ToString() = nos permite formatar como quisermos as informações passadas, caso em branco, será passado as padrões.
 // ToShortDateString() = (está escrito apenas "Date") é um método automatico que passa a data no formato padrão.
 // ToLongDateString() = (está escrito apenas "Date") é um método também automático que passa a data por extenso em tela.
 
 // Agora, a forma de escrever dentro do metodo:
+
 // Esse padrão foi criado pela Microsoft, então deve ser seguido certinho, pois é CaseSensitive
 // os mais comuns para data são "dd/MM/yyyy" e para hora: "HH:mm:ss"
 // podemos brincar com isso, mostrando somente minutos, ou somente o dia por exemplo
@@ -48,7 +55,19 @@ Console.WriteLine(normal);
 // Existem varios tipos de formas de exibir varios tipos de reultados, e estão todos catalogados aqui:
 // https://learn.microsoft.com/en-us/dotnet/standart/base-types/custom-date-and-time-format-strings
 
+   DateTime formatado = DateTime.Now;
+   Console.WriteLine(formatado.ToString("dddd, dd/MMMM/yyyy"));
+// quinta-feira, 26/setembro/2024 (Exemplo) 
 
-// Date Time é um método do sistema, ou seja, quando criamos uma variavel que armazena data, devemos inicializa-la
-// também pense em DateTime como um tipo, então uma variavel é do tipo DateTime
-// então como assim inicia-la ao criar uma variavel?
+// Ok, entendi como usar o que já está no sistema, e se eu quiser criar um DateTime com os dados que eu quero?
+// verificar se a data de hoje é o aniversário de alguém por exemplo. Eu teria que ter o aniversario da pessoa + o dia de hoje
+// então como posso criar uma variavel que carregue as informações que eu criei?
+// ao criar a variavel, devemos iniciarlizar o metodo com um "new DateTime()"
+// e dentro do parenteses, colocar as informações de Ano até onde você quiser parar
+// lembrete, as informações são agrupadas de 3 em 3(ano, mes e dia),(hora,minuto,segundo)
+// se eu quiser colocar a hora, devo colocar minuto e segundos também (coloque 00 caso não saiba ou não deseje que tenha valor)
+// Obeserve o exemplo: 
+
+   //                                        (ano  mês  dia) (hora min seg)
+   DateTime AniversárioLarissa = new DateTime(2003, 03, 24,    16, 32, 00);
+   
