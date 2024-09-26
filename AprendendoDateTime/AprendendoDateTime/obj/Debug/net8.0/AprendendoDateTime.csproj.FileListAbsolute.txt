@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\bin\Debug\net8.0\AprendendoDateTime.exe
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\bin\Debug\net8.0\AprendendoDateTime.deps.json
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\bin\Debug\net8.0\AprendendoDateTime.runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\bin\Debug\net8.0\AprendendoDateTime.dll
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\bin\Debug\net8.0\AprendendoDateTime.pdb
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\obj\Debug\net8.0\AprendendoDateTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\obj\Debug\net8.0\AprendendoDateTime.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\obj\Debug\net8.0\AprendendoDateTime.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\obj\Debug\net8.0\AprendendoDateTime.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\obj\Debug\net8.0\AprendendoDateTime.sourcelink.json
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\obj\Debug\net8.0\AprendendoDateTime.dll
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\obj\Debug\net8.0\refint\AprendendoDateTime.dll
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\obj\Debug\net8.0\AprendendoDateTime.pdb
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\obj\Debug\net8.0\AprendendoDateTime.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoDateTime\AprendendoDateTime\obj\Debug\net8.0\ref\AprendendoDateTime.dll

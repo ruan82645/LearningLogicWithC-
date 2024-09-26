@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AprendendoDateTime", "AprendendoDateTime\AprendendoDateTime.csproj", "{DD7F48A8-9619-4D0D-96F8-FD8E23DD84DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formatando DateTime", "Formatando DateTime\Formatando DateTime.csproj", "{1BE5396F-163B-44A3-BC84-A90CDA0321B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD7F48A8-9619-4D0D-96F8-FD8E23DD84DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7F48A8-9619-4D0D-96F8-FD8E23DD84DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7F48A8-9619-4D0D-96F8-FD8E23DD84DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7F48A8-9619-4D0D-96F8-FD8E23DD84DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE5396F-163B-44A3-BC84-A90CDA0321B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE5396F-163B-44A3-BC84-A90CDA0321B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE5396F-163B-44A3-BC84-A90CDA0321B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE5396F-163B-44A3-BC84-A90CDA0321B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99652F29-1648-44D7-A0B0-9F29647F2AC6}
+	EndGlobalSection
+EndGlobal

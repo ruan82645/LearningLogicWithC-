@@ -65,10 +65,10 @@ Console.WriteLine(mensagem);
 Console.WriteLine();
 Console.WriteLine("dados adquiridos:");
 
-Console.WriteLine(mensagem.Substring(mensagem.IndexOf(nome) - 1,nome.Length+1));
-Console.WriteLine(mensagem.Substring(mensagem.IndexOf(email) - 1, email.Length + 1));
-Console.WriteLine(mensagem.Substring(mensagem.IndexOf(endereco) - 1, endereco.Length + 1));
-Console.WriteLine(mensagem.Substring(mensagem.IndexOf(dataNacimento) - 1, dataNacimento.Length + 1));
+Console.WriteLine(mensagem.Substring(mensagem.IndexOf(nome),nome.Length));
+Console.WriteLine(mensagem.Substring(mensagem.IndexOf(email), email.Length));
+Console.WriteLine(mensagem.Substring(mensagem.IndexOf(endereco), endereco.Length));
+Console.WriteLine(mensagem.Substring(mensagem.IndexOf(dataNacimento), dataNacimento.Length));
 
 
 
