@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\bin\Debug\net8.0\ToCharArray Metodo(modificar string para array de char).exe
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\bin\Debug\net8.0\ToCharArray Metodo(modificar string para array de char).deps.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\bin\Debug\net8.0\ToCharArray Metodo(modificar string para array de char).runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\bin\Debug\net8.0\ToCharArray Metodo(modificar string para array de char).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\bin\Debug\net8.0\ToCharArray Metodo(modificar string para array de char).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\obj\Debug\net8.0\ToCharArray Metodo(modificar string para array de char).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\obj\Debug\net8.0\ToCharArray Metodo(modificar string para array de char).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\obj\Debug\net8.0\ToCharArray Metodo(modificar string para array de char).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\obj\Debug\net8.0\ToCharArray Metodo(modificar string para array de char).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\obj\Debug\net8.0\ToCharArray Metodo(modificar string para array de char).sourcelink.json
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\obj\Debug\net8.0\ToCharArray Metodo(modificar string para array de char).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\obj\Debug\net8.0\refint\ToCharArray Metodo(modificar string para array de char).dll
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\obj\Debug\net8.0\ToCharArray Metodo(modificar string para array de char).pdb
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\obj\Debug\net8.0\ToCharArray Metodo(modificar string para array de char).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\obj\Debug\net8.0\ref\ToCharArray Metodo(modificar string para array de char).dll

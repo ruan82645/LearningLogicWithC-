@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StartsWith-EndsWith (começ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexOf--LastIndexOf(achar o index de algo pesquisado)", "IndexOf--LastIndexOf(achar o index de algo pesquisado)\IndexOf--LastIndexOf(achar o index de algo pesquisado).csproj", "{E4488339-2134-45BC-9D4F-73B62A3A926B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToUpper-ToLower(Maisculo ou minúsculo)", "ToUpper-ToLower(Maisculo ou minúsculo)\ToUpper-ToLower(Maisculo ou minúsculo).csproj", "{33D3D870-A225-40C4-99E9-FE59D9768B04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToUpper-ToLower(Maisculo ou minúsculo)", "ToUpper-ToLower(Maisculo ou minúsculo)\ToUpper-ToLower(Maisculo ou minúsculo).csproj", "{33D3D870-A225-40C4-99E9-FE59D9768B04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PadLeft-PadRight (preencher um espaço vazio com outro caracter)", "PadLeft-PadRight (preencher um espaço vazio com outro caracter)\PadLeft-PadRight (preencher um espaço vazio com outro caracter).csproj", "{93646D39-4304-4024-A8B1-2B45C2BC365C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PadLeft-PadRight (preencher um espaço vazio com outro caracter)", "PadLeft-PadRight (preencher um espaço vazio com outro caracter)\PadLeft-PadRight (preencher um espaço vazio com outro caracter).csproj", "{93646D39-4304-4024-A8B1-2B45C2BC365C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToCharArray Metodo(modificar string para array de char)", "ConsoleApp1\ToCharArray Metodo(modificar string para array de char).csproj", "{1C44118F-5F6A-4FCA-867E-AAD3391D1C0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{93646D39-4304-4024-A8B1-2B45C2BC365C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93646D39-4304-4024-A8B1-2B45C2BC365C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93646D39-4304-4024-A8B1-2B45C2BC365C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C44118F-5F6A-4FCA-867E-AAD3391D1C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C44118F-5F6A-4FCA-867E-AAD3391D1C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C44118F-5F6A-4FCA-867E-AAD3391D1C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C44118F-5F6A-4FCA-867E-AAD3391D1C0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
