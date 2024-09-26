@@ -9,6 +9,8 @@
 // Charles informou que não é muito utilizada, mas que devo saber sobre essa separação
 // afinal, em algum momento isso pode ser útil
 
+using System.Text.RegularExpressions;
+
 string Exemplo1 = "ruan";
 char[] CharArray = Exemplo1.ToCharArray();
 //[r,u,a,n]
@@ -72,35 +74,42 @@ char[] CharArray = Exemplo1.ToCharArray();
 
 //3) verificar se a palavra é escrita da mesma forma de trás para frente
 
-Console.WriteLine("digite uma palavra");
-string texto = Console.ReadLine();
-//ama
-//123
-//
-//
+//Console.WriteLine("digite uma palavra");
+//string texto = Console.ReadLine();
 
-char[] ArrayDeLetras = texto.ToCharArray();
-int contador = 0;
+//char[] ArrayDeLetras = texto.ToCharArray();
+//int contador = 0;
+//int i = 0;
 
-for(int i = 0; i<ArrayDeLetras.Length; i++)
-{
-    for(int j = ArrayDeLetras.Length; j > 0; j--)
-    {
-        if (ArrayDeLetras[i] == ArrayDeLetras[j-1])
-        {
-            contador++;
-            Console.WriteLine(ArrayDeLetras[i] + " " + ArrayDeLetras[j]);
-        }
-    }
-}
+//for (int j = ArrayDeLetras.Length; j > 0; j--)
+//{
+//    if (ArrayDeLetras[i] == ArrayDeLetras[j - 1])
+//    {
+//        contador++;
+//        Console.WriteLine(ArrayDeLetras[i] + " " + ArrayDeLetras[j - 1]);
+//    }
+//    i++;
+//}
 
-if(contador == ArrayDeLetras.Length)
-{
-    Console.WriteLine("palindromo");
-}
-else
-{
-    Console.WriteLine("não é palindromo");
-}
+//if (contador == ArrayDeLetras.Length)
+//{
+//    Console.WriteLine("palindromo");
+//}
+//else
+//{
+//    Console.WriteLine("não é palindromo");
+//}
 
+//4) verificar se a string tem caracter especial, se tiver, substituir por espaços em branco
 
+Console.WriteLine("digite palavras com caracteres especiais");
+string especiais = Console.ReadLine();
+
+string normal = "";
+string especial = "!@#$%¨&*?";
+
+normal = Regex.Replace(especiais, "[!@#$%¨&*?]"," ");
+
+Console.WriteLine();
+Console.WriteLine("palavra final:");
+Console.WriteLine(normal);

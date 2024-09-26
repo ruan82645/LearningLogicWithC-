@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToCharArray Metodo(modificar string para array de char)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dacab804832306ce5d2a22671a50f0dbb138c73e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a32abb57f193fe4a9d591923abaf035dedb4fb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToCharArray Metodo(modificar string para array de char)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToCharArray Metodo(modificar string para array de char)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

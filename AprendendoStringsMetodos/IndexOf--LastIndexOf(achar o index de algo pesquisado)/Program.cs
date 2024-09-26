@@ -15,7 +15,6 @@
 //irá retornar 3, que foi onde começou essa palavra ou Char
 
 
-
 //uma coisa MUITO IMPORTANTE. Além da string passada para procurar, podemos passar um int
 //esse int serve para dizer a partir de qual posição começará a busca
 //ao fazer isso, podemos ou ignorar a busca das primeiras ocorrencias
@@ -50,56 +49,27 @@
 //após isso, usando o IndexOf, devemos imprimir somente essas variaveis
 //porém, não somente imprimindo a var
 //devemos usar o metodo para encontrar cada um dentro do email, para então imprimir
-//Console.WriteLine("por favor, digite seu nome");
-//string nome = Console.ReadLine();
-//Console.WriteLine("seu email por favor");
-//string email = Console.ReadLine();
-//Console.WriteLine("me informe seu endereço");
-//string endereco = Console.ReadLine();
-//Console.WriteLine("sua data de nascimento");
-//string dataNacimento = Console.ReadLine();
+Console.WriteLine("por favor, digite seu nome");
+string nome = Console.ReadLine();
+Console.WriteLine("seu email por favor");
+string email = Console.ReadLine();
+Console.WriteLine("me informe seu endereço");
+string endereco = Console.ReadLine();
+Console.WriteLine("sua data de nascimento");
+string dataNacimento = Console.ReadLine();
 
-//string mensagem = $@"olá {nome}, como vai? enviei esse email em {email}, pois estamos com uma promoção na sua região, que seria: {endereco}.
+string mensagem = $@"olá {nome}, como vai? enviei esse email em {email}, pois estamos com uma promoção na sua região, que seria: {endereco}.
 //Essa promoção, só está disponivel, pois você nasceu em {dataNacimento}.";
 
-//Console.WriteLine(mensagem);
-//Console.WriteLine();
-//Console.WriteLine("dados adquiridos:");
-//int index1 = 0;
+Console.WriteLine(mensagem);
+Console.WriteLine();
+Console.WriteLine("dados adquiridos:");
 
-//foreach(char l in nome)
-//{
-//    index1++;
-//}
+Console.WriteLine(mensagem.Substring(mensagem.IndexOf(nome) - 1,nome.Length+1));
+Console.WriteLine(mensagem.Substring(mensagem.IndexOf(email) - 1, email.Length + 1));
+Console.WriteLine(mensagem.Substring(mensagem.IndexOf(endereco) - 1, endereco.Length + 1));
+Console.WriteLine(mensagem.Substring(mensagem.IndexOf(dataNacimento) - 1, dataNacimento.Length + 1));
 
-//Console.WriteLine(mensagem.Substring(mensagem.IndexOf(nome),index1));
-
-//int index2 = 0;
-
-//foreach (char l in email)
-//{
-//    index2++;
-//}
-
-//Console.WriteLine(mensagem.Substring(mensagem.IndexOf(email), index2));
-
-//int index3 = 0;
-
-//foreach (char l in endereco)
-//{
-//    index3++;
-//}
-
-//Console.WriteLine(mensagem.Substring(mensagem.IndexOf(endereco), index3));
-
-//int index4 = 0;
-
-//foreach (char l in dataNacimento)
-//{
-//    index4++;
-//}
-
-//Console.WriteLine(mensagem.Substring(mensagem.IndexOf(dataNacimento), index4));
 
 
 //2) Aqui iremos treinar usar o int junto com a string para dizer onde procurar
@@ -108,23 +78,23 @@
 //devemos exibir os "{exemplo}" de todo o texto, um após o outro
 //"Olá {nome}, sei que você mora em {endereço} e vou te ligar em {celular}
 //vai imprimir de linha em linha: {nome}\n{endereço}\n{celular}
-string texto = Console.ReadLine();
+//string texto = Console.ReadLine();
 
-int posicao = 0;
+//int posicao = 0;
 
-while (true)
-{
-    posicao = texto.IndexOf("{", posicao);
+//while (true)
+//{
+//    posicao = texto.IndexOf("{", posicao);
 
-    if (posicao == -1)
-    {
-        Console.WriteLine("não encontrei mais \"{\"");
-        break;
-    }
+//    if (posicao == -1)
+//    {
+//        Console.WriteLine("não encontrei mais \"{\"");
+//        break;
+//    }
 
-    string variavel = texto.Substring(posicao, texto.IndexOf("}",posicao)-posicao+1);
-    posicao++;
+//    string variavel = texto.Substring(posicao, texto.IndexOf("}",posicao)-posicao+1);
+//    posicao++;
 
-    Console.WriteLine(variavel);
+//    Console.WriteLine(variavel);
 
-}
+//}
