@@ -6,6 +6,9 @@
 // então como assim inicia-la ao criar uma variavel?
 
    DateTime Exemplo = new DateTime();
+    DateTime Long = DateTime.Now;
+
+   Console.WriteLine(Long.ToLongDateString());
 
 // uma informação importante é que o DateTime não fica se atualizando como um relógio
 // ele salva o valor do momento exato em que o programa foi iniciado
@@ -69,5 +72,5 @@
 // Obeserve o exemplo: 
 
    //                                        (ano  mês  dia) (hora min seg)
-   DateTime AniversárioLarissa = new DateTime(2003, 03, 24,    16, 32, 00);
+   DateTime AniversárioLarissa = new DateTime(2003, 03, 24,    16,  32, 00);
    
