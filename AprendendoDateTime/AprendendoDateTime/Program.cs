@@ -60,7 +60,25 @@
 
    DateTime formatado = DateTime.Now;
    Console.WriteLine(formatado.ToString("dddd, dd/MMMM/yyyy"));
-// quinta-feira, 26/setembro/2024 (Exemplo) 
+   //quinta - feira, 26 / setembro / 2024(Exemplo)
+   Console.WriteLine(formatado.ToString("ddMMyyyy HHmmss"));
+   // 26092024 163255 (Exemplo) 
+   Console.WriteLine(formatado.ToString("MM/yyyy"));
+   // 09/2024 (Exemplo) 
+   Console.WriteLine(formatado.ToString("dd/MM HH:mm"));
+   // 26/09 16:32 (Exemplo) 
+   Console.WriteLine(formatado.ToString("dd HH:mm:ss"));
+   // 26 16:32:55 (Exemplo) 
+   Console.WriteLine(formatado.ToString($"yyyy HH"));
+   // 2024 16
+
+// Também podemos usar interpolação de strings para chamar a variavel já formatada ou formatar direto sem ToString().
+
+    Console.WriteLine($"agora são exatamente: {formatado:HH:mm:ss} do dia {formatado:dd}");
+    // ou podemos chamar uma variavel já formatada
+    DateTime agora = DateTime.Now;
+    agora.ToString("HH:mm:ss");
+    Console.WriteLine($"agora são exatamente: {agora}");
 
 // Ok, entendi como usar o que já está no sistema, e se eu quiser criar um DateTime com os dados que eu quero?
 // verificar se a data de hoje é o aniversário de alguém por exemplo. Eu teria que ter o aniversario da pessoa + o dia de hoje
@@ -71,6 +89,6 @@
 // se eu quiser colocar a hora, devo colocar minuto e segundos também (coloque 00 caso não saiba ou não deseje que tenha valor)
 // Obeserve o exemplo: 
 
-   //                                        (ano  mês  dia) (hora min seg)
-   DateTime AniversárioLarissa = new DateTime(2003, 03, 24,    16,  32, 00);
+//                                        (ano  mês  dia) (hora min seg)
+DateTime AniversárioLarissa = new DateTime(2003, 03, 24,    16,  32, 00);
    
