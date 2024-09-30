@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Aprendendo leitura de Arquivos")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ReadAllText(ler o texto do arquivo)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+605651844e64ec3897a714b0569b593fc43df43e")]
-[assembly: System.Reflection.AssemblyProductAttribute("Aprendendo leitura de Arquivos")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Aprendendo leitura de Arquivos")]
+[assembly: System.Reflection.AssemblyProductAttribute("ReadAllText(ler o texto do arquivo)")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ReadAllText(ler o texto do arquivo)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

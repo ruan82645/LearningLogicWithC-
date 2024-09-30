@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aprendendo leitura de Arquivos", "Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos.csproj", "{6421D0C0-EF19-4610-AF9C-E4B039F40357}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAllText(ler o texto do arquivo)", "ConsoleApp1\ReadAllText(ler o texto do arquivo).csproj", "{F7B90196-D38B-4175-A1B2-FE760BBDCAA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6421D0C0-EF19-4610-AF9C-E4B039F40357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6421D0C0-EF19-4610-AF9C-E4B039F40357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6421D0C0-EF19-4610-AF9C-E4B039F40357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B90196-D38B-4175-A1B2-FE760BBDCAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B90196-D38B-4175-A1B2-FE760BBDCAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B90196-D38B-4175-A1B2-FE760BBDCAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B90196-D38B-4175-A1B2-FE760BBDCAA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

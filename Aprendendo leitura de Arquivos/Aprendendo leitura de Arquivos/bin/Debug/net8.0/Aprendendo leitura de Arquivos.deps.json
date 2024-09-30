@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Aprendendo leitura de Arquivos/1.0.0": {
+        "runtime": {
+          "Aprendendo leitura de Arquivos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Aprendendo leitura de Arquivos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

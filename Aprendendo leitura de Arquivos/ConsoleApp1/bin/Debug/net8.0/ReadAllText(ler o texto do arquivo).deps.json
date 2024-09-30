@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ReadAllText(ler o texto do arquivo)/1.0.0": {
+        "runtime": {
+          "ReadAllText(ler o texto do arquivo).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ReadAllText(ler o texto do arquivo)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

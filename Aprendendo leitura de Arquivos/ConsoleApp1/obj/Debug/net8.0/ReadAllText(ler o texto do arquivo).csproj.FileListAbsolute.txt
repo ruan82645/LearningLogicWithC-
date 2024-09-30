@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\bin\Debug\net8.0\ReadAllText(ler o texto do arquivo).exe
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\bin\Debug\net8.0\ReadAllText(ler o texto do arquivo).deps.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\bin\Debug\net8.0\ReadAllText(ler o texto do arquivo).runtimeconfig.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\bin\Debug\net8.0\ReadAllText(ler o texto do arquivo).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\bin\Debug\net8.0\ReadAllText(ler o texto do arquivo).pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\obj\Debug\net8.0\ReadAllText(ler o texto do arquivo).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\obj\Debug\net8.0\ReadAllText(ler o texto do arquivo).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\obj\Debug\net8.0\ReadAllText(ler o texto do arquivo).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\obj\Debug\net8.0\ReadAllText(ler o texto do arquivo).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\obj\Debug\net8.0\ReadAllText(ler o texto do arquivo).sourcelink.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\obj\Debug\net8.0\ReadAllText(ler o texto do arquivo).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\obj\Debug\net8.0\refint\ReadAllText(ler o texto do arquivo).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\obj\Debug\net8.0\ReadAllText(ler o texto do arquivo).pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\obj\Debug\net8.0\ReadAllText(ler o texto do arquivo).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp1\obj\Debug\net8.0\ref\ReadAllText(ler o texto do arquivo).dll

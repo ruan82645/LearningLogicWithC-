@@ -1,0 +1,1 @@
+texto lido de dentro da pasta programada

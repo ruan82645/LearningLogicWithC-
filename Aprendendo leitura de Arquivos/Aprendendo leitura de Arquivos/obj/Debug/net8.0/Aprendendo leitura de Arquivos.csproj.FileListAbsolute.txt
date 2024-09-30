@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\bin\Debug\net8.0\Aprendendo leitura de Arquivos.exe
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\bin\Debug\net8.0\Aprendendo leitura de Arquivos.deps.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\bin\Debug\net8.0\Aprendendo leitura de Arquivos.runtimeconfig.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\bin\Debug\net8.0\Aprendendo leitura de Arquivos.dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\bin\Debug\net8.0\Aprendendo leitura de Arquivos.pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\obj\Debug\net8.0\Aprendendo leitura de Arquivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\obj\Debug\net8.0\Aprendendo leitura de Arquivos.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\obj\Debug\net8.0\Aprendendo leitura de Arquivos.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\obj\Debug\net8.0\Aprendendo leitura de Arquivos.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\obj\Debug\net8.0\Aprendendo leitura de Arquivos.sourcelink.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\obj\Debug\net8.0\Aprendendo leitura de Arquivos.dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\obj\Debug\net8.0\refint\Aprendendo leitura de Arquivos.dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\obj\Debug\net8.0\Aprendendo leitura de Arquivos.pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\obj\Debug\net8.0\Aprendendo leitura de Arquivos.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Aprendendo leitura de Arquivos\obj\Debug\net8.0\ref\Aprendendo leitura de Arquivos.dll
