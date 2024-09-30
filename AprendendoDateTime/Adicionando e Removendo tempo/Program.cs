@@ -12,7 +12,6 @@
     DateTime SemanaPassada = Exemplo.AddDays(-7);
 //SemanaQueVem = "2024, 09, 24"
 
-
 // É algo bem simples, então vamos para os exercicios
 
 //1) Hipoteticamente, no Google, todos os funcionários possuem um dia de folga no ano.
@@ -31,25 +30,22 @@ DateTime folga;
 if(contratacao.DayOfWeek == DayOfWeek.Monday)
 {
    folga = contratacao.AddDays(77);
-    Console.WriteLine($"você terá folga em {folga.ToString("dd/MM/yyyy")}");
 }
-if (contratacao.DayOfWeek == DayOfWeek.Wednesday)
+else if (contratacao.DayOfWeek == DayOfWeek.Wednesday)
 {
     folga = contratacao.AddMonths(2);
-    Console.WriteLine($"você terá folga em {folga.ToString("dd/MM/yyyy")}");
 }
-if (contratacao.DayOfWeek != DayOfWeek.Monday && contratacao.DayOfWeek != DayOfWeek.Wednesday)
+else
 {
     DateTime referencia = new DateTime(2000,06,01);
     if(contratacao.Month >= referencia.Month)
     {
-        folga = new DateTime(DateTime.Now.Year, 06, 01);
-        DateTime folgaAtualizada = folga.AddYears(1);
-        Console.WriteLine($"você terá folga em {folga.ToString("dd/MM/yyyy")}");
+        folga = new DateTime(DateTime.Now.Year, 06, 01).AddYears(1);
     }
     else
     {
         folga = new DateTime(DateTime.Now.Year, 06, 01);
-        Console.WriteLine($"você terá folga em {folga.ToString("dd/MM/yyyy")}");
     }
 }
+
+Console.WriteLine($"você terá folga em {folga.ToString("dd/MM/yyyy")}");

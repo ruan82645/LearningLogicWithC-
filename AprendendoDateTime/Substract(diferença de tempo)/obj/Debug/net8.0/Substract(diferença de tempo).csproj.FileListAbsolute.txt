@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\bin\Debug\net8.0\Substract(diferença de tempo).exe
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\bin\Debug\net8.0\Substract(diferença de tempo).deps.json
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\bin\Debug\net8.0\Substract(diferença de tempo).runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\bin\Debug\net8.0\Substract(diferença de tempo).dll
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\bin\Debug\net8.0\Substract(diferença de tempo).pdb
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\obj\Debug\net8.0\Substract(diferença de tempo).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\obj\Debug\net8.0\Substract(diferença de tempo).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\obj\Debug\net8.0\Substract(diferença de tempo).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\obj\Debug\net8.0\Substract(diferença de tempo).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\obj\Debug\net8.0\Substract(diferença de tempo).sourcelink.json
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\obj\Debug\net8.0\Substract(diferença de tempo).dll
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\obj\Debug\net8.0\refint\Substract(diferença de tempo).dll
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\obj\Debug\net8.0\Substract(diferença de tempo).pdb
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\obj\Debug\net8.0\Substract(diferença de tempo).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoDateTime\Substract(diferença de tempo)\obj\Debug\net8.0\ref\Substract(diferença de tempo).dll

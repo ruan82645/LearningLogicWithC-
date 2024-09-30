@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Substract(diferença de tempo)/1.0.0": {
+        "runtime": {
+          "Substract(diferença de tempo).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Substract(diferença de tempo)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

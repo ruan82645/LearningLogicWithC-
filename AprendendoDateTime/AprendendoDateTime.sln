@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTime.Parse(string para 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adicionando e Removendo tempo", "Adicionando e Removendo tempo\Adicionando e Removendo tempo.csproj", "{8E2D3E03-8F9B-4144-9481-CEFE30727D80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parâmetros especificos DateTime", "parâmetros especificos DateTime\parâmetros especificos DateTime.csproj", "{505E9870-1231-4C7D-99A5-98A5E6662574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Substract(diferença de tempo)", "Substract(diferença de tempo)\Substract(diferença de tempo).csproj", "{52E47F24-3B22-4E86-A57E-9DA9CAE2F6AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{8E2D3E03-8F9B-4144-9481-CEFE30727D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E2D3E03-8F9B-4144-9481-CEFE30727D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E2D3E03-8F9B-4144-9481-CEFE30727D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505E9870-1231-4C7D-99A5-98A5E6662574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505E9870-1231-4C7D-99A5-98A5E6662574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505E9870-1231-4C7D-99A5-98A5E6662574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505E9870-1231-4C7D-99A5-98A5E6662574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E47F24-3B22-4E86-A57E-9DA9CAE2F6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E47F24-3B22-4E86-A57E-9DA9CAE2F6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E47F24-3B22-4E86-A57E-9DA9CAE2F6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E47F24-3B22-4E86-A57E-9DA9CAE2F6AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
