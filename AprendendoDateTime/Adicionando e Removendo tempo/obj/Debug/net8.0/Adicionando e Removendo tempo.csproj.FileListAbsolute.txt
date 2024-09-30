@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\bin\Debug\net8.0\Adicionando e Removendo tempo.exe
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\bin\Debug\net8.0\Adicionando e Removendo tempo.deps.json
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\bin\Debug\net8.0\Adicionando e Removendo tempo.runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\bin\Debug\net8.0\Adicionando e Removendo tempo.dll
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\bin\Debug\net8.0\Adicionando e Removendo tempo.pdb
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\obj\Debug\net8.0\Adicionando e Removendo tempo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\obj\Debug\net8.0\Adicionando e Removendo tempo.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\obj\Debug\net8.0\Adicionando e Removendo tempo.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\obj\Debug\net8.0\Adicionando e Removendo tempo.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\obj\Debug\net8.0\Adicionando e Removendo tempo.sourcelink.json
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\obj\Debug\net8.0\Adicionando e Removendo tempo.dll
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\obj\Debug\net8.0\refint\Adicionando e Removendo tempo.dll
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\obj\Debug\net8.0\Adicionando e Removendo tempo.pdb
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\obj\Debug\net8.0\Adicionando e Removendo tempo.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoDateTime\Adicionando e Removendo tempo\obj\Debug\net8.0\ref\Adicionando e Removendo tempo.dll
