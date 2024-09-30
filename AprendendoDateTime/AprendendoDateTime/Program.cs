@@ -6,8 +6,8 @@
 // então como assim inicia-la ao criar uma variavel?
 
    DateTime Exemplo = new DateTime();
-    DateTime Long = DateTime.Now;
-
+   //--------------------------------- 
+   DateTime Long = DateTime.Now;
    Console.WriteLine(Long.ToLongDateString());
 
 // uma informação importante é que o DateTime não fica se atualizando como um relógio
@@ -22,73 +22,19 @@
 
 // O DateTime.Now trabalha trazendo TODAS as informações do momento exato em que foi criado ou atualizado
 // podendo trazer ano, mês, dia, hora, minuto, segundo, decimos de segundo e assim vai
-// o padrão é mostrar ano,mês, dia e hora, minuto e segundo
-// porém se quiser, podemos mostrar mais informações ou formas diferentes de exibir os resultados
+// o padrão (caso não informe se quer mais coisas) é mostrar ano,mês, dia e hora, minuto e segundo
+// porém se quiser, é possivel mostrar mais informações ou formas diferentes de exibir os resultados,
 // desde o dia aparecer como: 26/09/2024, até aparecer como: quinta-feira, 26, de novembro de 2024 
 
 // O DateTime.Today passa somente as informações sobre o dia, mês e ano. Sem hora, minutos ou etc
 
-   DateTime normal = DateTime.Now;
+   DateTime DataHoraAtual = DateTime.Now;
    // dd/MM/yyyy  HH:mm:ss (dados de quando você rodar o programa)
-   Console.WriteLine(normal);
+   Console.WriteLine("usando o DateTime.Now e trazendo data e hora atuais:");
+   Console.WriteLine(DataHoraAtual);
 
-// Ok, mas como podemos alterar as informações passadas para o usuário em tela? 
-// para isso, temos que ter um DateTime.Now, que garante mais informações a serem passadas, ou...
-// um DateTime que nós mesmos colocamos as informações lá dentro(já irei explicar).
-// Com isso, temos que usar tanto um método, quanto uma forma de escrever dentro desse mesmo método
-// Para utiliza-lo, não podemos usar direto quando criamos o DateTime, temos que usar só na hora de imprimir na tela.
-// Chamando a variavel que armazena aquele valor, e então aplicando a formatação
-// usando o Console.WriteLine("variavelAqui".ToString("bla,bla,bla")) 
-
-// métodos utilizados:
-
-// ToString() = nos permite formatar como quisermos as informações passadas, caso em branco, será passado as padrões.
-// ToShortDateString() = (está escrito apenas "Date") é um método automatico que passa a data no formato padrão.
-// ToLongDateString() = (está escrito apenas "Date") é um método também automático que passa a data por extenso em tela.
-
-// Agora, a forma de escrever dentro do metodo:
-
-// Esse padrão foi criado pela Microsoft, então deve ser seguido certinho, pois é CaseSensitive
-// os mais comuns para data são "dd/MM/yyyy" e para hora: "HH:mm:ss"
-// podemos brincar com isso, mostrando somente minutos, ou somente o dia por exemplo
-// "variavelAqui".ToString("yyyy HH") = aqui seria mostrado somente ano e hora
-// Também existem outras formas de exibir o mesmo tipo de informação ou outro tipo
-// Como assim? Para escrever o dia de forma abreviada, é "ddd" e escrever o dia por extenso é "dddd" por exemplo
-// Mas se eu quiser escrever milésimos de segundo ou outro dado, já seria outra junção de letras, "fff" por exemplo
-// Existem varios tipos de formas de exibir varios tipos de reultados, e estão todos catalogados aqui:
-// https://learn.microsoft.com/en-us/dotnet/standart/base-types/custom-date-and-time-format-strings
-
-   DateTime formatado = DateTime.Now;
-   Console.WriteLine(formatado.ToString("dddd, dd/MMMM/yyyy"));
-   //quinta - feira, 26 / setembro / 2024(Exemplo)
-   Console.WriteLine(formatado.ToString("ddMMyyyy HHmmss"));
-   // 26092024 163255 (Exemplo) 
-   Console.WriteLine(formatado.ToString("MM/yyyy"));
-   // 09/2024 (Exemplo) 
-   Console.WriteLine(formatado.ToString("dd/MM HH:mm"));
-   // 26/09 16:32 (Exemplo) 
-   Console.WriteLine(formatado.ToString("dd HH:mm:ss"));
-   // 26 16:32:55 (Exemplo) 
-   Console.WriteLine(formatado.ToString($"yyyy HH"));
-   // 2024 16
-
-// Também podemos usar interpolação de strings para chamar a variavel já formatada ou formatar direto sem ToString().
-
-    Console.WriteLine($"agora são exatamente: {formatado:HH:mm:ss} do dia {formatado:dd}");
-    // ou podemos chamar uma variavel já formatada
-    DateTime agora = DateTime.Now;
-    agora.ToString("HH:mm:ss");
-    Console.WriteLine($"agora são exatamente: {agora}");
-
-// Ok, entendi como usar o que já está no sistema, e se eu quiser criar um DateTime com os dados que eu quero?
-// verificar se a data de hoje é o aniversário de alguém por exemplo. Eu teria que ter o aniversario da pessoa + o dia de hoje
-// então como posso criar uma variavel que carregue as informações que eu criei?
-// ao criar a variavel, devemos iniciarlizar o metodo com um "new DateTime()"
-// e dentro do parenteses, colocar as informações de Ano até onde você quiser parar
-// lembrete, as informações são agrupadas de 3 em 3(ano, mes e dia),(hora,minuto,segundo)
-// se eu quiser colocar a hora, devo colocar minuto e segundos também (coloque 00 caso não saiba ou não deseje que tenha valor)
-// Obeserve o exemplo: 
-
-//                                        (ano  mês  dia) (hora min seg)
-DateTime AniversárioLarissa = new DateTime(2003, 03, 24,    16,  32, 00);
+   DateTime DataAtual = DateTime.Today;
+   // dd/MM/yyyy (dados do dia que o programa for rodado)
+   Console.WriteLine("usando o DateTime.Today e trazendo a data atual:");
+   Console.WriteLine(DataAtual);
    

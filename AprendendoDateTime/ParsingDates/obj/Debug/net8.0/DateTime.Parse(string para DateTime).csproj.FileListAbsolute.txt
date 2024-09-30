@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\bin\Debug\net8.0\DateTime.Parse(string para DateTime).exe
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\bin\Debug\net8.0\DateTime.Parse(string para DateTime).deps.json
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\bin\Debug\net8.0\DateTime.Parse(string para DateTime).runtimeconfig.json
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\bin\Debug\net8.0\DateTime.Parse(string para DateTime).dll
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\bin\Debug\net8.0\DateTime.Parse(string para DateTime).pdb
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\obj\Debug\net8.0\DateTime.Parse(string para DateTime).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\obj\Debug\net8.0\DateTime.Parse(string para DateTime).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\obj\Debug\net8.0\DateTime.Parse(string para DateTime).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\obj\Debug\net8.0\DateTime.Parse(string para DateTime).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\obj\Debug\net8.0\DateTime.Parse(string para DateTime).sourcelink.json
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\obj\Debug\net8.0\DateTime.Parse(string para DateTime).dll
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\obj\Debug\net8.0\refint\DateTime.Parse(string para DateTime).dll
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\obj\Debug\net8.0\DateTime.Parse(string para DateTime).pdb
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\obj\Debug\net8.0\DateTime.Parse(string para DateTime).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\obj\Debug\net8.0\ref\DateTime.Parse(string para DateTime).dll

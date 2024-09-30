@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AprendendoDateTime", "AprendendoDateTime\AprendendoDateTime.csproj", "{DD7F48A8-9619-4D0D-96F8-FD8E23DD84DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AprendendoDateTime", "AprendendoDateTime\AprendendoDateTime.csproj", "{DD7F48A8-9619-4D0D-96F8-FD8E23DD84DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formatando DateTime", "Formatando DateTime\Formatando DateTime.csproj", "{1BE5396F-163B-44A3-BC84-A90CDA0321B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formatando DateTime", "Formatando DateTime\Formatando DateTime.csproj", "{1BE5396F-163B-44A3-BC84-A90CDA0321B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparando Datas", "Comparando Datas\Comparando Datas.csproj", "{A9A61B55-A41A-4047-B9B9-BBC28209464F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime.Parse(string para DateTime)", "ParsingDates\DateTime.Parse(string para DateTime).csproj", "{220F11A6-FC2E-44C3-9F15-CB469AC424DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{1BE5396F-163B-44A3-BC84-A90CDA0321B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BE5396F-163B-44A3-BC84-A90CDA0321B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BE5396F-163B-44A3-BC84-A90CDA0321B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A61B55-A41A-4047-B9B9-BBC28209464F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A61B55-A41A-4047-B9B9-BBC28209464F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A61B55-A41A-4047-B9B9-BBC28209464F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A61B55-A41A-4047-B9B9-BBC28209464F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220F11A6-FC2E-44C3-9F15-CB469AC424DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220F11A6-FC2E-44C3-9F15-CB469AC424DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220F11A6-FC2E-44C3-9F15-CB469AC424DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220F11A6-FC2E-44C3-9F15-CB469AC424DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
