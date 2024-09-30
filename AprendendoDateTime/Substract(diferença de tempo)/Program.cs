@@ -49,10 +49,7 @@ double cobranca = 0;
 
 TimeSpan ferias = voltou.Subtract(saiu);
 
-for(int i = 0; i < ferias.TotalDays; i++)
-{
-    cobranca += 15;
-}
+cobranca = 15 * ferias.TotalDays;
 
 double salarioFinal = salario - cobranca;
 
@@ -62,3 +59,4 @@ if(salarioFinal < 0)
 }
 
 Console.WriteLine($"foram descontados {cobranca:C2} de seu salário em suas férias de {ferias.TotalDays} dias");
+Console.WriteLine($"Seu salário é de {cobranca:C2}");
