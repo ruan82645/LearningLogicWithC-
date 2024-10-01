@@ -33,4 +33,47 @@
    //digite G:\pasta1\pasta2\caminhoDoUsuario.txt
    string caminho = Console.ReadLine();
    string textoLido3 = System.IO.File.ReadAllText(caminho);
-   Console.WriteLine(textoLido2);
+   Console.WriteLine(textoLido3);
+
+// Vamos aos exercicios então!
+
+//1) Nesse exercicio, o caminho do arquivo texto deve ser pedido, e um texto a ser pesquisado dentro desse arquivo
+// o arquivo deve ser lido e dependendo do resultado, exibir "texto encontrado" ou "texto não encontrado"
+// além disso, devemos usar try catch para evitar que o usuario digite o caminho errado
+
+while (true)
+{
+    try
+    {
+        Console.WriteLine("digite o caminho de um texto e o arquivo texto");
+        //T:\curso\EU CODO\back\ReadAll.txt
+        string caminho2 = Console.ReadLine();
+        Console.WriteLine("o que deseja saber se tem nesse arquivo?");
+        string pesquisa = Console.ReadLine();
+
+        string textoParaAchar = System.IO.File.ReadAllText(caminho2);
+
+        bool contemPesquisa = textoParaAchar.Contains(pesquisa);
+
+        if (contemPesquisa)
+        {
+            Console.WriteLine("texto encontrado no arquivo");
+        }
+        else
+        {
+            Console.WriteLine("o texto não foi encontrado no arquivo");
+        }
+        
+    }
+    catch(Exception erro)
+    {
+        Console.WriteLine("caminho informado incorreto, motivo: " + erro.Message);
+        for (int i = 3; i > 0; i--)
+        {
+            Console.WriteLine($"limpando tela em {i}");
+            Thread.Sleep(1000);
+        }
+        Console.Clear();
+    }
+}
+    
