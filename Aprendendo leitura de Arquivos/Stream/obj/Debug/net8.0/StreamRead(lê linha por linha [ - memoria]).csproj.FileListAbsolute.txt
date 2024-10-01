@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\bin\Debug\net8.0\StreamRead(lê linha por linha [ - memoria]).exe
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\bin\Debug\net8.0\StreamRead(lê linha por linha [ - memoria]).deps.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\bin\Debug\net8.0\StreamRead(lê linha por linha [ - memoria]).runtimeconfig.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\bin\Debug\net8.0\StreamRead(lê linha por linha [ - memoria]).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\bin\Debug\net8.0\StreamRead(lê linha por linha [ - memoria]).pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\obj\Debug\net8.0\StreamRead(lê linha por linha [ - memoria]).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\obj\Debug\net8.0\StreamRead(lê linha por linha [ - memoria]).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\obj\Debug\net8.0\StreamRead(lê linha por linha [ - memoria]).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\obj\Debug\net8.0\StreamRead(lê linha por linha [ - memoria]).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\obj\Debug\net8.0\StreamRead(lê linha por linha [ - memoria]).sourcelink.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\obj\Debug\net8.0\StreamRead(lê linha por linha [ - memoria]).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\obj\Debug\net8.0\refint\StreamRead(lê linha por linha [ - memoria]).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\obj\Debug\net8.0\StreamRead(lê linha por linha [ - memoria]).pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\obj\Debug\net8.0\StreamRead(lê linha por linha [ - memoria]).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Stream\obj\Debug\net8.0\ref\StreamRead(lê linha por linha [ - memoria]).dll

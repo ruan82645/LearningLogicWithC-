@@ -1,0 +1,5 @@
+o StreamReader
+pode ler 
+linha por linha
+sem precisar de muita memoria,
+melhorando a performance
