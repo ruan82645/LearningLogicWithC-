@@ -38,3 +38,11 @@ while (!Exemplo1.EndOfStream)
 // para isso, basta usar um Exemplo1.Close()
 
 Exemplo1.Close();
+
+//vamos para os exercicios
+
+//1) nesse aqui, devemos pedir um caminho de arquivo e uma palavra ou caracter
+// devemos imprimir somente as linhas que eomeçam com o que o usuario informou
+// após isso mostrar quantas linhas começam com isso que o usuario pediu
+
+Console.WriteLine("digite o caminho do arquivo"
