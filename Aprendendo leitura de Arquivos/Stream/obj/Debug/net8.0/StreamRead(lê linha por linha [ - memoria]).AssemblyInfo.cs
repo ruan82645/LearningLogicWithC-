@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamRead(lê linha por linha [ - memoria])")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f3477bc2a2e7ce54a8aade4aec7d1ef4ab98e8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd1b62abb20d2c3b633747c2846c25b08ac7b796")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamRead(lê linha por linha [ - memoria])")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamRead(lê linha por linha [ - memoria])")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
