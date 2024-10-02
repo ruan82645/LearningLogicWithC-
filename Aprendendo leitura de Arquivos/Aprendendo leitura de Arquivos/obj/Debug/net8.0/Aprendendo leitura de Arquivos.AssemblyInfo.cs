@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aprendendo leitura de Arquivos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd1b62abb20d2c3b633747c2846c25b08ac7b796")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46066676fb8bf9c5e3f54d4582543abc24e58863")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aprendendo leitura de Arquivos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aprendendo leitura de Arquivos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
