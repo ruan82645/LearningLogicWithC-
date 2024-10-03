@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\File.Copy (copiar arquivo de um lugar para outro)\\File.(Copy, Move ou Delete).csproj",
-      "projectName": "File.(Copy, Move ou Delete)",
-      "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\File.Copy (copiar arquivo de um lugar para outro)\\File.(Copy, Move ou Delete).csproj",
+      "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\Directory GetFile\\DirectoryInfo GetFile.csproj",
+      "projectName": "DirectoryInfo GetFile",
+      "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\Directory GetFile\\DirectoryInfo GetFile.csproj",
       "packagesPath": "C:\\Users\\ruanp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\File.Copy (copiar arquivo de um lugar para outro)\\obj\\",
+      "outputPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\Directory GetFile\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ruanp\\AppData\\Roaming\\NuGet\\NuGet.Config",

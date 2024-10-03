@@ -4,34 +4,6 @@
 // Quando precisamos das informações de um arquivo, vamos até onde ele está guardado e o acessamos de lá.
 
 
-// Antes de entrarmos nas classes DirectoryInfo e Directory, é importante entender o método GetFiles(),
-// que é muito útil para trabalhar com arquivos dentro de uma pasta.
-
-// Como ainda não expliquei sobre os dois, tente entender mais o conceito de como usar o GetFiles()
-
-// O que é o GetFiles()?
-// Ele é um método que permite pegar todos os arquivos de uma pasta e armazenar suas informações em um array.
-// Isso facilita o acesso e a manipulação dos arquivos, já que para cada item do array, podemos buscar detalhes como:
-// nome, caminho completo, tamanho, data de modificação, entre outros.
-
-// Como usar o GetFiles()?
-// Você pode chamar o GetFiles() diretamente, passando o caminho da pasta como argumento,
-// Exemplo: string[] arquivos = Directory.GetFiles("C:\\caminho\\pasta");
-// ou pode usar uma variável que já tenha esse caminho armazenado.
-// Exemplo: você pode ter uma variável `DirectoryInfo caminho = new DirectoryInfo("caminho da pasta")`
-// e depois chamá-la assim: `var[] arquivos  = caminho.GetFiles()`.
-
-// O GetFiles() também permite usar um filtro opcional, como "*.txt", ou "travasseiro"
-// *.txt, *.pdf, etc. Armazenam somente os formatos filtrados
-// "travesseiro", "garrafa", etc. Armazena os arquivos que tenham essas palavras.
-
-// Por que é útil?
-// O GetFiles() armazena as informações dos arquivos em um array,
-// e a partir daí você pode trabalhar com essas informações de forma organizada.
-// Por exemplo, você pode pegar apenas o nome dos arquivos, verificar seus tamanhos ou acessar seu caminho completo.
-// Esse método é extremamente útil para organizar ou manipular arquivos dentro de um diretório.
-
-
 // DirectoryInfo e Directory são coisas diferentes, uma Info sendo uma classe não estática enquanto Directory é estática.
 // DirectoryInfo necessita de uma variavel iniciada assim como um DateTime, e sempre usando uma variavel DirectoryInfo para mexer,
 // ao iniciar o DirectoryInfo, devemos passar o caminho da pasta, a partir disso sua variavel carrega esse caminho,
@@ -40,7 +12,8 @@
 // Entenda que ao transformar as informações da pasta em array, agora não é mais sobre a pasta, mas sim sobre arquivo
 // quando trabalhamos somente com o arquivo, usamos o tipo "FileInfo", que agora suporta informações de arquivos individuais
 
-
+// GetFiles armazena todos os arquivos da pasta em um array
+// mais informações de como usar ele estão em suas explicações
 string caminho = "C:\\Users\\ruanp\\source\\repos";
 System.IO.DirectoryInfo DiretorioInfo = new System.IO.DirectoryInfo(caminho);
 

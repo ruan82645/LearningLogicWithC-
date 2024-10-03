@@ -17,7 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryInfo e Directory (
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stream (como funciona essa classe)", "Streams\Stream (como funciona essa classe).csproj", "{24039377-3696-4701-9AE6-C14DC124D6E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File.Copy (copiar de um lugar para outro)", "File.Copy (copiar arquivo de um lugar para outro)\File.Copy (copiar de um lugar para outro).csproj", "{F0C9DE52-2851-4615-B1FA-34A58E1CB701}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File.(Copy, Move ou Delete)", "File.Copy (copiar arquivo de um lugar para outro)\File.(Copy, Move ou Delete).csproj", "{F0C9DE52-2851-4615-B1FA-34A58E1CB701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryInfo GetFile", "Directory GetFile\DirectoryInfo GetFile.csproj", "{F125A425-4256-4B7B-BF25-2D795AB9B866}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{F0C9DE52-2851-4615-B1FA-34A58E1CB701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0C9DE52-2851-4615-B1FA-34A58E1CB701}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0C9DE52-2851-4615-B1FA-34A58E1CB701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F125A425-4256-4B7B-BF25-2D795AB9B866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F125A425-4256-4B7B-BF25-2D795AB9B866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F125A425-4256-4B7B-BF25-2D795AB9B866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F125A425-4256-4B7B-BF25-2D795AB9B866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

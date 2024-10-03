@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\obj\Debug\net8.0\DirectoryInfo GetFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\obj\Debug\net8.0\DirectoryInfo GetFile.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\obj\Debug\net8.0\DirectoryInfo GetFile.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\obj\Debug\net8.0\DirectoryInfo GetFile.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\obj\Debug\net8.0\DirectoryInfo GetFile.sourcelink.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\bin\Debug\net8.0\DirectoryInfo GetFile.exe
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\bin\Debug\net8.0\DirectoryInfo GetFile.deps.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\bin\Debug\net8.0\DirectoryInfo GetFile.runtimeconfig.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\bin\Debug\net8.0\DirectoryInfo GetFile.dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\bin\Debug\net8.0\DirectoryInfo GetFile.pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\obj\Debug\net8.0\DirectoryInfo GetFile.dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\obj\Debug\net8.0\refint\DirectoryInfo GetFile.dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\obj\Debug\net8.0\DirectoryInfo GetFile.pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\obj\Debug\net8.0\DirectoryInfo GetFile.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Directory GetFile\obj\Debug\net8.0\ref\DirectoryInfo GetFile.dll

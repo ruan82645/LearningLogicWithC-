@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DirectoryInfo GetFile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+620713ce6724335a8aeee0a3ae74f1c9b8becfd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbbf09ba81d38c1135326d9ce1cf9fb87f3da1c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("DirectoryInfo GetFile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DirectoryInfo GetFile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
