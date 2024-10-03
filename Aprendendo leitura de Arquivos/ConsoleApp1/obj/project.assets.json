@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\ConsoleApp1\\ReadAllText(lê tudo de uma vez [ + memoria]).csproj",
-      "projectName": "ReadAllText(lê tudo de uma vez [ + memoria])",
-      "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\ConsoleApp1\\ReadAllText(lê tudo de uma vez [ + memoria]).csproj",
+      "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\ConsoleApp1\\File.ReadAllText (lê o arquivo todo).csproj",
+      "projectName": "File.ReadAllText (lê o arquivo todo)",
+      "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\ConsoleApp1\\File.ReadAllText (lê o arquivo todo).csproj",
       "packagesPath": "C:\\Users\\ruanp\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",

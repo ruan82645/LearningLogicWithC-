@@ -4,12 +4,12 @@
     "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\File (como funciona essa classe)\\File (como funciona essa classe).csproj": {}
   },
   "projects": {
-    "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\DirectoryInfo e Directory\\DirectoryInfo e Directory.csproj": {
+    "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\DirectoryInfo e Directory\\DirectoryInfo e Directory (como funciona essa classe).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\DirectoryInfo e Directory\\DirectoryInfo e Directory.csproj",
-        "projectName": "DirectoryInfo e Directory",
-        "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\DirectoryInfo e Directory\\DirectoryInfo e Directory.csproj",
+        "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\DirectoryInfo e Directory\\DirectoryInfo e Directory (como funciona essa classe).csproj",
+        "projectName": "DirectoryInfo e Directory (como funciona essa classe)",
+        "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\DirectoryInfo e Directory\\DirectoryInfo e Directory (como funciona essa classe).csproj",
         "packagesPath": "C:\\Users\\ruanp\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\DirectoryInfo e Directory\\obj\\",
         "projectStyle": "PackageReference",
@@ -90,8 +90,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\DirectoryInfo e Directory\\DirectoryInfo e Directory.csproj": {
-                "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\DirectoryInfo e Directory\\DirectoryInfo e Directory.csproj"
+              "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\DirectoryInfo e Directory\\DirectoryInfo e Directory (como funciona essa classe).csproj": {
+                "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\DirectoryInfo e Directory\\DirectoryInfo e Directory (como funciona essa classe).csproj"
               }
             }
           }

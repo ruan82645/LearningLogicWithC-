@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\bin\Debug\net8.0\File.Copy (copiar de um lugar para outro).exe
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\bin\Debug\net8.0\File.Copy (copiar de um lugar para outro).deps.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\bin\Debug\net8.0\File.Copy (copiar de um lugar para outro).runtimeconfig.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\bin\Debug\net8.0\File.Copy (copiar de um lugar para outro).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\bin\Debug\net8.0\File.Copy (copiar de um lugar para outro).pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\obj\Debug\net8.0\File.Copy (copiar de um lugar para outro).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\obj\Debug\net8.0\File.Copy (copiar de um lugar para outro).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\obj\Debug\net8.0\File.Copy (copiar de um lugar para outro).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\obj\Debug\net8.0\File.Copy (copiar de um lugar para outro).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\obj\Debug\net8.0\File.Copy (copiar de um lugar para outro).sourcelink.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\obj\Debug\net8.0\File.Copy (copiar de um lugar para outro).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\obj\Debug\net8.0\refint\File.Copy (copiar de um lugar para outro).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\obj\Debug\net8.0\File.Copy (copiar de um lugar para outro).pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\obj\Debug\net8.0\File.Copy (copiar de um lugar para outro).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Copy (copiar arquivo de um lugar para outro)\obj\Debug\net8.0\ref\File.Copy (copiar de um lugar para outro).dll

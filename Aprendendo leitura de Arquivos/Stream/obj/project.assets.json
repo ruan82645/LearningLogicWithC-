@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\Stream\\StreamRead(lê linha por linha [ - memoria]).csproj",
-      "projectName": "StreamRead(lê linha por linha [ - memoria])",
-      "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\Stream\\StreamRead(lê linha por linha [ - memoria]).csproj",
+      "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\Stream\\StreamReader(lê linha por linha do arquivo).csproj",
+      "projectName": "StreamReader(lê linha por linha do arquivo)",
+      "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\Stream\\StreamReader(lê linha por linha do arquivo).csproj",
       "packagesPath": "C:\\Users\\ruanp\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\Stream\\obj\\",
       "projectStyle": "PackageReference",
