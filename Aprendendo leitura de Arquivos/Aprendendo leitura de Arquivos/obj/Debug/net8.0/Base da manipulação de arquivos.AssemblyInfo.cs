@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("StreamRead(lê linha por linha [ - memoria])")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Base da manipulação de arquivos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e64e8cb5698f6ce661096eef6989b22fc9ff4c9")]
-[assembly: System.Reflection.AssemblyProductAttribute("StreamRead(lê linha por linha [ - memoria])")]
-[assembly: System.Reflection.AssemblyTitleAttribute("StreamRead(lê linha por linha [ - memoria])")]
+[assembly: System.Reflection.AssemblyProductAttribute("Base da manipulação de arquivos")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Base da manipulação de arquivos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\Aprendendo leitura de Arquivos\\Aprendendo leitura de Arquivos.csproj",
-      "projectName": "Aprendendo leitura de Arquivos",
-      "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\Aprendendo leitura de Arquivos\\Aprendendo leitura de Arquivos.csproj",
+      "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\Aprendendo leitura de Arquivos\\Base da manipulação de arquivos.csproj",
+      "projectName": "Base da manipulação de arquivos",
+      "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\Aprendendo leitura de Arquivos\\Base da manipulação de arquivos.csproj",
       "packagesPath": "C:\\Users\\ruanp\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\Aprendendo leitura de Arquivos\\obj\\",
       "projectStyle": "PackageReference",
