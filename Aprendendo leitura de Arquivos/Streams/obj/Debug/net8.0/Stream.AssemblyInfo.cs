@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ReadAllText(lê tudo de uma vez [ + memoria])")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Stream")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ff5fa25566ee514985302e099062c1d9ab853aa")]
-[assembly: System.Reflection.AssemblyProductAttribute("ReadAllText(lê tudo de uma vez [ + memoria])")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ReadAllText(lê tudo de uma vez [ + memoria])")]
+[assembly: System.Reflection.AssemblyProductAttribute("Stream")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Stream")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
