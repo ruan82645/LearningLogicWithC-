@@ -1,13 +1,17 @@
-﻿// System.File.Copy() é um método de File que permite copiarmos um arquivo de um diretório para outro diretório
-// ele consiste em passar o caminho do arquivo que queremos copiar, e o caminho do diretório para colar 
+﻿// System.File.Copy()/Move() são métodos de File que permitem manipular um arquivo de um diretório,
+// copiar fazendo uma copia e colando em outro local e Move somente movendo de um dirtório para outro
+// eles consistem em passar o caminho do arquivo que queremos copiar ou mover, e o caminho do diretório para colar 
 // além desses dois parâmetros obrigatórios, existe um false ou true que podemos marcar
 // isso diz que caso haja um arquivo com o mesmo nome no outro local, ele pode ou não sobrescrever esse arquivo
 // se não tiver permissão, dará um erro.
 
-// no segundo parâmetro, o destino final, esolhemos também se o nome será igual ou diferente, 
+// no segundo parâmetro obrigatório, o destino final, escolhemos também se o nome será igual ou diferente, 
 // mas o conteudo interno sempre será o mesmo
 
-// Nesse exemplo, vamos apenas mover um arquivo para outro diretório
+// ambos copy e move tem exatamente a mesma sintaxe, então se souber um, sabe o outro
+// a única diferença de File.Delete é que não precisa de um destino, apenas o caminho do arquivo a ser apagado
+
+// Nesse exemplo, vamos apenas copiar um arquivo para outro diretório
 string caminhoOriginal = "C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos" +
     "\\File.Copy (copiar arquivo de um lugar para outro)\\bin\\Debug\\net8.0\\original um\\exemplo1.txt";
 

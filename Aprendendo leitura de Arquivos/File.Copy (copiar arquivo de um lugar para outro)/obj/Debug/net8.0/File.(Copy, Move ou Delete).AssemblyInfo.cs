@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DirectoryInfo e Directory (como funciona essa classe)")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("File.(Copy, Move ou Delete)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ee03269b60547fa81a4448bf09a9febc4aff5cc")]
-[assembly: System.Reflection.AssemblyProductAttribute("DirectoryInfo e Directory (como funciona essa classe)")]
-[assembly: System.Reflection.AssemblyTitleAttribute("DirectoryInfo e Directory (como funciona essa classe)")]
+[assembly: System.Reflection.AssemblyProductAttribute("File.(Copy, Move ou Delete)")]
+[assembly: System.Reflection.AssemblyTitleAttribute("File.(Copy, Move ou Delete)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamWriter (escreve linha por linha)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62cce3b0e67242155223d7790e3704ca73e0067a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ee03269b60547fa81a4448bf09a9febc4aff5cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamWriter (escreve linha por linha)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamWriter (escreve linha por linha)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
