@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Stream (como funciona essa classe)")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Directory(Info) GetFile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+620713ce6724335a8aeee0a3ae74f1c9b8becfd3")]
-[assembly: System.Reflection.AssemblyProductAttribute("Stream (como funciona essa classe)")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Stream (como funciona essa classe)")]
+[assembly: System.Reflection.AssemblyProductAttribute("Directory(Info) GetFile")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Directory(Info) GetFile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

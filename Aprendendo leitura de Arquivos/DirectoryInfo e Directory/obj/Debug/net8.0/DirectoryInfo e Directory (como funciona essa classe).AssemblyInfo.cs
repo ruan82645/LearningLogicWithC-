@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DirectoryInfo e Directory (como funciona essa classe)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ee03269b60547fa81a4448bf09a9febc4aff5cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+620713ce6724335a8aeee0a3ae74f1c9b8becfd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DirectoryInfo e Directory (como funciona essa classe)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DirectoryInfo e Directory (como funciona essa classe)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
