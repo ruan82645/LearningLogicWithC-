@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Directory.Exists")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("WebCliente")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4294d8a108609446bafba33ceb2ade983792c106")]
-[assembly: System.Reflection.AssemblyProductAttribute("Directory.Exists")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Directory.Exists")]
+[assembly: System.Reflection.AssemblyProductAttribute("WebCliente")]
+[assembly: System.Reflection.AssemblyTitleAttribute("WebCliente")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
