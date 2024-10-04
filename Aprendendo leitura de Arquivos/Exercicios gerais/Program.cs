@@ -2,35 +2,63 @@
 // 1) Nesse exercicio, vamos copiar somente arquivos de uma certa extensao para uma pasta de origem
 // caso um arquivo já exista no destino, não cole e siga para o próximo
 // se o diretório não existir, crie ele
+//{
+//Console.WriteLine("qual a pasta de origem dos arquivos?");
+//string origem = Console.ReadLine();
+//Console.WriteLine("qual a pasta de destino dos arquivos?");
+//string destino = Console.ReadLine();
+//Console.WriteLine("qual a extensão do arquivo que você quer copiar?");
+//string extensao = Console.ReadLine().ToLower();
 
-Console.WriteLine("qual a pasta de origem dos arquivos?");
-string origem = Console.ReadLine();
-Console.WriteLine("qual a pasta de destino dos arquivos?");
-string destino = Console.ReadLine();
-Console.WriteLine("qual a extensão do arquivo que você quer copiar?");
-string extensao = Console.ReadLine().ToLower();
+//if (!Directory.Exists(destino)) 
+//{ 
+//    Directory.CreateDirectory(destino);
+//}
 
-if (!Directory.Exists(destino)) 
-{ 
-    Directory.CreateDirectory(destino);
-}
+//if (!extensao.StartsWith('.'))
+//{
+//    extensao = $".{extensao}";
+//}
 
-if (!extensao.StartsWith('.'))
+//int i = 0;
+
+//System.IO.DirectoryInfo pastaOrigem = new System.IO.DirectoryInfo(origem);
+//FileInfo[] arquivos = pastaOrigem.GetFiles($"*{extensao}");
+
+//foreach( FileInfo arquivo in arquivos)
+//{
+//    if (!File.Exists(destino))
+//    {
+//        System.IO.File.Copy($"{origem}\\{arquivo.Name}", $"{destino}\\{ arquivo.Name}");
+//    }
+//}
+//}
+//2) Nesse exercicio, devemos solicitar um diretorio, e dentro dele, o programada deve:
+// identificar as extensões que estão lá e criar pastas especificas para cada tipo de arquivo,
+// após isso, ele deve mover todos esses arquivos para suas respectivas pastas
+
+Console.WriteLine("insira um diretório com o caminho completo por favor");
+string caminho = Console.ReadLine();
+//T:\downloads
+
+DirectoryInfo diretorio  = new DirectoryInfo(caminho);
+FileInfo[] arquivos1 = diretorio.GetFiles();
+
+foreach( FileInfo arquivo in arquivos1)
 {
-    extensao = $".{extensao}";
-}
+    string extensao = Path.GetExtension(arquivo.FullName).ToLower();
+    string extensaoSemPonto = extensao.Replace(".", "");
 
-int i = 0;
+    string diretorioPersonalizado = $"{diretorio}\\{extensaoSemPonto}";
 
-System.IO.DirectoryInfo pastaOrigem = new System.IO.DirectoryInfo(origem);
-FileInfo[] arquivos = pastaOrigem.GetFiles($"*{extensao}");
-
-foreach( FileInfo arquivo in arquivos)
-{
-    if (!File.Exists(destino))
+    if (!Directory.Exists(diretorioPersonalizado))
     {
-        System.IO.File.Copy($"{origem}\\{arquivo.Name}", $"{destino}\\{ arquivo.Name}");
+        Directory.CreateDirectory(diretorioPersonalizado);
     }
+    if (!File.Exists(diretorioPersonalizado))
+    {
+        File.Move(arquivo.FullName, diretorioPersonalizado+"\\"+arquivo.Name);
+    }
+    
 }
 
-//2) 
