@@ -97,15 +97,14 @@
 //2) Nesse exercicio, ele deve ler todos os arquivos de texto txt em um diretorio
 // e escrever todos eles no console
 
-string[] txtGeral = System.IO.Directory.GetFiles("C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\File.Copy (copiar arquivo de um lugar para outro)\\bin\\Debug\\net8.0\\destino copia", "*txt");
+System.IO.DirectoryInfo txtGeral = new System.IO.DirectoryInfo("C:\\Users\\ruanp\\source\\repos\\Aprendendo leitura de Arquivos\\File.Copy (copiar arquivo de um lugar para outro)\\bin\\Debug\\net8.0\\destino copia");
 int j = 0;
-while (j <= txtGeral.Length-1)
+FileInfo[] arquivosTxt = txtGeral.GetFiles();
+while (j <= arquivosTxt.Length-1)
 {
     
-    System.IO.StreamReader leitor = new System.IO.StreamReader(txtGeral[j]);
-    string NomeTxt = Path.GetFileNameWithoutExtension(txtGeral[j]);
-
-    Console.WriteLine($"arquivo: {NomeTxt}\n");
+    System.IO.StreamReader leitor = new System.IO.StreamReader(arquivosTxt[j].FullName);
+    Console.WriteLine($"arquivo: {arquivosTxt[j].FullName}\n");
     while (!leitor.EndOfStream)
     {
         string linha = leitor.ReadLine();
@@ -113,4 +112,4 @@ while (j <= txtGeral.Length-1)
     }
     j++;
 }
-Console.WriteLine("\nSem mais arquivos para exibir");
+Console.WriteLine("\nSem mais arquivos para exibir"); 

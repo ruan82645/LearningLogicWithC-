@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\bin\Debug\net8.0\File.Exists (verifica a existencia do arquivo).exe
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\bin\Debug\net8.0\File.Exists (verifica a existencia do arquivo).deps.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\bin\Debug\net8.0\File.Exists (verifica a existencia do arquivo).runtimeconfig.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\bin\Debug\net8.0\File.Exists (verifica a existencia do arquivo).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\bin\Debug\net8.0\File.Exists (verifica a existencia do arquivo).pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\obj\Debug\net8.0\File.Exists (verifica a existencia do arquivo).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\obj\Debug\net8.0\File.Exists (verifica a existencia do arquivo).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\obj\Debug\net8.0\File.Exists (verifica a existencia do arquivo).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\obj\Debug\net8.0\File.Exists (verifica a existencia do arquivo).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\obj\Debug\net8.0\File.Exists (verifica a existencia do arquivo).sourcelink.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\obj\Debug\net8.0\File.Exists (verifica a existencia do arquivo).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\obj\Debug\net8.0\refint\File.Exists (verifica a existencia do arquivo).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\obj\Debug\net8.0\File.Exists (verifica a existencia do arquivo).pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\obj\Debug\net8.0\File.Exists (verifica a existencia do arquivo).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\File.Exists (verifica a existencia do arquivo)\obj\Debug\net8.0\ref\File.Exists (verifica a existencia do arquivo).dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("File.(Copy, Move ou Delete)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbbf09ba81d38c1135326d9ce1cf9fb87f3da1c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0a1b30de3c676fffa933bf155758547306f4bc3")]
 [assembly: System.Reflection.AssemblyProductAttribute("File.(Copy, Move ou Delete)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("File.(Copy, Move ou Delete)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\bin\Debug\net8.0\Exercicios gerais.exe
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\bin\Debug\net8.0\Exercicios gerais.deps.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\bin\Debug\net8.0\Exercicios gerais.runtimeconfig.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\bin\Debug\net8.0\Exercicios gerais.dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\bin\Debug\net8.0\Exercicios gerais.pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\obj\Debug\net8.0\Exercicios gerais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\obj\Debug\net8.0\Exercicios gerais.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\obj\Debug\net8.0\Exercicios gerais.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\obj\Debug\net8.0\Exercicios gerais.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\obj\Debug\net8.0\Exercicios gerais.sourcelink.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\obj\Debug\net8.0\Exercicios gerais.dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\obj\Debug\net8.0\refint\Exercicios gerais.dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\obj\Debug\net8.0\Exercicios gerais.pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\obj\Debug\net8.0\Exercicios gerais.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\Exercicios gerais\obj\Debug\net8.0\ref\Exercicios gerais.dll

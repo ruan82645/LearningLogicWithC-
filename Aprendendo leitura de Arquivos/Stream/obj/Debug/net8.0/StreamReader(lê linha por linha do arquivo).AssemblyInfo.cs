@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamReader(lê linha por linha do arquivo)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+620713ce6724335a8aeee0a3ae74f1c9b8becfd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0a1b30de3c676fffa933bf155758547306f4bc3")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamReader(lê linha por linha do arquivo)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamReader(lê linha por linha do arquivo)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
