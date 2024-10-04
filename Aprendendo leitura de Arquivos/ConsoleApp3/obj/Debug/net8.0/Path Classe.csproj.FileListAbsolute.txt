@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\bin\Debug\net8.0\Path Classe.exe
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\bin\Debug\net8.0\Path Classe.deps.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\bin\Debug\net8.0\Path Classe.runtimeconfig.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\bin\Debug\net8.0\Path Classe.dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\bin\Debug\net8.0\Path Classe.pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\obj\Debug\net8.0\Path Classe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\obj\Debug\net8.0\Path Classe.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\obj\Debug\net8.0\Path Classe.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\obj\Debug\net8.0\Path Classe.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\obj\Debug\net8.0\Path Classe.sourcelink.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\obj\Debug\net8.0\Path Classe.dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\obj\Debug\net8.0\refint\Path Classe.dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\obj\Debug\net8.0\Path Classe.pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\obj\Debug\net8.0\Path Classe.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\ConsoleApp3\obj\Debug\net8.0\ref\Path Classe.dll

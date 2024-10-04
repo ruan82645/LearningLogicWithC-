@@ -32,3 +32,5 @@ foreach( FileInfo arquivo in arquivos)
         System.IO.File.Copy($"{origem}\\{arquivo.Name}", $"{destino}\\{ arquivo.Name}");
     }
 }
+
+//2) 

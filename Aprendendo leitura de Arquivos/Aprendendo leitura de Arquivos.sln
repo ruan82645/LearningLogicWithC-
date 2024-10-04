@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamWriter (escreve linha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "File (como funciona essa classe)", "File (como funciona essa classe)\File (como funciona essa classe).csproj", "{D40637F2-8335-4967-8B1E-DA5A12C25A9D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryInfo e Directory (como funciona essa classe)", "DirectoryInfo e Directory\DirectoryInfo e Directory (como funciona essa classe).csproj", "{F1D98E12-B3DB-46D3-804F-F4C31CE9C08E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory e DirectoryInfo (como funciona essa classe)", "DirectoryInfo e Directory\Directory e DirectoryInfo (como funciona essa classe).csproj", "{F1D98E12-B3DB-46D3-804F-F4C31CE9C08E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stream (como funciona essa classe)", "Streams\Stream (como funciona essa classe).csproj", "{24039377-3696-4701-9AE6-C14DC124D6E9}"
 EndProject
@@ -25,9 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.Create()Delete()"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryInfo GetDirectories", "ConsoleApp2\DirectoryInfo GetDirectories.csproj", "{157EFFBC-EE3A-4A88-99BB-F8162FB2D54B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicios gerais", "Exercicios gerais\Exercicios gerais.csproj", "{DD8CA45C-8E54-490D-B711-1ED965284B43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "z Exercicios gerais", "Exercicios gerais\z Exercicios gerais.csproj", "{DD8CA45C-8E54-490D-B711-1ED965284B43}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File.Exists (verifica a existencia do arquivo)", "File.Exists (verifica a existencia do arquivo)\File.Exists (verifica a existencia do arquivo).csproj", "{6041EA09-E10F-442D-8391-0A1B8B4DB37A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.Exists", "Directory.Exists\Directory.Exists.csproj", "{CC48985C-6095-44F5-AF52-C272FE468787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Path Classe", "ConsoleApp3\Path Classe.csproj", "{9E6C0D9F-D223-4F75-B76F-A08F4F552E6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{6041EA09-E10F-442D-8391-0A1B8B4DB37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6041EA09-E10F-442D-8391-0A1B8B4DB37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6041EA09-E10F-442D-8391-0A1B8B4DB37A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC48985C-6095-44F5-AF52-C272FE468787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC48985C-6095-44F5-AF52-C272FE468787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC48985C-6095-44F5-AF52-C272FE468787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC48985C-6095-44F5-AF52-C272FE468787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6C0D9F-D223-4F75-B76F-A08F4F552E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6C0D9F-D223-4F75-B76F-A08F4F552E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6C0D9F-D223-4F75-B76F-A08F4F552E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6C0D9F-D223-4F75-B76F-A08F4F552E6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

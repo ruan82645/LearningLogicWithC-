@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DirectoryInfo e Directory\DirectoryInfo e Directory (como funciona essa classe).csproj" />
+    <ProjectReference Include="..\DirectoryInfo e Directory\Directory e DirectoryInfo (como funciona essa classe).csproj" />
   </ItemGroup>
 
 </Project>
