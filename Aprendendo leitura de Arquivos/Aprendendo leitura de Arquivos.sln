@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.Exists", "Directo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Path Classe", "ConsoleApp3\Path Classe.csproj", "{9E6C0D9F-D223-4F75-B76F-A08F4F552E6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCliente (download da internet)", "WebCliente\WebCliente (download da internet).csproj", "{8D69E68F-F59F-48E3-92C2-B78838CA90F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{9E6C0D9F-D223-4F75-B76F-A08F4F552E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E6C0D9F-D223-4F75-B76F-A08F4F552E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E6C0D9F-D223-4F75-B76F-A08F4F552E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D69E68F-F59F-48E3-92C2-B78838CA90F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D69E68F-F59F-48E3-92C2-B78838CA90F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D69E68F-F59F-48E3-92C2-B78838CA90F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D69E68F-F59F-48E3-92C2-B78838CA90F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

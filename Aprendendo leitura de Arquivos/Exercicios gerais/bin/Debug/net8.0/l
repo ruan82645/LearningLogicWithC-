@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en-us" class="a-no-js a-lt-ie9 a-lt-ie8 a-lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="a-no-js a-lt-ie9 a-lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="a-no-js a-lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="a-no-js" lang="en-us"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title dir="ltr">Amazon.com</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUI-3c913031596ca78a3768f4e934b1cc02ce238101.secure.min._V1_.css">
+<script>
+
+if (true === true) {
+    var ue_t0 = (+ new Date()),
+        ue_csm = window,
+        ue = { t0: ue_t0, d: function() { return (+new Date() - ue_t0); } },
+        ue_furl = "fls-na.amazon.com",
+        ue_mid = "ATVPDKIKX0DER",
+        ue_sid = (document.cookie.match(/session-id=([0-9-]+)/) || [])[1],
+        ue_sn = "opfcaptcha.amazon.com",
+        ue_id = 'YJDTYDGH66D71J5CQWPT';
+}
+</script>
+</head>
+<body>
+
+<!--
+        To discuss automated access to Amazon data please contact api-services-support@amazon.com.
+        For information about migrating to our APIs refer to our Marketplace APIs at https://developer.amazonservices.com/ref=rm_c_sv, or our Product Advertising API at https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html/ref=rm_c_ac for advertising use cases.
+-->
+
+<!--
+Correios.DoNotSend
+-->
+
+<div class="a-container a-padding-double-large" style="min-width:350px;padding:44px 0 !important">
+
+    <div class="a-row a-spacing-double-large" style="width: 350px; margin: 0 auto">
+
+        <div class="a-row a-spacing-medium a-text-center"><i class="a-icon a-logo"></i></div>
+
+        <div class="a-box a-alert a-alert-info a-spacing-base">
+            <div class="a-box-inner">
+                <i class="a-icon a-icon-alert"></i>
+                <h4>Enter the characters you see below</h4>
+                <p class="a-last">Sorry, we just need to make sure you're not a robot. For best results, please make sure your browser is accepting cookies.</p>
+                </div>
+            </div>
+
+            <div class="a-section">
+
+                <div class="a-box a-color-offset-background">
+                    <div class="a-box-inner a-padding-extra-large">
+
+                        <form method="get" action="/errors/validateCaptcha" name="">
+                            <input type=hidden name="amzn" value="cKz9V5bcAcBEE8dDWA1kPQ==" /><input type=hidden name="amzn-r" value="&#047;Pro&#045;Git&#045;Scott&#045;Chacon&#047;dp&#047;1484200772?camp&#061;1789&amp;creative&#061;9325&amp;creativeASIN&#061;1430218339&amp;ie&#061;UTF8&amp;linkCode&#061;as2&amp;tag&#061;git&#045;sfconservancy&#045;20&#037;22&#037;3EAmazon.com&#037;3C&#037;2Fa&#037;3E.&#037;0A&#043;&#043;&#037;3C&#037;2Fp&#037;3E&#037;0A&#037;3C&#037;2Fdiv&#037;3E&#037;0A&#037;0A&#043;&#043;&#043;&#043;&#037;0A&#043;&#043;&#037;3C&#037;2Fnav&#037;3E&#037;0A&#037;3C&#037;2Faside&#037;3E&#037;0A&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#043;&#043;&#037;3Cdiv&#043;id&#037;3D&#037;22content&#037;22&#043;data&#045;pagefind&#045;filter&#037;3D&#037;22category&#037;3Adownloads&#037;22&#043;data&#045;pagefind&#045;weight&#037;3D&#037;220.05&#037;22&#043;data&#045;pagefind&#045;body&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#043;&#043;&#043;&#043;&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#043;&#043;&#043;&#043;&#043;&#043;&#037;0A&#037;3Cdiv&#043;id&#037;3D&#037;22main&#037;22&#037;3E&#037;0A&#043;&#043;&#037;3Ch1&#037;3EDownload&#043;for&#043;Windows&#037;3C&#037;2Fh1&#037;3E&#037;0A&#043;&#043;&#037;3Cp&#037;3E&#037;0A&#043;&#043;&#037;3Cstrong&#037;3E&#037;3Ca&#043;id&#037;3D&#037;22auto&#045;download&#045;link&#037;22&#043;href&#037;3D&#037;22https&#037;3A&#037;2F&#037;2Fgithub.com&#037;2Fgit&#045;for&#045;windows&#037;2Fgit&#037;2Freleases&#037;2Fdownload&#037;2Fv2.46.2.windows.1&#037;2FGit&#045;2.46.2&#045;64&#045;bit.exe&#037;22&#037;3EClick&#043;here&#043;to&#043;download&#043;&#037;3C&#037;2Fa&#037;3E&#037;3C&#037;2Fstrong&#037;3E&#037;0A&#043;&#043;&#043;&#043;the&#043;latest&#043;&#037;28&#037;3Cstrong&#043;id&#037;3D&#037;22auto&#045;download&#045;version&#037;22&#037;3E2.46.2&#037;3C&#037;2Fstrong&#037;3E&#037;29&#037;0A&#043;&#043;&#043;&#043;&#037;3Cstrong&#043;id&#037;3D&#037;22auto&#045;download&#045;bitness&#037;22&#037;3E64&#045;bit&#037;3C&#037;2Fstrong&#037;3E&#043;version&#043;of&#043;&#037;3Cstrong&#037;3EGit&#043;for&#043;Windows&#037;3C&#037;2Fstrong&#037;3E.&#037;0A&#043;&#043;&#043;&#043;This&#043;is&#043;the&#043;most&#043;recent&#043;&#037;3Ca&#043;href&#037;3D&#037;22https&#037;3A&#037;2F&#037;2Fgit&#045;for&#045;windows.github.io&#037;2F&#037;22&#037;3Emaintained&#043;build&#037;3C&#037;2Fa&#037;3E.&#037;0A&#043;&#043;&#043;&#043;It&#043;was&#043;released&#043;&#037;3Cspan&#043;id&#037;3D&#037;22relative&#045;release&#045;date&#037;22&#037;3E&#037;3C&#037;2Fspan&#037;3Eon&#043;&#037;3Cspan&#043;id&#037;3D&#037;22auto&#045;download&#045;date&#037;22&#037;3E2024&#045;09&#045;24&#037;3C&#037;2Fspan&#037;3E.&#037;0A&#043;&#043;&#037;3C&#037;2Fp&#037;3E&#037;0A&#043;&#043;&#037;3Ch3&#037;3EOther&#043;Git&#043;for&#043;Windows&#043;downloads&#037;3C&#037;2Fh3&#037;3E&#037;0A&#043;&#043;&#037;3Ch4&#037;3EStandalone&#043;Installer&#037;3C&#037;2Fh4&#037;3E&#037;0A&#043;&#043;&#037;3Cp&#037;3E&#037;0A&#043;&#043;&#037;3Cstrong&#037;3E&#037;3Ca&#043;href&#037;3D&#037;22https&#037;3A&#037;2F&#037;2Fgithub.com&#037;2Fgit&#045;for&#045;windows&#037;2Fgit&#037;2Freleases&#037;2Fdownload&#037;2Fv2.46.2.windows.1&#037;2FGit&#045;2.46.2&#045;32&#045;bit.exe&#037;22&#037;3E32&#045;bit&#043;Git&#043;for&#043;Windows&#043;Setup&#037;3C&#037;2Fa&#037;3E.&#037;3C&#037;2Fstrong&#037;3E&#037;0A&#043;&#043;&#037;3C&#037;2Fp&#037;3E&#037;0A&#043;&#043;&#037;3Cp&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#037;3Cstrong&#037;3E&#037;3Ca&#043;href&#037;3D&#037;22https&#037;3A&#037;2F&#037;2Fgithub.com&#037;2Fgit&#045;for&#045;windows&#037;2Fgit&#037;2Freleases&#037;2Fdownload&#037;2Fv2.46.2.windows.1&#037;2FGit&#045;2.46.2&#045;64&#045;bit.exe&#037;22&#037;3E64&#045;bit&#043;Git&#043;for&#043;Windows&#043;Setup&#037;3C&#037;2Fa&#037;3E.&#037;3C&#037;2Fstrong&#037;3E&#037;0A&#043;&#043;&#037;3C&#037;2Fp&#037;3E&#037;0A&#043;&#043;&#037;3Ch4&#037;3EPortable&#043;&#037;28&#037;22thumbdrive&#043;edition&#037;22&#037;29&#037;3C&#037;2Fh4&#037;3E&#037;0A&#043;&#043;&#037;3Cp&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#037;3Cstrong&#037;3E&#037;3Ca&#043;href&#037;3D&#037;22https&#037;3A&#037;2F&#037;2Fgithub.com&#037;2Fgit&#045;for&#045;windows&#037;2Fgit&#037;2Freleases&#037;2Fdownload&#037;2Fv2.46.2.windows.1&#037;2FPortableGit&#045;2.46.2&#045;32&#045;bit.7z.exe&#037;22&#037;3E32&#045;bit&#043;Git&#043;for&#043;Windows&#043;Portable&#037;3C&#037;2Fa&#037;3E.&#037;3C&#037;2Fstrong&#037;3E&#037;0A&#043;&#043;&#037;3C&#037;2Fp&#037;3E&#037;0A&#043;&#043;&#037;3Cp&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#037;3Cstrong&#037;3E&#037;3Ca&#043;href&#037;3D&#037;22https&#037;3A&#037;2F&#037;2Fgithub.com&#037;2Fgit&#045;for&#045;windows&#037;2Fgit&#037;2Freleases&#037;2Fdownload&#037;2Fv2.46.2.windows.1&#037;2FPortableGit&#045;2.46.2&#045;64&#045;bit.7z.exe&#037;22&#037;3E64&#045;bit&#043;Git&#043;for&#043;Windows&#043;Portable&#037;3C&#037;2Fa&#037;3E.&#037;3C&#037;2Fstrong&#037;3E&#037;0A&#043;&#043;&#037;3C&#037;2Fp&#037;3E&#037;0A&#043;&#043;&#037;3Ch4&#037;3EUsing&#043;winget&#043;tool&#037;3C&#037;2Fh4&#037;3E&#037;0A&#043;&#043;&#037;3Cp&#037;3E&#037;0A&#043;&#043;&#043;&#043;Install&#043;&#037;3Ca&#043;href&#037;3D&#037;22https&#037;3A&#037;2F&#037;2Fdocs.microsoft.com&#037;2Fen&#045;us&#037;2Fwindows&#037;2Fpackage&#045;manager&#037;2Fwinget&#037;22&#037;3Ewinget&#043;tool&#037;3C&#037;2Fa&#037;3E&#043;if&#043;you&#043;don&#037;27t&#043;already&#043;have&#043;it&#037;2C&#043;then&#043;type&#043;this&#043;command&#043;in&#043;command&#043;prompt&#043;or&#043;Powershell.&#037;3Cbr&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#037;3Ccode&#037;3Ewinget&#043;install&#043;&#045;&#045;id&#043;Git.Git&#043;&#045;e&#043;&#045;&#045;source&#043;winget&#037;3C&#037;2Fcode&#037;3E&#037;0A&#043;&#043;&#037;3C&#037;2Fp&#037;3E&#037;0A&#043;&#043;&#037;3Cp&#043;class&#037;3D&#037;22small&#037;22&#037;3E&#037;0A&#043;&#043;&#043;&#043;The&#043;current&#043;source&#043;code&#043;release&#043;is&#043;version&#043;&#037;3Cstrong&#037;3E2.46.2&#037;3C&#037;2Fstrong&#037;3E.&#037;0A&#043;&#043;&#043;&#043;If&#043;you&#043;want&#043;the&#043;newer&#043;version&#037;2C&#043;you&#043;can&#043;build&#043;it&#043;from&#043;&#037;3Ca&#043;href&#037;3D&#037;22https&#037;3A&#037;2F&#037;2Fgithub.com&#037;2Fgit&#045;for&#045;windows&#037;2Fgit&#037;22&#037;3Ethe&#043;source&#043;code&#037;3C&#037;2Fa&#037;3E.&#037;0A&#043;&#043;&#037;3C&#037;2Fp&#037;3E&#037;0A&#037;0A&#043;&#043;&#037;3Ch2&#037;3ENow&#043;What&#037;3F&#037;3C&#037;2Fh2&#037;3E&#037;0A&#043;&#043;&#037;3Cp&#037;3E&#037;0A&#043;&#043;&#043;&#043;Now&#043;that&#043;you&#043;have&#043;downloaded&#043;Git&#037;2C&#043;it&#037;27s&#043;time&#043;to&#043;start&#043;using&#043;it.&#037;0A&#043;&#043;&#037;3C&#037;2Fp&#037;3E&#037;0A&#043;&#043;&#037;3Cul&#043;id&#037;3D&#037;22download&#045;next&#045;steps&#037;22&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#037;3Cli&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3Ca&#043;href&#037;3D&#037;22&#037;2Fbook&#037;22&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3Cimg&#043;src&#037;3D&#037;22&#037;2Fimages&#037;2Ficons&#037;2Fnav&#045;read&#045;book.png&#037;22&#043;&#037;2F&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3Ch3&#037;3ERead&#043;the&#043;Book&#037;3C&#037;2Fh3&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3Cp&#037;3EDive&#043;into&#043;the&#043;Pro&#043;Git&#043;book&#043;and&#043;learn&#043;at&#043;your&#043;own&#043;pace.&#037;3C&#037;2Fp&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3C&#037;2Fa&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#037;3C&#037;2Fli&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#037;3Cli&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3Ca&#043;href&#037;3D&#037;22&#037;2Fdownloads&#037;2Fguis&#037;22&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3Cimg&#043;src&#037;3D&#037;22&#037;2Fimages&#037;2Ficons&#037;2Fnav&#045;download&#045;gui.png&#037;22&#043;&#037;2F&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3Ch3&#037;3EDownload&#043;a&#043;GUI&#037;3C&#037;2Fh3&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3Cp&#037;3ESeveral&#043;free&#043;and&#043;commercial&#043;GUI&#043;tools&#043;are&#043;available&#043;for&#043;the&#043;Windows&#043;platform.&#037;3C&#037;2Fp&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3C&#037;2Fa&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#037;3C&#037;2Fli&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#037;3Cli&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3Ca&#043;href&#037;3D&#037;22&#037;2Fcommunity&#037;22&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3Cimg&#043;src&#037;3D&#037;22&#037;2Fimages&#037;2Ficons&#037;2Fnav&#045;get&#045;involved.png&#037;22&#043;&#037;2F&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3Ch3&#037;3EGet&#043;Involved&#037;3C&#037;2Fh3&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3Cp&#037;3EA&#043;knowledgeable&#043;Git&#043;community&#043;is&#043;available&#043;to&#043;answer&#043;your&#043;questions.&#037;3C&#037;2Fp&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#043;&#043;&#037;3C&#037;2Fa&#037;3E&#037;0A&#043;&#043;&#043;&#043;&#037;3C&#037;2Fl" />
+                            <div class="a-row a-spacing-large">
+                                <div class="a-box">
+                                    <div class="a-box-inner">
+                                        <h4>Type the characters you see in this image:</h4>
+                                        <div class="a-row a-text-center">
+                                            <img src="https://images-na.ssl-images-amazon.com/captcha/qamfifum/Captcha_mhndsiqywa.jpg">
+                                        </div>
+                                        <div class="a-row a-spacing-base">
+                                            <div class="a-row">
+                                                <div class="a-column a-span6">
+                                                </div>
+                                                <div class="a-column a-span6 a-span-last a-text-right">
+                                                    <a onclick="window.location.reload()">Try different image</a>
+                                                </div>
+                                            </div>
+                                            <input autocomplete="off" spellcheck="false" placeholder="Type characters" id="captchacharacters" name="field-keywords" class="a-span12" autocapitalize="off" autocorrect="off" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="a-section a-spacing-extra-large">
+
+                                <div class="a-row">
+                                    <span class="a-button a-button-primary a-span12">
+                                        <span class="a-button-inner">
+                                            <button type="submit" class="a-button-text">Continue shopping</button>
+                                        </span>
+                                    </span>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="a-divider a-divider-section"><div class="a-divider-inner"></div></div>
+
+        <div class="a-text-center a-spacing-small a-size-mini">
+            <a href="https://www.amazon.com/gp/help/customer/display.html/ref=footer_cou?ie=UTF8&nodeId=508088">Conditions of Use</a>
+            <span class="a-letter-space"></span>
+            <span class="a-letter-space"></span>
+            <span class="a-letter-space"></span>
+            <span class="a-letter-space"></span>
+            <a href="https://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496">Privacy Policy</a>
+        </div>
+        <div class="a-text-center a-size-mini a-color-secondary">
+          &copy; 1996-2014, Amazon.com, Inc. or its affiliates
+          <script>
+           if (true === true) {
+             document.write('<img src="https://fls-na.amaz'+'on.com/'+'1/oc-csi/1/OP/requestId=YJDTYDGH66D71J5CQWPT&js=1" />');
+           };
+          </script>
+          <noscript>
+            <img src="https://fls-na.amazon.com/1/oc-csi/1/OP/requestId=YJDTYDGH66D71J5CQWPT&js=0" />
+          </noscript>
+        </div>
+    </div>
+    <script>
+    if (true === true) {
+        var head = document.getElementsByTagName('head')[0],
+            prefix = "https://images-na.ssl-images-amazon.com/images/G/01/csminstrumentation/",
+            elem = document.createElement("script");
+        elem.src = prefix + "csm-captcha-instrumentation.min.js";
+        head.appendChild(elem);
+
+        elem = document.createElement("script");
+        elem.src = prefix + "rd-script-6d68177fa6061598e9509dc4b5bdd08d.js";
+        head.appendChild(elem);
+    }
+    </script>
+</body></html>

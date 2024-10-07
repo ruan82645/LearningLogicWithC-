@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\bin\Debug\net8.0\WebCliente (download da internet).exe
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\bin\Debug\net8.0\WebCliente (download da internet).deps.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\bin\Debug\net8.0\WebCliente (download da internet).runtimeconfig.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\bin\Debug\net8.0\WebCliente (download da internet).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\bin\Debug\net8.0\WebCliente (download da internet).pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\obj\Debug\net8.0\WebCliente (download da internet).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\obj\Debug\net8.0\WebCliente (download da internet).AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\obj\Debug\net8.0\WebCliente (download da internet).AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\obj\Debug\net8.0\WebCliente (download da internet).csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\obj\Debug\net8.0\WebCliente (download da internet).sourcelink.json
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\obj\Debug\net8.0\WebCliente (download da internet).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\obj\Debug\net8.0\refint\WebCliente (download da internet).dll
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\obj\Debug\net8.0\WebCliente (download da internet).pdb
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\obj\Debug\net8.0\WebCliente (download da internet).genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Aprendendo leitura de Arquivos\WebCliente\obj\Debug\net8.0\ref\WebCliente (download da internet).dll
