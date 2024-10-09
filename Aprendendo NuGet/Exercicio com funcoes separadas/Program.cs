@@ -109,3 +109,24 @@ public class GerarPlanilha
 }
 
 // Aqui o metodo de geração do Excel foi finalizado, junto com os outros métodos e classes, só faltando chama-los
+
+// indo para o programa base, ele deve pedir o caminho do arquivo txt para ser lido,
+// criar uma variavel list<Pessoa> a partir desse arquivo txt e gerar o arquivo Excel
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Onde está o arquivo texto?");
+        string caminhoArquivoTexto = Console.ReadLine();
+        if (string.IsNullOrEmpty(caminhoArquivoTexto))
+            caminhoArquivoTexto = "arquivo.txt";
+
+        var pessoas = new LerPessoas().LerArquivoTexto(caminhoArquivoTexto);
+        // o método LerArquivo retorna a lista para a viravel que o chamou
+        new GerarPlanilha().Gerar("planilha.xlsx", pessoas);
+        // passamos o nome que será criado e a lista de pessoas
+
+        Console.WriteLine("Planilha gerada com sucesso!");
+    }
+}
