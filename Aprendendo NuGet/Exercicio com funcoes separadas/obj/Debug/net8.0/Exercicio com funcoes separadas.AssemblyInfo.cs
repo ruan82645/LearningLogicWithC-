@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exercicio com funcoes separadas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e77fcf2049525e06fcc1b68835f092ee59791c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ac10d4af1f43f32ea6af04f1b981aa44c9ee19c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exercicio com funcoes separadas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exercicio com funcoes separadas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

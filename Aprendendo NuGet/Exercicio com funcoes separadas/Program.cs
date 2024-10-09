@@ -7,6 +7,9 @@
 // primeiro, precisamos de uma classe que armazene os dados das pessoas, como nome, telefone e email
 // é uma classe simples que não faz nada além de armazenas informação
 
+using System.ComponentModel;
+using OfficeOpenXml;
+
 public class Pessoa
 {
     public string nome { get; set; }
@@ -69,3 +72,40 @@ public class LerPessoas
 
 // Toda essa classe serviu para armazenar cada linha em um objeto diferente dentro de uma lista,
 // agora na hora de gerar, podemos usar essa lista para ir de objeto em objeto, preenchendo as células
+
+// Agora, a geração do Excel, seu método deve receber duas coisas obrigatorias, que é o nome do arquivo que será gerado, e
+// a lista com as informações de cada pessoa
+
+
+public class GerarPlanilha
+{
+    public void Gerar(string caminhoParaSalvar, List<Pessoa> pessoas)
+    // quando esse metodo for chamado, precisaremos passar o caminho e uma varivavel do tipo lista
+    // essa variavel será gerada ao chamar a função de lerArquivo, ai podemos usar ela aqui
+    {
+        int i = 1;  // Controle da linha na planilha
+
+        OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.Commercial;
+        var stream = new MemoryStream();
+
+        using (var package = new ExcelPackage(stream))
+        {
+            var abal = package.Workbook.Worksheets.Add("abal");
+
+            foreach (var pessoa in pessoas)  // Para cada pessoa na lista de pessoas
+            {
+                abal.Cells[i, 1].Value = pessoa.nome; 
+                abal.Cells[i, 2].Value = pessoa.email;
+                abal.Cells[i, 3].Value = pessoa.telefone;
+                i++;  // Vai para a próxima linha
+            }
+
+            package.Save();
+        }
+
+        stream.Position = 0;
+        File.WriteAllBytes(caminhoParaSalvar, stream.ToArray());
+    }
+}
+
+// Aqui o metodo de geração do Excel foi finalizado, junto com os outros métodos e classes, só faltando chama-los
