@@ -56,6 +56,7 @@
 
 
 using OfficeOpenXml;
+using System;
 
 namespace ConsoleApp1
 {
@@ -73,9 +74,17 @@ namespace ConsoleApp1
             ExcelWorksheet aba1 = package.Workbook.Worksheets.Add("minha planilha");
             aba1.Cells["A1"].Value = "1";
 
+
+            package.Save();
             stream.Position = 0;
             File.WriteAllBytes("excel.xlsx", stream.ToArray());
 
         }
     }
 }
+
+// vamos resolver um exercicio
+
+//1) usar as informações de um arquivo txt e converter ele para excel
+// todas as informações do arquivo txt estão organizadas. Cada linha é uma sequencia de informações separadas por ";"
+

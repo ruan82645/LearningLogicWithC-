@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aprendendo NuGet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8495390cacf6df3f79a38b237e8bd4b741231f9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9e66a48a315ea56c9fe9de7717b7b0159984d87")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aprendendo NuGet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aprendendo NuGet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
