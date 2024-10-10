@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Como funciona.exe
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Como funciona.deps.json
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Como funciona.runtimeconfig.json
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Como funciona.dll
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Como funciona.pdb
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Como funciona.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Como funciona.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Como funciona.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Como funciona.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Como funciona.sourcelink.json
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Como funciona.dll
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\Como funciona.dll
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Como funciona.pdb
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Como funciona.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\Como funciona.dll

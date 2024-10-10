@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\Aprendendo Classes e transporte de parametros\\ConsoleApp1\\ConsoleApp1\\Como funciona.csproj",
-      "projectName": "Como funciona",
-      "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo Classes e transporte de parametros\\ConsoleApp1\\ConsoleApp1\\Como funciona.csproj",
+      "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\Aprendendo Classes e transporte de parametros\\ConsoleApp1\\exercicios\\exercicios.csproj",
+      "projectName": "exercicios",
+      "projectPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo Classes e transporte de parametros\\ConsoleApp1\\exercicios\\exercicios.csproj",
       "packagesPath": "C:\\Users\\ruanp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo Classes e transporte de parametros\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo Classes e transporte de parametros\\ConsoleApp1\\exercicios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ruanp\\AppData\\Roaming\\NuGet\\NuGet.Config",

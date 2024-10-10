@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\bin\Debug\net8.0\exercicios.exe
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\bin\Debug\net8.0\exercicios.deps.json
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\bin\Debug\net8.0\exercicios.runtimeconfig.json
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\bin\Debug\net8.0\exercicios.dll
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\bin\Debug\net8.0\exercicios.pdb
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\obj\Debug\net8.0\exercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\obj\Debug\net8.0\exercicios.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\obj\Debug\net8.0\exercicios.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\obj\Debug\net8.0\exercicios.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\obj\Debug\net8.0\exercicios.sourcelink.json
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\obj\Debug\net8.0\exercicios.dll
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\obj\Debug\net8.0\refint\exercicios.dll
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\obj\Debug\net8.0\exercicios.pdb
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\obj\Debug\net8.0\exercicios.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\exercicios\obj\Debug\net8.0\ref\exercicios.dll
