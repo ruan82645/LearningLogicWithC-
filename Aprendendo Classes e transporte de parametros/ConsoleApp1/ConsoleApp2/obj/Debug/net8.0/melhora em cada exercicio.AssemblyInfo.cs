@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("melhora em cada exercicio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45263fed9dabb6e568187cb836ab0d3245bef4c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6abade16115bbacdb14723b3d1820fc3e9b52265")]
 [assembly: System.Reflection.AssemblyProductAttribute("melhora em cada exercicio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("melhora em cada exercicio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
