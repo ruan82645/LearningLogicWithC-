@@ -122,6 +122,82 @@ namespace programa_biblioteca
             Emprestimo.Add(cliente, new List<LivroEmprestado>());  
         }
 
+        public void EmprestarLivro(Dictionary<Cliente, List<LivroEmprestado>> emprestimo, List<Livro> livro)
+        {
+            Cliente cliente = SelecionarUsuario(emprestimo);
+            Console.WriteLine();
+            SelecaoListaLivros();
+
+
+
+
+        }
+
+        internal Livro SelecaoListaLivros()
+        {
+            int i = 0;
+
+            foreach (var livro in livros)
+            {
+                if (livro.status == true)
+                {
+                    Console.WriteLine($@"{i} - titulo: {livro.Titulo}, 
+                autor: {livro.Autor}, 
+                Publicacao: {livro.Publicacao.ToString("dd/MM/yyyy")}
+                Status: disponivel");
+                    Console.WriteLine();
+                }
+                else
+                {
+                    Console.WriteLine($@"{i} - titulo: {livro.Titulo}, 
+                autor: {livro.Autor}, 
+                Publicacao: {livro.Publicacao.ToString("dd/MM/yyyy")}
+                Status: emprestado");
+                    Console.WriteLine();
+                }
+                i++;
+            }
+
+            int escolha = int.Parse(Console.ReadLine());
+
+            if (escolha < 1 || escolha > i)
+            {
+                Console.WriteLine("esse livro não existe ou já está emprestado");
+                return SelecaoListaLivros();
+            }
+            else
+            {
+                Livro livroEscolhilho = livros[escolha];
+                return livroEscolhilho;
+            }
+        }
+
+        internal Cliente SelecionarUsuario(Dictionary<Cliente, List<LivroEmprestado>> emprestimo)
+        {
+            int i = 1;
+            Console.WriteLine("para quem deseja emprestar?");
+            foreach (Cliente cliente in emprestimo.Keys)
+            {
+
+                Console.WriteLine($"{i} - {cliente.nome}");
+            }
+
+            int escolha = int.Parse(Console.ReadLine());
+
+            if (escolha < 1 || escolha > i)
+            {
+                Console.WriteLine("essa pessoa não existe");
+                return SelecionarUsuario(emprestimo);
+            }
+            else
+            {
+                var clienteEscolhido = emprestimo.Keys.ElementAt(escolha);
+                return clienteEscolhido;
+            }
+        } 
+
+
+        
 
         internal List<Livro> AdicionarLivroNaLista(string tituloFinal, string AutorFinal,DateTime dataLancamento)
         {
@@ -211,6 +287,8 @@ namespace programa_biblioteca
                 Status: emprestado");
                 Console.WriteLine();
                 }
+
+                i++;
                 
             }
         }
