@@ -124,12 +124,16 @@ namespace programa_biblioteca
 
         public void EmprestarLivro(Dictionary<Cliente, List<LivroEmprestado>> emprestimo, List<Livro> livro)
         {
-            Cliente cliente = SelecionarUsuario(emprestimo);
+            Cliente clienteEscolhido = SelecionarUsuario(emprestimo);
             Console.WriteLine();
-            SelecaoListaLivros();
+            Livro livroEscolhido = SelecaoListaLivros();
+            
+            LivroEmprestado livroEmprestado = new LivroEmprestado();
 
+            livroEmprestado.TituloEmprestimo = livroEscolhido.Titulo;
+            livroEmprestado.AutorEmprestimo = livroEscolhido.Autor;
 
-
+            emprestimo[clienteEscolhido].Add(livroEmprestado);
 
         }
 
@@ -165,10 +169,16 @@ namespace programa_biblioteca
                 Console.WriteLine("esse livro não existe ou já está emprestado");
                 return SelecaoListaLivros();
             }
-            else
+            else if(livros[escolha].status == true)
             {
                 Livro livroEscolhilho = livros[escolha];
+                livroEscolhilho.status = false;
                 return livroEscolhilho;
+            }
+            else
+            {
+                Console.WriteLine("livro escolhido");
+                return SelecaoListaLivros();
             }
         }
 
