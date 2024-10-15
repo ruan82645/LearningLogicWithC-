@@ -1,0 +1,15 @@
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\bin\Debug\net8.0\programa biblioteca.exe
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\bin\Debug\net8.0\programa biblioteca.deps.json
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\bin\Debug\net8.0\programa biblioteca.runtimeconfig.json
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\bin\Debug\net8.0\programa biblioteca.dll
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\bin\Debug\net8.0\programa biblioteca.pdb
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\obj\Debug\net8.0\programa biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\obj\Debug\net8.0\programa biblioteca.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\obj\Debug\net8.0\programa biblioteca.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\obj\Debug\net8.0\programa biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\obj\Debug\net8.0\programa biblioteca.sourcelink.json
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\obj\Debug\net8.0\programa biblioteca.dll
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\obj\Debug\net8.0\refint\programa biblioteca.dll
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\obj\Debug\net8.0\programa biblioteca.pdb
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\obj\Debug\net8.0\programa biblioteca.genruntimeconfig.cache
+C:\Users\ruanp\source\repos\Aprendendo Classes e transporte de parametros\ConsoleApp1\programa biblioteca\obj\Debug\net8.0\ref\programa biblioteca.dll

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Como funciona", "ConsoleApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicios", "exercicios\exercicios.csproj", "{EE6D93F6-5DA6-4FB6-BAE0-48BFBCBE8082}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "melhora em cada exercicio", "ConsoleApp2\melhora em cada exercicio.csproj", "{BDDE8D19-CD48-4609-81C2-FC99080C3A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "programa biblioteca", "programa biblioteca\programa biblioteca.csproj", "{CEC3C51A-CA8B-404B-81D6-7FA9683328D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{EE6D93F6-5DA6-4FB6-BAE0-48BFBCBE8082}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE6D93F6-5DA6-4FB6-BAE0-48BFBCBE8082}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE6D93F6-5DA6-4FB6-BAE0-48BFBCBE8082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDE8D19-CD48-4609-81C2-FC99080C3A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDE8D19-CD48-4609-81C2-FC99080C3A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDE8D19-CD48-4609-81C2-FC99080C3A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDE8D19-CD48-4609-81C2-FC99080C3A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC3C51A-CA8B-404B-81D6-7FA9683328D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC3C51A-CA8B-404B-81D6-7FA9683328D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC3C51A-CA8B-404B-81D6-7FA9683328D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC3C51A-CA8B-404B-81D6-7FA9683328D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

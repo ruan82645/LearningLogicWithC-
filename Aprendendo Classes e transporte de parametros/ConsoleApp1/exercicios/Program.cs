@@ -111,6 +111,35 @@ while (true)
 }
 media.CalcularMedia(listaDeAlunos);
 exibir.ExibirEmConsole(listaDeAlunos);
+// Confira a melhor forma de fazer na outra aba
+
+
+//2) 
+
+
+
+
+
+
+/*
+ cadastrar novos clientes
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
