@@ -137,9 +137,32 @@ namespace programa_biblioteca
 
         }
 
+        public void ListarEmprestimos(Dictionary<Cliente, List<LivroEmprestado>> emprestimo)
+        {
+
+           Cliente cliente = SelecionarUsuario(emprestimo);
+           
+            if (emprestimo.TryGetValue(cliente, out var livros))
+            {
+                int i = 1;
+                Console.WriteLine("livros emprestados");
+                foreach (var livro in livros)
+                {
+
+                    Console.WriteLine($"{i} - {livro.TituloEmprestimo}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("cliente não existe, adicione um cliente");
+                AdicionarCliente();
+            }
+
+        }
+
         internal Livro SelecaoListaLivros()
         {
-            int i = 0;
+            int i = 1;
 
             foreach (var livro in livros)
             {
@@ -185,7 +208,7 @@ namespace programa_biblioteca
         internal Cliente SelecionarUsuario(Dictionary<Cliente, List<LivroEmprestado>> emprestimo)
         {
             int i = 1;
-            Console.WriteLine("para quem deseja emprestar?");
+            Console.WriteLine("Escolha um cliente");
             foreach (Cliente cliente in emprestimo.Keys)
             {
 
@@ -209,7 +232,7 @@ namespace programa_biblioteca
 
         
 
-        internal List<Livro> AdicionarLivroNaLista(string tituloFinal, string AutorFinal,DateTime dataLancamento)
+        internal void AdicionarLivroNaLista(string tituloFinal, string AutorFinal,DateTime dataLancamento)
         {
             Livro livro = new Livro();
 
@@ -219,7 +242,6 @@ namespace programa_biblioteca
             livro.status = true;
 
             livros.Add(livro);
-            return livros;
         }
 
         internal string VerificarTitulo(string tituloInput)
