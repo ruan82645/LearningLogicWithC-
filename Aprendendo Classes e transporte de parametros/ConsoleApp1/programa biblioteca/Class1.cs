@@ -27,7 +27,7 @@ namespace programa_biblioteca
         public string cpf { get; set; }
 
     }
-    internal class biblioteca
+    public class biblioteca
     {
 
         List<Livro> livros = new List<Livro>();
@@ -122,9 +122,10 @@ namespace programa_biblioteca
             Emprestimo.Add(cliente, new List<LivroEmprestado>());  
         }
 
-        public void EmprestarLivro(Dictionary<Cliente, List<LivroEmprestado>> emprestimo, List<Livro> livro)
+
+        public void EmprestarLivro()
         {
-            Cliente clienteEscolhido = SelecionarUsuario(emprestimo);
+            Cliente clienteEscolhido = SelecionarUsuario(Emprestimo);
             Console.WriteLine();
             Livro livroEscolhido = SelecaoListaLivros();
             
@@ -133,16 +134,15 @@ namespace programa_biblioteca
             livroEmprestado.TituloEmprestimo = livroEscolhido.Titulo;
             livroEmprestado.AutorEmprestimo = livroEscolhido.Autor;
 
-            emprestimo[clienteEscolhido].Add(livroEmprestado);
-
+            Emprestimo[clienteEscolhido].Add(livroEmprestado);
         }
 
-        public void ListarEmprestimos(Dictionary<Cliente, List<LivroEmprestado>> emprestimo)
+        public void ListarEmprestimos()
         {
 
-           Cliente cliente = SelecionarUsuario(emprestimo);
+           Cliente cliente = SelecionarUsuario(Emprestimo);
            
-            if (emprestimo.TryGetValue(cliente, out var livros))
+            if (Emprestimo.TryGetValue(cliente, out var livros))
             {
                 int i = 1;
                 Console.WriteLine("livros emprestados");
