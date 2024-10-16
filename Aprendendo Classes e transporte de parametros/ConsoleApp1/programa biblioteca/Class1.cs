@@ -164,6 +164,48 @@ namespace programa_biblioteca
             }
 
         }
+        
+        public void devolver()
+        {
+            Cliente cliente = SelecionarUsuario(Emprestimo);
+            int i = 0;
+            if (Emprestimo.TryGetValue(cliente, out var livrosEmprestados))
+            {
+                Console.WriteLine("livros emprestados");
+                foreach (var livro in livrosEmprestados)
+                {
+                    i++;
+                    Console.WriteLine($"{i} - {livro.TituloEmprestimo}");
+
+                }
+            }
+            else
+            {
+                Console.WriteLine("cliente não existe, adicione um cliente");
+                AdicionarCliente();
+            }
+
+            int escolha = int.Parse(Console.ReadLine());
+
+            if(escolha <= 0 || escolha > i)
+            {
+                Console.WriteLine("escolha invalida");
+            }
+            else
+            {
+                var livroEmprestado = livrosEmprestados[escolha - 1];
+                Emprestimo[cliente].Remove(livroEmprestado);
+
+                foreach(var livro in livros)
+                {
+                    if (livro.Titulo == livroEmprestado.TituloEmprestimo)
+                    {
+                        livro.status = true;
+                        Console.WriteLine($"{livro.Titulo} disponivel novamente");
+                    }
+                }
+            }
+        }
 
         internal Livro SelecaoListaLivros()
         {
