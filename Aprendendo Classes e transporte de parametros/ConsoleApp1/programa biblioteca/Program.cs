@@ -3,25 +3,11 @@
 biblioteca biblioteca = new biblioteca();
 
 int i = 0;
-
+Console.WriteLine("Adicione livros");
 // Adicionar livros
-while (i < 6)
+while (i < 1)
 {
-    Console.WriteLine("Use algum comando como \"adicionar\" ou \"exibir\" para livros:");
-    string comando = Console.ReadLine();
-
-    if (comando == "adicionar")
-    {
         biblioteca.AdicionarLivro();
-    }
-    else if (comando == "exibir")
-    {
-        biblioteca.ExibirLista();
-    }
-    else
-    {
-        Console.WriteLine("Comando inválido. Tente novamente.");
-    }
     i++;
 }
 
@@ -68,5 +54,15 @@ while (true)
         biblioteca.ExibirLista(); // Exibe a lista de livros
     }
 }
+
+biblioteca.devolver();
+
+Console.WriteLine("Deseja ver a lista geral de livros? (s/n)");
+string listarLivros2 = Console.ReadLine();
+if (listarLivros2.ToLower() == "s")
+{
+    biblioteca.ExibirLista(); // Exibe a lista de livros
+}
+
 
 Console.WriteLine("Sistema encerrado.");

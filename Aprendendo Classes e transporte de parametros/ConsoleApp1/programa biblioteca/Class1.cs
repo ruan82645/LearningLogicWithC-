@@ -35,21 +35,25 @@ namespace programa_biblioteca
         List<LivroEmprestado> Emprestimos = new List<LivroEmprestado>();
         Dictionary<Cliente, List<LivroEmprestado>> Emprestimo = new Dictionary<Cliente, List<LivroEmprestado>>();
 
+        Livro livro1 = new Livro();
+        Livro livro2 = new Livro();
+        Livro livro3 = new Livro();
+      
         public void AdicionarLivro()
         {
-            Console.WriteLine("informe o titulo do novo livro");
-            string tituloInput = Console.ReadLine();
-            string tituloFinal = VerificarTitulo(tituloInput);
+            //Console.WriteLine("informe o titulo do novo livro");
+            //string tituloInput = Console.ReadLine();
+            //string tituloFinal = VerificarTitulo(tituloInput);
 
-            Console.WriteLine("informe o autor do novo livro");
-            string AutorInput = Console.ReadLine();
-            string AutorFinal = VerificarAutor(AutorInput);
+            //Console.WriteLine("informe o autor do novo livro");
+            //string AutorInput = Console.ReadLine();
+            //string AutorFinal = VerificarAutor(AutorInput);
 
-            Console.WriteLine("Qual a data do lançamento do novo livro?");
-            string dataLancamentoInput = Console.ReadLine();
-            DateTime dataLancamento = VerificarData(dataLancamentoInput);
+            //Console.WriteLine("Qual a data do lançamento do novo livro?");
+            //string dataLancamentoInput = Console.ReadLine();
+            //DateTime dataLancamento = VerificarData(dataLancamentoInput);
 
-            AdicionarLivroNaLista(tituloFinal, AutorFinal, dataLancamento);
+            AdicionarLivroNaLista();//tituloFinal, AutorFinal, dataLancamento);
 
             Console.WriteLine("livro adicionado a lista");
 
@@ -80,9 +84,11 @@ namespace programa_biblioteca
                 return VerificarCpf(Console.ReadLine());
             }
 
-            foreach (var cliente in clientes)
+            string CpfCorrigido = FormatarCpf(cpf);
+
+            foreach (var cliente in Emprestimo.Keys)
             {
-                if (cliente.cpf == cpf)
+                if (cliente.cpf == CpfCorrigido)
                 {
                     i++;
                 }
@@ -94,8 +100,7 @@ namespace programa_biblioteca
             }
             else
             {
-                string CpfCorrigido = FormatarCpf(cpf);
-                return cpf;
+                return CpfCorrigido;
             }
 
         }
@@ -192,7 +197,7 @@ namespace programa_biblioteca
                 Console.WriteLine("esse livro não existe ou já está emprestado");
                 return SelecaoListaLivros();
             }
-            else if(livros[escolha].status == true)
+            else if(livros[escolha-1].status == true)
             {
                 Livro livroEscolhilho = livros[escolha];
                 livroEscolhilho.status = false;
@@ -200,7 +205,7 @@ namespace programa_biblioteca
             }
             else
             {
-                Console.WriteLine("livro escolhido");
+                Console.WriteLine("livro emprestado");
                 return SelecaoListaLivros();
             }
         }
@@ -213,6 +218,7 @@ namespace programa_biblioteca
             {
 
                 Console.WriteLine($"{i} - {cliente.nome}");
+                i++;
             }
 
             int escolha = int.Parse(Console.ReadLine());
@@ -224,24 +230,43 @@ namespace programa_biblioteca
             }
             else
             {
-                var clienteEscolhido = emprestimo.Keys.ElementAt(escolha);
+                var clienteEscolhido = emprestimo.Keys.ElementAt(escolha-1);
                 return clienteEscolhido;
             }
+            
         } 
 
 
         
 
-        internal void AdicionarLivroNaLista(string tituloFinal, string AutorFinal,DateTime dataLancamento)
+        internal void AdicionarLivroNaLista()//string tituloFinal, string AutorFinal,DateTime dataLancamento)
         {
-            Livro livro = new Livro();
+            //Livro livro = new Livro();
 
-            livro.Titulo = tituloFinal;
-            livro.Autor = AutorFinal;
-            livro.Publicacao = dataLancamento;
-            livro.status = true;
+            livro1.Titulo = "sertanejo";
+            livro1.Autor = "jorge e mateus";
+            livro1.Publicacao = new DateTime(10/12/1995);
+            livro1.status = true;
 
-            livros.Add(livro);
+            livro2.Titulo = "computadores";
+            livro2.Autor = "jorge cursos";
+            livro2.Publicacao = new DateTime(10 / 07 / 2021);
+            livro2.status = true;
+
+            livro3.Titulo = "risos";
+            livro3.Autor = "Leo Lins";
+            livro3.Publicacao = new DateTime(25 / 03 / 2019);
+            livro3.status = true;
+
+            //livro.Titulo = tituloFinal;
+            //livro.Autor = AutorFinal;
+            //livro.Publicacao = dataLancamento;
+            //livro.status = true;
+
+            //livros.Add(livro);
+            livros.Add(livro1);
+            livros.Add(livro2);
+            livros.Add(livro3);
         }
 
         internal string VerificarTitulo(string tituloInput)
