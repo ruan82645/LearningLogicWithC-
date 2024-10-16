@@ -41,19 +41,19 @@ namespace programa_biblioteca
       
         public void AdicionarLivro()
         {
-            //Console.WriteLine("informe o titulo do novo livro");
-            //string tituloInput = Console.ReadLine();
-            //string tituloFinal = VerificarTitulo(tituloInput);
+            Console.WriteLine("informe o titulo do novo livro");
+            string tituloInput = Console.ReadLine();
+            string tituloFinal = VerificarTitulo(tituloInput);
 
-            //Console.WriteLine("informe o autor do novo livro");
-            //string AutorInput = Console.ReadLine();
-            //string AutorFinal = VerificarAutor(AutorInput);
+            Console.WriteLine("informe o autor do novo livro");
+            string AutorInput = Console.ReadLine();
+            string AutorFinal = VerificarAutor(AutorInput);
 
-            //Console.WriteLine("Qual a data do lançamento do novo livro?");
-            //string dataLancamentoInput = Console.ReadLine();
-            //DateTime dataLancamento = VerificarData(dataLancamentoInput);
+            Console.WriteLine("Qual a data do lançamento do novo livro?");
+            string dataLancamentoInput = Console.ReadLine();
+            DateTime dataLancamento = VerificarData(dataLancamentoInput);
 
-            AdicionarLivroNaLista();//tituloFinal, AutorFinal, dataLancamento);
+            AdicionarLivroNaLista(tituloFinal, AutorFinal, dataLancamento);
 
             Console.WriteLine("livro adicionado a lista");
 
@@ -281,34 +281,16 @@ namespace programa_biblioteca
 
         
 
-        internal void AdicionarLivroNaLista()//string tituloFinal, string AutorFinal,DateTime dataLancamento)
+        internal void AdicionarLivroNaLista(string tituloFinal, string AutorFinal,DateTime dataLancamento)
         {
-            //Livro livro = new Livro();
+            Livro livro = new Livro();
 
-            livro1.Titulo = "sertanejo";
-            livro1.Autor = "jorge e mateus";
-            livro1.Publicacao = new DateTime(10/12/1995);
-            livro1.status = true;
+            livro.Titulo = tituloFinal;
+            livro.Autor = AutorFinal;
+            livro.Publicacao = dataLancamento;
+            livro.status = true;
 
-            livro2.Titulo = "computadores";
-            livro2.Autor = "jorge cursos";
-            livro2.Publicacao = new DateTime(10 / 07 / 2021);
-            livro2.status = true;
-
-            livro3.Titulo = "risos";
-            livro3.Autor = "Leo Lins";
-            livro3.Publicacao = new DateTime(25 / 03 / 2019);
-            livro3.status = true;
-
-            //livro.Titulo = tituloFinal;
-            //livro.Autor = AutorFinal;
-            //livro.Publicacao = dataLancamento;
-            //livro.status = true;
-
-            //livros.Add(livro);
-            livros.Add(livro1);
-            livros.Add(livro2);
-            livros.Add(livro3);
+            livros.Add(livro);
         }
 
         internal string VerificarTitulo(string tituloInput)

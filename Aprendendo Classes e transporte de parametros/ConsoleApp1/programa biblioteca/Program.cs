@@ -5,7 +5,7 @@ biblioteca biblioteca = new biblioteca();
 int i = 0;
 Console.WriteLine("Adicione livros");
 // Adicionar livros
-while (i < 1)
+while (i < 6)
 {
         biblioteca.AdicionarLivro();
     i++;
