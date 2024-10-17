@@ -27,3 +27,27 @@
 //     "age": 30,
 //     "city": "New York"
 // }
+
+// Esses dados chegam no formato JSON, mas para o seu programa entender e
+// manipular esses dados, é preciso convertê-los. Esse processo é chamado de
+// "desserialização". Desserializar significa transformar o JSON em um objeto
+// ou estrutura de dados que seu programa pode usar diretamente, como uma
+// classe ou variável. É necessário em todas as linguagens, seja em Js, Ts, C#, etc.
+// Para C# podemos usar uma biblioteca chamada "Newtonsoft.Json",
+// que possui funções para Serializar e Desserializar objetos Json e covnerter em C#
+
+// A "serialização", por outro lado, é o processo inverso. Quando você precisa
+// enviar dados para uma API, por exemplo, ao preencher um formulário de
+// cadastro, você transforma seus dados em JSON ou outro formato que a API
+// aceite. Isso é serializar – você empacota seus dados para enviar corretamente.
+
+// APIs permitem fazer diversas operações. Ao fazer um "GET", você está
+// pedindo para a API trazer dados, como o garçom pegando um prato na cozinha.
+// Já o "POST" serve para enviar dados novos para a API, como enviar informações
+// sobre um novo usuário. Assim, o garçom leva seu pedido até a cozinha,
+// e a cozinha (servidor) prepara e confirma seu pedido.
+
+// Além de tudo isso, as APIs seguem protocolos como HTTP, que garantem que
+// as requisições e respostas sejam transmitidas de forma organizada e segura.
+// Esses protocolos garantem que a comunicação ocorra corretamente, como se
+// fossem regras de trânsito para as trocas de informação.
