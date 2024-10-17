@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Aprendendo a manipular API")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Desserialização Json")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebcab1e8e288a15e893f03bced5ccc04551a909c")]
-[assembly: System.Reflection.AssemblyProductAttribute("Aprendendo a manipular API")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Aprendendo a manipular API")]
+[assembly: System.Reflection.AssemblyProductAttribute("Desserialização Json")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Desserialização Json")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
