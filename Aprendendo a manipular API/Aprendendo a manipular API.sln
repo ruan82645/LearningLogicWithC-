@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aprendendo a manipular API", "Aprendendo a manipular API\Aprendendo a manipular API.csproj", "{D2D6DAD4-A938-4F74-8D90-6FFCBC8D99B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_ Entendendo", "Aprendendo a manipular API\Api_ Entendendo.csproj", "{D2D6DAD4-A938-4F74-8D90-6FFCBC8D99B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_ estrutura https", "Estrutura https\Api_ estrutura https.csproj", "{25FC018F-A64E-4A91-B11B-31855E015204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desserialização Json", "Desserialização Json\Desserialização Json.csproj", "{39FA664F-930C-4054-92DF-803205165ECE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D2D6DAD4-A938-4F74-8D90-6FFCBC8D99B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2D6DAD4-A938-4F74-8D90-6FFCBC8D99B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2D6DAD4-A938-4F74-8D90-6FFCBC8D99B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25FC018F-A64E-4A91-B11B-31855E015204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25FC018F-A64E-4A91-B11B-31855E015204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25FC018F-A64E-4A91-B11B-31855E015204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25FC018F-A64E-4A91-B11B-31855E015204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FA664F-930C-4054-92DF-803205165ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FA664F-930C-4054-92DF-803205165ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FA664F-930C-4054-92DF-803205165ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FA664F-930C-4054-92DF-803205165ECE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

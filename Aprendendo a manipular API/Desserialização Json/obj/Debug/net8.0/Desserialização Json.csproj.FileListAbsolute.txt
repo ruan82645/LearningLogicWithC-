@@ -1,0 +1,6 @@
+C:\Users\ruanp\source\repos\Aprendendo a manipular API\Desserialização Json\obj\Debug\net8.0\Desserialização Json.csproj.AssemblyReference.cache
+C:\Users\ruanp\source\repos\Aprendendo a manipular API\Desserialização Json\obj\Debug\net8.0\Desserialização Json.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruanp\source\repos\Aprendendo a manipular API\Desserialização Json\obj\Debug\net8.0\Desserialização Json.AssemblyInfoInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo a manipular API\Desserialização Json\obj\Debug\net8.0\Desserialização Json.AssemblyInfo.cs
+C:\Users\ruanp\source\repos\Aprendendo a manipular API\Desserialização Json\obj\Debug\net8.0\Desserialização Json.csproj.CoreCompileInputs.cache
+C:\Users\ruanp\source\repos\Aprendendo a manipular API\Desserialização Json\obj\Debug\net8.0\Desserialização Json.sourcelink.json

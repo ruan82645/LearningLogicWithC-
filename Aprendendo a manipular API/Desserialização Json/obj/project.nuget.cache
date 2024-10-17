@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Vo198nwcsjc=",
+  "dgSpecHash": "XNzFyPbMHsY=",
   "success": true,
   "projectFilePath": "C:\\Users\\ruanp\\source\\repos\\Aprendendo a manipular API\\Desserialização Json\\Desserialização Json.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ruanp\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
