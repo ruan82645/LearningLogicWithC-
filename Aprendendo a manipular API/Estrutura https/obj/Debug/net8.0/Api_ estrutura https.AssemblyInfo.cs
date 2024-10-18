@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Api_ estrutura https")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebcab1e8e288a15e893f03bced5ccc04551a909c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+227753071376542cfbcd9493e05c914255e74876")]
 [assembly: System.Reflection.AssemblyProductAttribute("Api_ estrutura https")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Api_ estrutura https")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

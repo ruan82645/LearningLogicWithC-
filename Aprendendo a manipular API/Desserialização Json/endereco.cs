@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Desserialização_Json
 {
-    internal class endereco
-    {
         public class Endereco
         {
             public string Cep { get; set; }
@@ -22,4 +20,3 @@ namespace Desserialização_Json
             public string Siafi { get; set; }
         }
     }
-}

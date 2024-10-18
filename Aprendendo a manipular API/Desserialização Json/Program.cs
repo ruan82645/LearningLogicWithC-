@@ -48,4 +48,12 @@ class Program
     }
 }
 
+// entenda uma coisa também, caso hajam dados a mais na api que vc não esteja usando, não vai dar problema,
+// nesse Json, imagine se tivesse mais 3 tipos de informação, como país, planeta, etc.
+// se eu não usalos, não vai ter nenhum problema, mesmo que estejam incluidos na classe o seu tipo de informação,
+// se eu não usa-los no código, não haverá problema. Por que? Imagine que a empresa dona da API faz uma ataulização,
+// caso eu fosse obrigado a usar tudo que existe naquele objeto Json, o programa iria parar até eu saber da atualização
+// e então adicionar a nova informação. Porém já que não é necessário incluir tudo, eu posso em outro momento,
+// fazer a manutenção do sistema.
+
 
