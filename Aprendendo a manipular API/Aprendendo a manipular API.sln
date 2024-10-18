@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desserialização Json", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialização", "Serialização\Serialização.csproj", "{0226D90C-FFD8-49DB-ABC4-8CDA9E8FEFF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consumindo uma api simples", "consumindo uma api sumples\consumindo uma api simples.csproj", "{5AC7CEB0-DC4C-46C7-8890-DEA4C4BF5A0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0226D90C-FFD8-49DB-ABC4-8CDA9E8FEFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0226D90C-FFD8-49DB-ABC4-8CDA9E8FEFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0226D90C-FFD8-49DB-ABC4-8CDA9E8FEFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC7CEB0-DC4C-46C7-8890-DEA4C4BF5A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC7CEB0-DC4C-46C7-8890-DEA4C4BF5A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC7CEB0-DC4C-46C7-8890-DEA4C4BF5A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC7CEB0-DC4C-46C7-8890-DEA4C4BF5A0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
