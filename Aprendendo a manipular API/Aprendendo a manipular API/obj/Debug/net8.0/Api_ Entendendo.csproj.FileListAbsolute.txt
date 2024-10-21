@@ -1,0 +1,6 @@
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Aprendendo a manipular API\obj\Debug\net8.0\Api_ Entendendo.csproj.AssemblyReference.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Aprendendo a manipular API\obj\Debug\net8.0\Api_ Entendendo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Aprendendo a manipular API\obj\Debug\net8.0\Api_ Entendendo.AssemblyInfoInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Aprendendo a manipular API\obj\Debug\net8.0\Api_ Entendendo.AssemblyInfo.cs
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Aprendendo a manipular API\obj\Debug\net8.0\Api_ Entendendo.csproj.CoreCompileInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Aprendendo a manipular API\obj\Debug\net8.0\Api_ Entendendo.sourcelink.json
