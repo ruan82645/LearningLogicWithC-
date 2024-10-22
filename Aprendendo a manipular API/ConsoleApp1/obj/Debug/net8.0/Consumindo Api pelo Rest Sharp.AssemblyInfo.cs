@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Consumindo Api pelo Rest Sharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c749f7fedde628470926b13396d83a5dd3d4e181")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f105f91c4e5cdf5f5cc1d2773d2d75a86e44e4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Consumindo Api pelo Rest Sharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Consumindo Api pelo Rest Sharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
