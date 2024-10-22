@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "u9PxfMUWwTo=",
+  "dgSpecHash": "KjUEl/JpFAg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo a manipular API\\Api RestSharp\\Api RestSharp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ruan\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
