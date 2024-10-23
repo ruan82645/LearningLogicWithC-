@@ -64,9 +64,9 @@ RestRequest request = new RestRequest("/Contas/Users", Method.Get);
 
 // ------------------------------------------------------------------------------------------------
 
-// |--.  |---|  |--.  |---|  |\    /|  |---  --|-- |--. |---|  ___
-// |--°  |---|  |--°  |---|  | \  / |  |---    |   |--° |   |  |__ 
-// |     |   |  |\    |   |  |  \/  |  |___    |   |\   |___|  ___|
+// |--.  |---|  |--.  |---|  |\    /|  |---  --|--  |---  |--.  ___
+// |--°  |---|  |--°  |---|  | \  / |  |---    |    |---  |--°  |__ 
+// |     |   |  |\    |   |  |  \/  |  |___    |    |___  |\    ___|
 
 //"https://SiteExemplo.com.br/Contas/Users?Age=30&Gender=Woman"
 
@@ -119,6 +119,27 @@ request.AddParameter("Gender", "Woman");
 
 client.AddDefaultHeader("authorization", "123456789");
 client.AddDefaultHeader("AcessKey", "82645");
+
+// ------------------------------------------------------------------------------------------------
+
+// Então finalmente tratamos dos 4 pontos de que se constituem uma Url, o que vai facilitar-
+// de agora em diante
+
+// "https://SiteExemplo.com.br/Contas/Users?Age=30&Gender=Woman"
+// |__________________________||___________||_________________|
+//       Client = BaseUrl         EndPoint      Parameters
+
+// ------------------------------------------------------------------------------------------------
+
+// |--. |---  ___  |--. |---| |\  | ___  |--- 
+// |--° |---  |__  |--° |   | | \ | |__  |---
+// |\   |___  ___| |    |___| |  \| ___| |___
+
+
+
+
+
+
 
 
 
