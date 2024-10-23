@@ -99,9 +99,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\Aprendendo a manipular API\\ConsoleApp1\\Consumindo Api pelo Rest Sharp.csproj",
-      "projectName": "Consumindo Api pelo Rest Sharp",
-      "projectPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo a manipular API\\ConsoleApp1\\Consumindo Api pelo Rest Sharp.csproj",
+      "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\Aprendendo a manipular API\\ConsoleApp1\\Consumindo Apis pelo Rest Sharp.csproj",
+      "projectName": "Consumindo Apis pelo Rest Sharp",
+      "projectPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo a manipular API\\ConsoleApp1\\Consumindo Apis pelo Rest Sharp.csproj",
       "packagesPath": "C:\\Users\\Ruan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo a manipular API\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,0 +1,19 @@
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\bin\Debug\net8.0\Consumindo Apis pelo Rest Sharp.exe
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\bin\Debug\net8.0\Consumindo Apis pelo Rest Sharp.deps.json
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\bin\Debug\net8.0\Consumindo Apis pelo Rest Sharp.runtimeconfig.json
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\bin\Debug\net8.0\Consumindo Apis pelo Rest Sharp.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\bin\Debug\net8.0\Consumindo Apis pelo Rest Sharp.pdb
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\bin\Debug\net8.0\RestSharp.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\obj\Debug\net8.0\Consumindo Apis pelo Rest Sharp.csproj.AssemblyReference.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\obj\Debug\net8.0\Consumindo Apis pelo Rest Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\obj\Debug\net8.0\Consumindo Apis pelo Rest Sharp.AssemblyInfoInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\obj\Debug\net8.0\Consumindo Apis pelo Rest Sharp.AssemblyInfo.cs
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\obj\Debug\net8.0\Consumindo Apis pelo Rest Sharp.csproj.CoreCompileInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\obj\Debug\net8.0\Consumindo Apis pelo Rest Sharp.sourcelink.json
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\obj\Debug\net8.0\Consumin.2062BD3D.Up2Date
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\obj\Debug\net8.0\Consumindo Apis pelo Rest Sharp.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\obj\Debug\net8.0\refint\Consumindo Apis pelo Rest Sharp.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\obj\Debug\net8.0\Consumindo Apis pelo Rest Sharp.pdb
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\obj\Debug\net8.0\Consumindo Apis pelo Rest Sharp.genruntimeconfig.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\ConsoleApp1\obj\Debug\net8.0\ref\Consumindo Apis pelo Rest Sharp.dll

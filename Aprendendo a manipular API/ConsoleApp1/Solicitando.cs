@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Consumindo_Api_pelo_Rest_Sharp
+namespace IdadePeloNome
 {
     public class dados
     {

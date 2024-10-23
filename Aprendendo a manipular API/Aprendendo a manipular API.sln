@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialização", "Serializa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "consumindo uma api simples", "consumindo uma api sumples\consumindo uma api simples.csproj", "{5AC7CEB0-DC4C-46C7-8890-DEA4C4BF5A0E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumindo Api pelo Rest Sharp", "ConsoleApp1\Consumindo Api pelo Rest Sharp.csproj", "{CB5229F4-CCA1-46DA-8BEB-A7B564742D64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumindo Apis pelo Rest Sharp", "ConsoleApp1\Consumindo Apis pelo Rest Sharp.csproj", "{CB5229F4-CCA1-46DA-8BEB-A7B564742D64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api RestSharp", "Api RestSharp\Api RestSharp.csproj", "{0F6E4642-C6F1-4E16-8390-CBD6332FA688}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api RestSharp", "Api RestSharp\Api RestSharp.csproj", "{0F6E4642-C6F1-4E16-8390-CBD6332FA688}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

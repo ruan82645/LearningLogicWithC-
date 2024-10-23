@@ -41,7 +41,7 @@ using Newtonsoft.Json;
 //que recebe o valor da BaseUrl, e que também pode carregar Headers(cabeçalhos/autorização)
 //(vamos ver sobre os Headers depois)
 
-//RestClient client = new RestClient("https://SiteExemplo.com.br");
+RestClient client = new RestClient("https://SiteExemplo.com.br");
 
 // ------------------------------------------------------------------------------------------------
 
@@ -64,7 +64,7 @@ using Newtonsoft.Json;
 //Ou seja, quando criamos uma variavel de Request, essa variavel deve ter quais dados queremos acessar
 //e o método que será utilizado para tratar com aquela API
 
-//RestRequest request = new RestRequest("/Contas/Users", Method.Get);
+RestRequest request = new RestRequest("/Contas/Users", Method.Get);
 
 //Agora, a variavel request sabe o que deve pedir para a Api quando for chamada
 
@@ -93,8 +93,8 @@ using Newtonsoft.Json;
 // Ou seja, vamos passar o nome da chave e depois o valor dessa chave,
 // Essa ação de acrescentar parametros pode ser feita repetidamente chamando de novo o metodo
 
-//request.AddParameter("Age", "30");
-//request.AddParameter("Gender", "Woman");
+request.AddParameter("Age", "30");
+request.AddParameter("Gender", "Woman");
 
 // Agora, a variável request carrega todos os parametros dentro de si
 
@@ -123,8 +123,8 @@ using Newtonsoft.Json;
 // Novamente, esse tipo de metodo recebe dois parametros, nome da chave e seu valor.
 // Caso a documentação peça 1 ou mais autorizações diferentes, passamos mais autorizações diferentes.
 
-//client.AddDefaultHeader("authorization", "123456789");
-//client.AddDefaultHeader("AcessKey", "82645");
+client.AddDefaultHeader("authorization", "123456789");
+client.AddDefaultHeader("AcessKey", "82645");
 
 // ------------------------------------------------------------------------------------------------
 
@@ -168,7 +168,7 @@ using Newtonsoft.Json;
 
 // então ao todo ficaria algo como: "nessa url base, execute essa requisição)
 
-//RestResponse response = client.Execute(request);
+RestResponse response = client.Execute(request);
 
 // isso faz uma requisição síncrona, solicitando os dados para a Api e passando para response
 // Quando falo síncrona, quero dizer que ele primeiro recebe os dados da Api,
@@ -182,19 +182,36 @@ using Newtonsoft.Json;
 // ao invés de ser "Execute Request", deve ser "ExecuteAsync(Request)"
 // (continue fazendo as outras coisas enquanto eu aguardo essa requisição assíncrona)
 
-//RestResponse respostaAsync = await client.ExecuteAsync(request);
+RestResponse respostaAsync = await client.ExecuteAsync(request);
 
 // Await é muito importante e não é usado somente no request quando é algo assincrono,
-// ele será usado sempre que algo depender da resposta da requisição.
+// ele também pode ser usado em outro caso...
 
-// Como assim? quando usamos um await no Excute por exemplo, comandos no mesmo nivel como:
-// funções basícas que estejam juntas do comando de await não precisam, pois ja vao esperar.
-// mas se tiver um request em um método que retorna algo, quem irá receber, também deve usar o await
+// imagine que você fez uma requisição assíncrona e logo abaixo, voce imprime o resultado,
+// ou até mesmo no final do codigo... Se isso acontecer, essa função básica de imprimir,
+// ou também outras funções irão esperar o resultado da requisição para utilizarem ela.
+// Resumindo, se estiverem no mesmo escopo({}) quem usa aquela resposta, irá aguardar.
+
+// Porém se tentar usar a resposta da requisição em um escopo diferente,
+// será necessário pedir para a função esperar a resposta da requisição usando o await,
+// Quando colocarmos a resposta na função, antes dela devemos colocar o await.
+// é quase como iniciar uma variavel em um escopo "filho" e tentar usar no escopo "pai".
+// Ele não será reconhecido e vai gerar erro
 
 // O mesmo vale para quando criamos um método que faz o request da Api,
-// ele precisa retornar algo assíncrono, então não posso retornar um valor sem pedir para esperar.
-// Novamente daria erro, pois o request pediria para continuar fazendo outra coisa antes,
-// isso chegaria no return ainda sem resposta e retornaria um erro para quem chamou.
+// ele precisa retornar algo assíncrono para quem o chamou,
+// então não posso retornar um valor sem pedir para quem chamou esperar.
+// Quando deixamos de fazer isso, nós não retornamos o valor que foi trazido da requisição,
+// mas sim trazemos a propria requisição.
+// Então quando quiser um resultado de uma requisição por metodo, lembre-se:
+// use await antes do retorno do metodo
+
+Api api1 = new Api();
+
+int idadeUsuario = await api1.respostaApi("ruan");
+
+// Esse metodo retorna uma resposta de Api, lá dentro tem sim um await, porém...
+// Por idadeUsuario e respostaApi estarem em escopos diferentes, preciso usar Await também.
 
 // Vale lembrar que quando criamos um método que retorna algo assíncrono, sua nomenclatura muda,
 // Ao invés de ser ("Public String Método()"), deve ser: ("Public async Task<String> Método()"),
@@ -202,6 +219,7 @@ using Newtonsoft.Json;
 // Então se estiver usando uma função assíncrona, essa é a sintaxe para se usar um método desse tipo,
 // Primeiro colocamos o nivel de acesso, em seguida async Task<Tipo que vai retornar>
 // e o nome do método.
+
 
 
 //A api abaixo serve para "advinhar sua idade com base no seu nome, apenas isso.
@@ -226,7 +244,7 @@ public class Api
         RestRequest request = new RestRequest("", Method.Get);
         request.AddParameter("name", nome);
 
-        RestResponse response = await agify.ExecuteAsync(request);
+        RestResponse response = await agify.ExecuteAsync<Idade>(request);
         
         Idade idade = JsonConvert.DeserializeObject<Idade>(response.Content);
 
