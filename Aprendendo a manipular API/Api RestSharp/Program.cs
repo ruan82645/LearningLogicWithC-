@@ -19,6 +19,12 @@
  //Imagine que você quer acessar uma API de um site para ver conteudos relacionados aos usuários,
  //para isso, na Url, nós colocamos o site(o disco), os caminhos separados por "/" até chegar lá
 
+// ------------------------------------------------------------------------------------------------
+
+ // |---   |      |   |---   |\  |  --|--
+ // |      |      |   |---   | \ |    |    
+ // |___   |___   |   |___   |  \|    |    
+
  //"https://SiteExemplo.com.br/Contas/Users?Age=30&Gender=Woman"
 
  //Aqui, nessa url de API nós queremos pegar as informações de usuárias mulheres de 30 anos,
@@ -31,7 +37,11 @@
 
   RestClient client = new RestClient("https://SiteExemplo.com.br");
 
+// ------------------------------------------------------------------------------------------------
 
+// |--.  |---  |---|  |   |  |---  ___  --|--
+// |--°  |---  |  \|  |   |  |---  |__    |
+// |\    |___  |__ \  |---|  |___  ___|   |
 
 //"https://SiteExemplo.com.br/Contas/Users?Age=30&Gender=Woman"
 
@@ -51,6 +61,12 @@
 RestRequest request = new RestRequest("/Contas/Users", Method.Get);
 
 //Agora, a variavel request sabe o que deve pedir para a Api quando for chamada
+
+// ------------------------------------------------------------------------------------------------
+
+// |--.  |---|  |--.  |---|  |\    /|  |---  --|-- |--. |---|  ___
+// |--°  |---|  |--°  |---|  | \  / |  |---    |   |--° |   |  |__ 
+// |     |   |  |\    |   |  |  \/  |  |___    |   |\   |___|  ___|
 
 //"https://SiteExemplo.com.br/Contas/Users?Age=30&Gender=Woman"
 
@@ -75,6 +91,38 @@ request.AddParameter("Age", "30");
 request.AddParameter("Gender", "Woman");
 
 // Agora, a variável request carrega todos os parametros dentro de si
+
+// ------------------------------------------------------------------------------------------------
+
+// |   |  |---  |---|  |--. |---  |--.  ___
+// |---|  |---  |---|  |  | |---  |--°  |__ 
+// |   |  |___  |   |  |__° |___  |\    ___|
+
+// Os Headers, também conhecidos como cabeçalhos são autorizações que você deve passar a api.
+// Algumas Apis tem em suas documentações que uma chave de acesso é obrigatória,
+// Essa chave é passada pelo provedor da Api para o seu usuario, que te dá direito a usar a Api
+// Caso a Header não seja informada, o acesso será bloqueado, mesmo com todos os requests certos
+
+// Vale lembrar que não são todas as Apis que exigem headers, muitas mais simples não usam
+// Então basta fazer executar o request sem isso e tudo certo
+
+// As Headers são permissões que te dão acesso ao proprio site, e não necessariamente ao request
+// Elas permitem que voce entre no site base, ou seja... na Base Url
+// As autorizações podem vir de várias maneiras, e quem determina isso é a documentação
+// lá estará qual a chave deve ser usada e qual o valor da chave(sua autorização)
+
+// E como eu disse antes, as Headers são passadas para o Client, para que seja possivel-
+// a entrada no site. E como podemos fazer isso? Da mesma forma que colocamos parametros em request.
+// chamamos a variavel cliente e usamos o metodo Add.DefaultHeader.
+// Novamente, esse tipo de metodo recebe dois parametros, nome da chave e seu valor.
+// Caso a documentação peça 1 ou mais autorizações diferentes, passamos mais autorizações diferentes.
+
+client.AddDefaultHeader("authorization", "123456789");
+client.AddDefaultHeader("AcessKey", "82645");
+
+
+
+
 
 
 
