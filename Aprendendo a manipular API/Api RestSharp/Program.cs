@@ -52,17 +52,30 @@ RestRequest request = new RestRequest("/Contas/Users", Method.Get);
 
 //Agora, a variavel request sabe o que deve pedir para a Api quando for chamada
 
- //"https://SiteExemplo.com.br/Contas/Users?Age=30&Gender=Woman"
+//"https://SiteExemplo.com.br/Contas/Users?Age=30&Gender=Woman"
 
 // Então chegamos na parte parametros, imagine que voce já chegou na sua pasta
-// lá dentro vai ter varios arquivos, e para isso sefem os parametros, filtrar o que vai vir
+// lá dentro vai ter varios arquivos, e para isso servem os parametros, filtrar o que vai vir
 // de dentro dessa "pasta"
 
 // os parametros são passados após a interrogação na url, e cada parametro é dividido em:
 // chave e valor, por exemplo "Age=30", caso eu queira mais parametros, posso acrescentar um "&"
 // e logo em seguida usar um novo
 
-// 
+// Parametros são passados na requisição, e isso faz sentido, pensa comigo...
+// Requisição é a ação de buscar ou colocar algo onde voce deseja, já cliente é so o site.
+// Certo... Mas como passamos os paramêtros para a Requisição então? 
+
+// elas podem ser passadas chamando a variavel da requisição e usando Add parameter.
+// Isso é um método que recebe dois valores, que são chave e valor, assim como mencionei antes.
+// Ou seja, vamos passar o nome da chave e depois o valor dessa chave,
+// Essa ação de acrescentar parametros pode ser feita repetidamente chamando de novo o metodo
+
+request.AddParameter("Age", "30");
+request.AddParameter("Gender", "Woman");
+
+// Agora, a variável request carrega todos os parametros dentro de si
+
 
 
 
