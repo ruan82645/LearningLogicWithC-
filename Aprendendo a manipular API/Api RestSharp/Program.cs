@@ -136,6 +136,35 @@ client.AddDefaultHeader("AcessKey", "82645");
 // |\   |___  ___| |    |___| |  \| ___| |___
 
 
+// Quando executamos a ação de request em um cliente especifico, ou seja,
+// quando requisitamos dados especificos de um site especifico, recebemos uma resposta em troca
+// Essa resposta é o resultado do Request, e pode vir em formado Json, Xml, etc...
+// O formato que virá a resposta sempre estará na documentação, e basta tratar depois
+
+// Ok, mas como usar a response em código? 
+
+// Response é denominado pelo tipo RestResponse, no mesmo padrão dos outros
+// Ela é apenas um tipo, não necessitando de instanciar ou qualquer coisa do tipo
+
+// Ao criar uma variável que recebe dados de um lugar, ela precisa receber um valor dentro de si,
+// é por isso que nesse momento realmente fazemos a requisição
+
+// Anteriormente, preenchemos o RestClient e o RestRequest.
+// Eles estão lá apenas para passar que dados serão usados em suas determinadas variaveis
+// (client é essa url e essa chave, a variavel request pede isso com esse metodo)
+// Essas variáveis ainda não fazem nada sozinhas, pois elas armazenam como algo ainda será feito
+
+// Quando declaramos a variavel response, devemos garantir que ela receba o valor da Api
+// para isso precisamos realmente executar essas variaveis e botá-las para funcionar
+// Para isso chamamos a variavel client para dizer(a ação será nesse site), em seguida-
+// usamos o método Execute, que recebe como paramêtro a variavel request,
+// e seu nome é auto-explicativo, (execute essa requisição)
+
+// então ao todo ficaria algo como: "nessa url base, execute essa requisição)
+
+RestResponse response = client.Execute(request);
+
+// isso faz uma requisição síncrona, solicitando os dados para a Api e passando para response
 
 
 
