@@ -1,4 +1,7 @@
 ﻿using RestSharp;
+using System.Threading.Tasks;
+using Newtonsoft;
+using Newtonsoft.Json;
 
 // Vamos entender um pouco sobre como o NuGet Rest Sharp funciona
 
@@ -7,35 +10,38 @@
 
 // antes, de explicar melhor como o código funciona, preciso explicar alguns termos antes:
 
- //Vamos recaptular os termos da Url para não causar confusão ao usar o RestSharp
- 
- //Primeiro, para melhor adaptabilidade, imagine o caminho de um arquivo no windows,
- //Dentro do explorador de arquivos mesmo... Pense naquele caminho completo até um pdf por exemplo
+//Vamos recaptular os termos da Url para não causar confusão ao usar o RestSharp
 
- //Nesse caminho, existe: o Disco, as pastas e subpastas até chegar no arquivo
+//Primeiro, para melhor adaptabilidade, imagine o caminho de um arquivo no windows,
+//Dentro do explorador de arquivos mesmo... Pense naquele caminho completo até um pdf por exemplo
 
- //Da mesma forma funciona a Url, que contem o site em si, o caminho até algo e parametro
+//Nesse caminho, existe: o Disco, as pastas e subpastas até chegar no arquivo
 
- //Imagine que você quer acessar uma API de um site para ver conteudos relacionados aos usuários,
- //para isso, na Url, nós colocamos o site(o disco), os caminhos separados por "/" até chegar lá
+//Da mesma forma funciona a Url, que contem o site em si, o caminho até algo e parametro
+
+//Imagine que você quer acessar uma API de um site para ver conteudos relacionados aos usuários,
+//para isso, na Url, nós colocamos o site(o disco), os caminhos separados por "/" até chegar lá
+
+//Imagine que você quer acessar uma API de um site para ver conteudos relacionados aos usuários,
+//para isso, na Url, nós colocamos o site(o disco), os caminhos separados por "/" até chegar lá
 
 // ------------------------------------------------------------------------------------------------
 
- // |---   |      |   |---   |\  |  --|--
- // |      |      |   |---   | \ |    |    
- // |___   |___   |   |___   |  \|    |    
+// |---   |      |   |---   |\  |  --|--
+// |      |      |   |---   | \ |    |    
+// |___   |___   |   |___   |  \|    |    
 
- //"https://SiteExemplo.com.br/Contas/Users?Age=30&Gender=Woman"
+//"https://SiteExemplo.com.br/Contas/Users?Age=30&Gender=Woman"
 
- //Aqui, nessa url de API nós queremos pegar as informações de usuárias mulheres de 30 anos,
- //mas como isso é feito? primeiro, dizemos de onde queremos puxar a informação, ou seja,
- //do "SiteExemplo", nossa BaseUrl também chamada de "Client", também é nosso "disco C:".
+//Aqui, nessa url de API nós queremos pegar as informações de usuárias mulheres de 30 anos,
+//mas como isso é feito? primeiro, dizemos de onde queremos puxar a informação, ou seja,
+//do "SiteExemplo", nossa BaseUrl também chamada de "Client", também é nosso "disco C:".
 
- //O client em RestSharp é representado pelo tipo "RestClient", é uma classe instanciavel
- //que recebe o valor da BaseUrl, e que também pode carregar Headers(cabeçalhos/autorização)
- //(vamos ver sobre os Headers depois)
+//O client em RestSharp é representado pelo tipo "RestClient", é uma classe instanciavel
+//que recebe o valor da BaseUrl, e que também pode carregar Headers(cabeçalhos/autorização)
+//(vamos ver sobre os Headers depois)
 
-  RestClient client = new RestClient("https://SiteExemplo.com.br");
+//RestClient client = new RestClient("https://SiteExemplo.com.br");
 
 // ------------------------------------------------------------------------------------------------
 
@@ -58,7 +64,7 @@
 //Ou seja, quando criamos uma variavel de Request, essa variavel deve ter quais dados queremos acessar
 //e o método que será utilizado para tratar com aquela API
 
-RestRequest request = new RestRequest("/Contas/Users", Method.Get);
+//RestRequest request = new RestRequest("/Contas/Users", Method.Get);
 
 //Agora, a variavel request sabe o que deve pedir para a Api quando for chamada
 
@@ -87,8 +93,8 @@ RestRequest request = new RestRequest("/Contas/Users", Method.Get);
 // Ou seja, vamos passar o nome da chave e depois o valor dessa chave,
 // Essa ação de acrescentar parametros pode ser feita repetidamente chamando de novo o metodo
 
-request.AddParameter("Age", "30");
-request.AddParameter("Gender", "Woman");
+//request.AddParameter("Age", "30");
+//request.AddParameter("Gender", "Woman");
 
 // Agora, a variável request carrega todos os parametros dentro de si
 
@@ -117,15 +123,15 @@ request.AddParameter("Gender", "Woman");
 // Novamente, esse tipo de metodo recebe dois parametros, nome da chave e seu valor.
 // Caso a documentação peça 1 ou mais autorizações diferentes, passamos mais autorizações diferentes.
 
-client.AddDefaultHeader("authorization", "123456789");
-client.AddDefaultHeader("AcessKey", "82645");
+//client.AddDefaultHeader("authorization", "123456789");
+//client.AddDefaultHeader("AcessKey", "82645");
 
 // ------------------------------------------------------------------------------------------------
 
 // Então finalmente tratamos dos 4 pontos de que se constituem uma Url, o que vai facilitar-
 // de agora em diante
 
-// "https://SiteExemplo.com.br/Contas/Users?Age=30&Gender=Woman"
+//"https://SiteExemplo.com.br/Contas/Users?Age=30&Gender=Woman"
 // |__________________________||___________||_________________|
 //       Client = BaseUrl         EndPoint      Parameters
 
@@ -162,7 +168,7 @@ client.AddDefaultHeader("AcessKey", "82645");
 
 // então ao todo ficaria algo como: "nessa url base, execute essa requisição)
 
-RestResponse response = client.Execute(request);
+//RestResponse response = client.Execute(request);
 
 // isso faz uma requisição síncrona, solicitando os dados para a Api e passando para response
 // Quando falo síncrona, quero dizer que ele primeiro recebe os dados da Api,
@@ -171,27 +177,65 @@ RestResponse response = client.Execute(request);
 
 // quando fazemos uma requisição assincrona, sempre devemos usar o "Await",
 // que a primeira vista parece que ele espera o request ser finalizado para prosseguir, mas...
-// é como se significasse ("continue executando as outras coisas enquanto EU espero isso")
+// é como se significasse ("continue executando as outras coisas enquanto EU espero isso").
+// Além do Await na requisição, também devemos dizer o tipo de execução do request,
+// ao invés de ser "Execute Request", deve ser "ExecuteAsync(Request)"
+// (continue fazendo as outras coisas enquanto eu aguardo essa requisição assíncrona)
+
+//RestResponse respostaAsync = await client.ExecuteAsync(request);
 
 // Await é muito importante e não é usado somente no request quando é algo assincrono,
 // ele será usado sempre que algo depender da resposta da requisição.
 
-// Como assim? imagine que você tem uma função que depende da resposta da Api
-// se você usar a resposta dentro dessa função e o resultado ainda não chegou, dará erro.
-// Para resolver isso, usamos o await de novo antes da resposta da Api
-// (espere a resposta da Api para executar isso)
+// Como assim? quando usamos um await no Excute por exemplo, comandos no mesmo nivel como:
+// funções basícas que estejam juntas do comando de await não precisam, pois ja vao esperar.
+// mas se tiver um request em um método que retorna algo, quem irá receber, também deve usar o await
 
 // O mesmo vale para quando criamos um método que faz o request da Api,
 // ele precisa retornar algo assíncrono, então não posso retornar um valor sem pedir para esperar.
 // Novamente daria erro, pois o request pediria para continuar fazendo outra coisa antes,
 // isso chegaria no return ainda sem resposta e retornaria um erro para quem chamou.
 
-
 // Vale lembrar que quando criamos um método que retorna algo assíncrono, sua nomenclatura muda,
-// Ao invés de ser ("Public String Método()"), deve ser: ("Public Task<String> Método()"),
+// Ao invés de ser ("Public String Método()"), deve ser: ("Public async Task<String> Método()"),
 // pois ele é uma tarefa que espera pelo resultado ao invés de processar de uma vez.
 // Então se estiver usando uma função assíncrona, essa é a sintaxe para se usar um método desse tipo,
-// Primeiro colocamos o nivel de acesso, em seguida Task<Tipo que vai retornar> e o nome do método.
+// Primeiro colocamos o nivel de acesso, em seguida async Task<Tipo que vai retornar>
+// e o nome do método.
+
+
+//A api abaixo serve para "advinhar sua idade com base no seu nome, apenas isso.
+// ele não possui endpoint, apenas parametro
+
+Api api = new Api();
+
+int idade = await api.respostaApi("ruan");
+
+Console.WriteLine(idade);
+
+public class Api
+{
+    public class Idade
+    {
+        public int Age { get; set; }
+    }
+
+    public async Task<int> respostaApi(string nome)
+    {
+        RestClient agify = new RestClient("https://api.agify.io");
+        RestRequest request = new RestRequest("", Method.Get);
+        request.AddParameter("name", nome);
+
+        RestResponse response = await agify.ExecuteAsync(request);
+        
+        Idade idade = JsonConvert.DeserializeObject<Idade>(response.Content);
+
+        return idade.Age;
+
+    }
+}
+
+
 
 
 

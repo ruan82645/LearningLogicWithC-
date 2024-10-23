@@ -21,6 +21,8 @@ Leitura servico = new Leitura();
 
 Endereco endereco = servico.ConsultaCep(cep);
 
-imprecao.exibirDados(endereco);
+imprecao imprimir = new imprecao();
+
+imprimir.exibirDados(endereco);
 
 

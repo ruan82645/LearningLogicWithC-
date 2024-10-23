@@ -1,0 +1,19 @@
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\bin\Debug\net8.0\Api RestSharp.exe
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\bin\Debug\net8.0\Api RestSharp.deps.json
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\bin\Debug\net8.0\Api RestSharp.runtimeconfig.json
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\bin\Debug\net8.0\Api RestSharp.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\bin\Debug\net8.0\Api RestSharp.pdb
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\bin\Debug\net8.0\RestSharp.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\obj\Debug\net8.0\Api RestSharp.csproj.AssemblyReference.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\obj\Debug\net8.0\Api RestSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\obj\Debug\net8.0\Api RestSharp.AssemblyInfoInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\obj\Debug\net8.0\Api RestSharp.AssemblyInfo.cs
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\obj\Debug\net8.0\Api RestSharp.csproj.CoreCompileInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\obj\Debug\net8.0\Api RestSharp.sourcelink.json
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\obj\Debug\net8.0\Api Rest.A8A416D6.Up2Date
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\obj\Debug\net8.0\Api RestSharp.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\obj\Debug\net8.0\refint\Api RestSharp.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\obj\Debug\net8.0\Api RestSharp.pdb
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\obj\Debug\net8.0\Api RestSharp.genruntimeconfig.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Api RestSharp\obj\Debug\net8.0\ref\Api RestSharp.dll
