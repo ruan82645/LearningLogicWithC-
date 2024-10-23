@@ -165,6 +165,33 @@ client.AddDefaultHeader("AcessKey", "82645");
 RestResponse response = client.Execute(request);
 
 // isso faz uma requisição síncrona, solicitando os dados para a Api e passando para response
+// Quando falo síncrona, quero dizer que ele primeiro recebe os dados da Api,
+// Somente após isso ele faz outra função, então caso seja uma requisição demorada, pode ficar ruim
+// se for algo rápido, realmente não há problema, mas vou mostrar como fazer uma ASSÍNCRONA
+
+// quando fazemos uma requisição assincrona, sempre devemos usar o "Await",
+// que a primeira vista parece que ele espera o request ser finalizado para prosseguir, mas...
+// é como se significasse ("continue executando as outras coisas enquanto EU espero isso")
+
+// Await é muito importante e não é usado somente no request quando é algo assincrono,
+// ele será usado sempre que algo depender da resposta da requisição.
+
+// Como assim? imagine que você tem uma função que depende da resposta da Api
+// se você usar a resposta dentro dessa função e o resultado ainda não chegou, dará erro.
+// Para resolver isso, usamos o await de novo antes da resposta da Api
+// (espere a resposta da Api para executar isso)
+
+// O mesmo vale para quando criamos um método que faz o request da Api,
+// ele precisa retornar algo assíncrono, então não posso retornar um valor sem pedir para esperar.
+// Novamente daria erro, pois o request pediria para continuar fazendo outra coisa antes,
+// isso chegaria no return ainda sem resposta e retornaria um erro para quem chamou.
+
+
+// Vale lembrar que quando criamos um método que retorna algo assíncrono, sua nomenclatura muda,
+// Ao invés de ser ("Public String Método()"), deve ser: ("Public Task<String> Método()"),
+// pois ele é uma tarefa que espera pelo resultado ao invés de processar de uma vez.
+// Então se estiver usando uma função assíncrona, essa é a sintaxe para se usar um método desse tipo,
+// Primeiro colocamos o nivel de acesso, em seguida Task<Tipo que vai retornar> e o nome do método.
 
 
 
