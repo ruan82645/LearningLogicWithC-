@@ -11,7 +11,6 @@ using System.Net;
 
 class Program
 {
-    string jorgfe = new System.Net.WebClient().
     static void Main(string[] args)
     {
         // Exemplo de JSON
