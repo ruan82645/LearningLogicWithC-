@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Api_ estrutura https")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Consumindo uma api complexa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e57ca419ab8894afdbca93f6ed1f5f9276638aae")]
-[assembly: System.Reflection.AssemblyProductAttribute("Api_ estrutura https")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Api_ estrutura https")]
+[assembly: System.Reflection.AssemblyProductAttribute("Consumindo uma api complexa")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Consumindo uma api complexa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

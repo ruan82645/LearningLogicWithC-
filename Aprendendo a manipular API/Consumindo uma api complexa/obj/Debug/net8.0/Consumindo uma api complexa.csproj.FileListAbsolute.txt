@@ -1,0 +1,19 @@
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\bin\Debug\net8.0\Consumindo uma api complexa.exe
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\bin\Debug\net8.0\Consumindo uma api complexa.deps.json
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\bin\Debug\net8.0\Consumindo uma api complexa.runtimeconfig.json
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\bin\Debug\net8.0\Consumindo uma api complexa.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\bin\Debug\net8.0\Consumindo uma api complexa.pdb
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\bin\Debug\net8.0\RestSharp.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\obj\Debug\net8.0\Consumindo uma api complexa.csproj.AssemblyReference.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\obj\Debug\net8.0\Consumindo uma api complexa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\obj\Debug\net8.0\Consumindo uma api complexa.AssemblyInfoInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\obj\Debug\net8.0\Consumindo uma api complexa.AssemblyInfo.cs
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\obj\Debug\net8.0\Consumindo uma api complexa.csproj.CoreCompileInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\obj\Debug\net8.0\Consumindo uma api complexa.sourcelink.json
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\obj\Debug\net8.0\Consumin.941C1B28.Up2Date
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\obj\Debug\net8.0\Consumindo uma api complexa.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\obj\Debug\net8.0\refint\Consumindo uma api complexa.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\obj\Debug\net8.0\Consumindo uma api complexa.pdb
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\obj\Debug\net8.0\Consumindo uma api complexa.genruntimeconfig.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Consumindo uma api complexa\obj\Debug\net8.0\ref\Consumindo uma api complexa.dll
