@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Api RestSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f44441d65c85ccc80e3b567a673413ab33dfa51")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e828bb1218fd7506d20a0a88ac00d595d31a646a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Api RestSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Api RestSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
