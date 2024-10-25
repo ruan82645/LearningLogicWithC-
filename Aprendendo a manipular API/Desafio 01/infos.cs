@@ -1,344 +1,269 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft;
+using Newtonsoft.Json.Converters;
+using Newtonsoft.Json;
 using RestSharp;
 
 namespace Desafio_01
 {
-        public partial class Welcome
-        {
-            [JsonProperty("name")]
-            public Name Name { get; set; }
+    public partial class Country
+    {
+        [JsonProperty("name")]
+        public Name Name { get; set; }
 
-            [JsonProperty("tld")]
-            public string[] Tld { get; set; }
+        [JsonProperty("cca3")]
+        public string Cca3 { get; set; }
 
-            [JsonProperty("cca2")]
-            public string Cca2 { get; set; }
+        [JsonProperty("languages")]
+        public languages languages { get; set; }
 
-            [JsonProperty("ccn3")]
-            public string Ccn3 { get; set; }
+        [JsonProperty("translations")]
+        public Dictionary<string, Translation> Translations { get; set; }
 
-            [JsonProperty("cca3")]
-            public string Cca3 { get; set; }
+        [JsonProperty("borders")]
+        public string[] Borders { get; set; }
 
-            [JsonProperty("cioc")]
-            public string Cioc { get; set; }
+        [JsonProperty("population")]
+        public long Population { get; set; }
+    }
 
-            [JsonProperty("independent")]
-            public bool Independent { get; set; }
-
-            [JsonProperty("status")]
-            public string Status { get; set; }
-
-            [JsonProperty("unMember")]
-            public bool UnMember { get; set; }
-
-            [JsonProperty("currencies")]
-            public Currencies Currencies { get; set; }
-
-            [JsonProperty("idd")]
-            public Idd Idd { get; set; }
-
-            [JsonProperty("capital")]
-            public string[] Capital { get; set; }
-
-            [JsonProperty("altSpellings")]
-            public string[] AltSpellings { get; set; }
-
-            [JsonProperty("region")]
-            public string Region { get; set; }
-
-            [JsonProperty("subregion")]
-            public string Subregion { get; set; }
-
-            [JsonProperty("languages")]
-            public Languages Languages { get; set; }
-
-            [JsonProperty("translations")]
-            public Dictionary<string, Translation> Translations { get; set; }
-
-            [JsonProperty("latlng")]
-            public long[] Latlng { get; set; }
-
-            [JsonProperty("landlocked")]
-            public bool Landlocked { get; set; }
-
-            [JsonProperty("borders")]
-            public string[] Borders { get; set; }
-
-            [JsonProperty("area")]
-            public long Area { get; set; }
-
-            [JsonProperty("demonyms")]
-            public Demonyms Demonyms { get; set; }
-
-            [JsonProperty("flag")]
-            public string Flag { get; set; }
-
-            [JsonProperty("maps")]
-            public Maps Maps { get; set; }
-
-            [JsonProperty("population")]
-            public long Population { get; set; }
-
-            [JsonProperty("gini")]
-            public Gini Gini { get; set; }
-
-            [JsonProperty("fifa")]
-            public string Fifa { get; set; }
-
-            [JsonProperty("car")]
-            public Car Car { get; set; }
-
-            [JsonProperty("timezones")]
-            public string[] Timezones { get; set; }
-
-            [JsonProperty("continents")]
-            public string[] Continents { get; set; }
-
-            [JsonProperty("flags")]
-            public Flags Flags { get; set; }
-
-            [JsonProperty("coatOfArms")]
-            public CoatOfArms CoatOfArms { get; set; }
-
-            [JsonProperty("startOfWeek")]
-            public string StartOfWeek { get; set; }
-
-            [JsonProperty("capitalInfo")]
-            public CapitalInfo CapitalInfo { get; set; }
-
-            [JsonProperty("postalCode")]
-            public PostalCode PostalCode { get; set; }
-        }
-
-        public partial class CapitalInfo
-        {
-            [JsonProperty("latlng")]
-            public double[] Latlng { get; set; }
-        }
-
-        public partial class Car
-        {
-            [JsonProperty("signs")]
-            public string[] Signs { get; set; }
-
-            [JsonProperty("side")]
-            public string Side { get; set; }
-        }
-
-        public partial class CoatOfArms
-        {
-            [JsonProperty("png")]
-            public Uri Png { get; set; }
-
-            [JsonProperty("svg")]
-            public Uri Svg { get; set; }
-        }
-
-        public partial class Currencies
-        {
-            [JsonProperty("BRL")]
-            public Brl Brl { get; set; }
-        }
-
-        public partial class Brl
-        {
-            [JsonProperty("name")]
-            public string Name { get; set; }
-
-            [JsonProperty("symbol")]
-            public string Symbol { get; set; }
-        }
-
-        public partial class Demonyms
-        {
-            [JsonProperty("eng")]
-            public Eng Eng { get; set; }
-
+    public partial class languages
+    {
             [JsonProperty("fra")]
-            public Eng Fra { get; set; }
-        }
+            public string Fra { get; set; }
 
-        public partial class Eng
-        {
-            [JsonProperty("f")]
-            public string F { get; set; }
+            [JsonProperty("gsw")]
+            public string Gsw { get; set; }
 
-            [JsonProperty("m")]
-            public string M { get; set; }
-        }
+            [JsonProperty("ita")]
+            public string Ita { get; set; }
 
-        public partial class Flags
-        {
-            [JsonProperty("png")]
-            public Uri Png { get; set; }
+            [JsonProperty("roh")]
+            public string Roh { get; set; }
 
-            [JsonProperty("svg")]
-            public Uri Svg { get; set; }
-
-            [JsonProperty("alt")]
-            public string Alt { get; set; }
-        }
-
-        public partial class Gini
-        {
-            [JsonProperty("2019")]
-            public double The2019 { get; set; }
-        }
-
-        public partial class Idd
-        {
-            [JsonProperty("root")]
-            public string Root { get; set; }
-
-            [JsonProperty("suffixes")]
-            [JsonConverter(typeof(DecodeArrayConverter))]
-            public long[] Suffixes { get; set; }
-        }
-
-        public partial class Languages
-        {
             [JsonProperty("por")]
             public string Por { get; set; }
-        }
 
-        public partial class Maps
-        {
-            [JsonProperty("googleMaps")]
-            public Uri GoogleMaps { get; set; }
+            [JsonProperty("eng")]
+            public string Eng { get; set; }
 
-            [JsonProperty("openStreetMaps")]
-            public Uri OpenStreetMaps { get; set; }
-        }
+            [JsonProperty("spa")]
+            public string Spa { get; set; }
 
-        public partial class Name
-        {
-            [JsonProperty("common")]
-            public string Common { get; set; }
+            [JsonProperty("ger")]
+            public string Ger { get; set; }
 
-            [JsonProperty("official")]
-            public string Official { get; set; }
+            [JsonProperty("rus")]
+            public string Rus { get; set; }
 
-            [JsonProperty("nativeName")]
-            public NativeName NativeName { get; set; }
-        }
+            [JsonProperty("jpn")]
+            public string Jpn { get; set; }
 
-        public partial class NativeName
-        {
-            [JsonProperty("por")]
-            public Translation Por { get; set; }
-        }
+            [JsonProperty("kor")]
+            public string Kor { get; set; }
 
-        public partial class Translation
-        {
-            [JsonProperty("official")]
-            public string Official { get; set; }
+            [JsonProperty("zho")]
+            public string Zho { get; set; }
 
-            [JsonProperty("common")]
-            public string Common { get; set; }
-        }
+            [JsonProperty("ara")]
+            public string Ara { get; set; }
 
-        public partial class PostalCode
-        {
-            [JsonProperty("format")]
-            public string Format { get; set; }
+            [JsonProperty("hin")]
+            public string Hin { get; set; }
 
-            [JsonProperty("regex")]
-            public string Regex { get; set; }
-        }
+            [JsonProperty("ben")]
+            public string Ben { get; set; }
 
-        public partial class Welcome
-        {
-            public static Welcome[] FromJson(string json) => JsonConvert.DeserializeObject<Welcome[]>(json, QuickType.Converter.Settings);
-        }
+            [JsonProperty("urd")]
+            public string Urd { get; set; }
 
-        public static class Serialize
-        {
-            public static string ToJson(this Welcome[] self) => JsonConvert.SerializeObject(self, QuickType.Converter.Settings);
-        }
+            [JsonProperty("tur")]
+            public string Tur { get; set; }
 
-        internal static class Converter
-        {
-            public static readonly JsonSerializerSettings Settings = new JsonSerializerSettings
-            {
-                MetadataPropertyHandling = MetadataPropertyHandling.Ignore,
-                DateParseHandling = DateParseHandling.None,
-                Converters =
-            {
-                new IsoDateTimeConverter { DateTimeStyles = DateTimeStyles.AssumeUniversal }
-            },
-            };
-        }
+            [JsonProperty("swe")]
+            public string Swe { get; set; }
 
-        internal class DecodeArrayConverter : JsonConverter
-        {
-            public override bool CanConvert(Type t) => t == typeof(long[]);
+            [JsonProperty("ukr")]
+            public string Ukr { get; set; }
 
-            public override object ReadJson(JsonReader reader, Type t, object existingValue, JsonSerializer serializer)
-            {
-                reader.Read();
-                var value = new List<long>();
-                while (reader.TokenType != JsonToken.EndArray)
-                {
-                    var converter = ParseStringConverter.Singleton;
-                    var arrayItem = (long)converter.ReadJson(reader, typeof(long), null, serializer);
-                    value.Add(arrayItem);
-                    reader.Read();
-                }
-                return value.ToArray();
-            }
+            [JsonProperty("nld")]
+            public string Nld { get; set; }
 
-            public override void WriteJson(JsonWriter writer, object untypedValue, JsonSerializer serializer)
-            {
-                var value = (long[])untypedValue;
-                writer.WriteStartArray();
-                foreach (var arrayItem in value)
-                {
-                    var converter = ParseStringConverter.Singleton;
-                    converter.WriteJson(writer, arrayItem, serializer);
-                }
-                writer.WriteEndArray();
-                return;
-            }
+            [JsonProperty("dan")]
+            public string Dan { get; set; }
 
-            public static readonly DecodeArrayConverter Singleton = new DecodeArrayConverter();
-        }
+            [JsonProperty("nor")]
+            public string Nor { get; set; }
 
-        internal class ParseStringConverter : JsonConverter
-        {
-            public override bool CanConvert(Type t) => t == typeof(long) || t == typeof(long?);
+            [JsonProperty("fin")]
+            public string Fin { get; set; }
 
-            public override object ReadJson(JsonReader reader, Type t, object existingValue, JsonSerializer serializer)
-            {
-                if (reader.TokenType == JsonToken.Null) return null;
-                var value = serializer.Deserialize<string>(reader);
-                long l;
-                if (Int64.TryParse(value, out l))
-                {
-                    return l;
-                }
-                throw new Exception("Cannot unmarshal type long");
-            }
+            [JsonProperty("pol")]
+            public string Pol { get; set; }
 
-            public override void WriteJson(JsonWriter writer, object untypedValue, JsonSerializer serializer)
-            {
-                if (untypedValue == null)
-                {
-                    serializer.Serialize(writer, null);
-                    return;
-                }
-                var value = (long)untypedValue;
-                serializer.Serialize(writer, value.ToString());
-                return;
-            }
+            [JsonProperty("hun")]
+            public string Hun { get; set; }
 
-            public static readonly ParseStringConverter Singleton = new ParseStringConverter();
-        }
+            [JsonProperty("gre")]
+            public string Gre { get; set; }
+
+            [JsonProperty("heb")]
+            public string Heb { get; set; }
+
+            [JsonProperty("tam")]
+            public string Tam { get; set; }
+
+            [JsonProperty("vie")]
+            public string Vie { get; set; }
+
+            [JsonProperty("tha")]
+            public string Tha { get; set; }
+
+            [JsonProperty("fil")]
+            public string Fil { get; set; }
+
+            [JsonProperty("aze")]
+            public string Aze { get; set; }
+
+            [JsonProperty("srp")]
+            public string Srp { get; set; }
+
+            [JsonProperty("bul")]
+            public string Bul { get; set; }
+
+            [JsonProperty("rom")]
+            public string Rom { get; set; }
+
+            [JsonProperty("cze")]
+            public string Cze { get; set; }
+
+            [JsonProperty("slk")]
+            public string Slk { get; set; }
+
+            [JsonProperty("hrv")]
+            public string Hrv { get; set; }
+
+            [JsonProperty("slo")]
+            public string Slo { get; set; }
+
+            [JsonProperty("lit")]
+            public string Lit { get; set; }
+
+            [JsonProperty("est")]
+            public string Est { get; set; }
+
+            [JsonProperty("lav")]
+            public string Lav { get; set; }
+
+            [JsonProperty("kaz")]
+            public string Kaz { get; set; }
+
+            [JsonProperty("tgl")]
+            public string Tgl { get; set; }
+
+            [JsonProperty("mlt")]
+            public string Mlt { get; set; }
+
+            [JsonProperty("isl")]
+            public string Isl { get; set; }
+
+            [JsonProperty("sin")]
+            public string Sin { get; set; }
+
+            [JsonProperty("prs")]
+            public string Prs { get; set; }
+
+            [JsonProperty("pus")]
+            public string Pus { get; set; }
+
+            [JsonProperty("amh")]
+            public string Amh { get; set; }
+
+            [JsonProperty("som")]
+            public string Som { get; set; }
+
+            [JsonProperty("nob")]
+            public string Nob { get; set; }
+
+            [JsonProperty("bos")]
+            public string Bos { get; set; }
+
+            [JsonProperty("mya")]
+            public string Mya { get; set; }
+
+            [JsonProperty("nep")]
+            public string Nep { get; set; }
+
+            [JsonProperty("uzb")]
+            public string Uzb { get; set; }
+
+            [JsonProperty("kur")]
+            public string Kur { get; set; }
+
+            [JsonProperty("tuk")]
+            public string Tuk { get; set; }
+
+            [JsonProperty("bel")]
+            public string Bel { get; set; }
+
+            [JsonProperty("kat")]
+            public string Kat { get; set; }
+
+            [JsonProperty("tgk")]
+            public string Tgk { get; set; }
+
+            [JsonProperty("lat")]
+            public string Lat { get; set; }
+
+            [JsonProperty("sqi")]
+            public string Sqi { get; set; }
+
+            [JsonProperty("fij")]
+            public string Fij { get; set; }
+
+            [JsonProperty("hye")]
+            public string Hye { get; set; }
+
+            [JsonProperty("lao")]
+            public string Lao { get; set; }
+
+            [JsonProperty("khm")]
+            public string Khm { get; set; }
+    }
+
+}
+
+    public partial class Name
+    {
+        [JsonProperty("common")]
+        public string Common { get; set; }
+
+        [JsonProperty("official")]
+        public string Official { get; set; }
+
+        [JsonProperty("nativeName")]
+        public NativeName NativeName { get; set; }
+    }
+
+    public partial class NativeName
+    {
+        [JsonProperty("por")]
+        public Translation Por { get; set; }
+    }
+
+    public partial class Translation
+    {
+        [JsonProperty("official")]
+        public string Official { get; set; }
+
+        [JsonProperty("common")]
+        public string Common { get; set; }
+    }
 }
 
 
