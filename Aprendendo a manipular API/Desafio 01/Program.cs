@@ -9,21 +9,37 @@ string name = Console.ReadLine();
 //executar busca de fronteira
 Api api = new Api();
 
-List<Country> country = await api.ConsultarFronteiras(name);
+Country country = await api.ConsultarFronteiras(name);
 //foreach com todas as siglas
 
-foreach (string sigla in country[0].Fronteiras)
+foreach (string sigla in country.Borders)
 {
     int i = 1;
-    List<Country> pais = await api.Fronteira(sigla);
+   Country pais = await api.Fronteira(sigla);
 
-    Console.WriteLine($"{pais[0].NomeOriginal}/{pais[0].NomeAmericano}");
-    foreach(string lingua in pais[0].Linguas)
+    if(pais.Name.NativeName == null)
     {
-        Console.WriteLine($"língua {i} - {lingua}");
+        Console.WriteLine("null");
+    }
+
+    Console.WriteLine("Nomes originais:");
+
+        foreach(var lingua in pais.Name.NativeName.Values)
+    {
+        Console.WriteLine($"{lingua.Common}");
+    };
+
+    Console.WriteLine("Nome americano:");
+
+    Console.WriteLine($"{pais.Name.Common}");
+
+
+    foreach (var lingua in pais.Languages)
+    {
+        Console.WriteLine($"língua {i} - {lingua.Value}");
         i++;
     }
-    Console.WriteLine($"População: {pais[0].Populacao}");
+    Console.WriteLine($"População: {pais.Population}");
 }
 
 

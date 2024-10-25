@@ -11,7 +11,7 @@ using RestSharp;
 
 namespace Desafio_01
 {
-    public partial class Country
+    public class Country
     {
         [JsonProperty("name")]
         public Name Name { get; set; }
@@ -20,10 +20,7 @@ namespace Desafio_01
         public string Cca3 { get; set; }
 
         [JsonProperty("languages")]
-        public Dictionary<string, string> languages { get; set; }
-
-        [JsonProperty("translations")]
-        public Dictionary<string, Translation> Translations { get; set; }
+        public Dictionary<string, string> Languages { get; set; }
 
         [JsonProperty("borders")]
         public string[] Borders { get; set; }
@@ -32,9 +29,7 @@ namespace Desafio_01
         public long Population { get; set; }
     }
 
-
-
-    public partial class Name
+    public class Name
     {
         [JsonProperty("common")]
         public string Common { get; set; }
@@ -43,16 +38,10 @@ namespace Desafio_01
         public string Official { get; set; }
 
         [JsonProperty("nativeName")]
-        public NativeName NativeName { get; set; }
+        public Dictionary<string, Linguagens> NativeName { get; set; } // Dicionário para idiomas variáveis
     }
 
-    public partial class NativeName
-    {
-        [JsonProperty("por")]
-        public Translation Por { get; set; }
-    }
-
-    public partial class Translation
+    public class Linguagens
     {
         [JsonProperty("official")]
         public string Official { get; set; }
