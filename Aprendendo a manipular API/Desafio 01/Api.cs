@@ -15,13 +15,13 @@ namespace Desafio_01
         public async Task<List<Country>> ConsultarFronteiras(string name)
         {
             var client = new RestClient("https://restcountries.com/v3.1");
-            var request = new RestRequest($"name/{name}", Method.Get);
+            var request = new RestRequest($"/name/{name}", Method.Get);
 
             var response = await client.ExecuteAsync(request);
 
             if (response.IsSuccessful)
             {
-
+                Console.WriteLine("Resposta da API: " + response.Content); // Adicione esta linha
                 var countries = JsonConvert.DeserializeObject<List<Country>>(response.Content);
                 return countries;
             }
@@ -34,7 +34,7 @@ namespace Desafio_01
         public async Task<List<Country>> Fronteira(string sigla)
         {
             var client = new RestClient("https://restcountries.com/v3.1");
-            var request = new RestRequest($"alpha/{sigla}", Method.Get);
+            var request = new RestRequest($"/alpha/{sigla}", Method.Get);
 
             var response = await client.ExecuteAsync(request);
 
