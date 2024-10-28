@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Consumindo Apis pelo Rest Sharp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Desafio 03")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8f4cab1fcdd655b2ff5ec3ccf17a544b93f2614")]
-[assembly: System.Reflection.AssemblyProductAttribute("Consumindo Apis pelo Rest Sharp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Consumindo Apis pelo Rest Sharp")]
+[assembly: System.Reflection.AssemblyProductAttribute("Desafio 03")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Desafio 03")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
