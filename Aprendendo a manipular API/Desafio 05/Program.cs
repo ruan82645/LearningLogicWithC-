@@ -9,8 +9,8 @@ Infos dados = await api.Request();
 
 foreach (var info in dados.data)
 {
+    Console.WriteLine(new string('-',30));
     Console.WriteLine(info.id);
     Console.WriteLine(info.name);
     Console.WriteLine(info.min_size.ToString("N6"));
 }
-
