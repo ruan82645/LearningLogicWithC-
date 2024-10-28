@@ -5,38 +5,29 @@
 using Desafio_03;
 
 int pagina = 1;
-string confirmacao = "";
+bool continuar = true;
 
-while (confirmacao != "não")
+while (continuar == true)
 {
     Api api = new Api();
     Formatar formatar = new Formatar();
+    confirmacao confirmar = new confirmacao();
 
-    List<Infos> Movies = await api.filmes(pagina);
+    Infos Movies = await api.filmes(pagina);
 
-    foreach (Infos Movie in Movies)
-    {
-        formatar.Exibir(Movie);
-    }
+        formatar.Exibir(Movies);
+
 
     Console.WriteLine();
-    Console.WriteLine("ir para a proxima página? (sim ou não?)");
-    confirmacao = Console.ReadLine();
+    bool proximaPagina = confirmar.Confirmar(continuar);
 
-    if(confirmacao.ToLower() == "sim" || confirmacao.ToLower() == "não")
+    if (proximaPagina)
     {
-        if (confirmacao == "sim")
-        {
-            pagina++;
-        }
-        if (confirmacao == "não")
-        {
-            break;
-        }
+        pagina++;
     }
     else
     {
-
+        continuar = false;
     }
     
 }

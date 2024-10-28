@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Desafio_03
 {
-    internal class Chamada_de_Api
+    internal class Api
     {
-        public async Task<List<Infos>> filmes(int pagina)
+        public async Task<Infos> filmes(int pagina)
         {
 
             RestClient client = new RestClient("https://api.themoviedb.org/3/");
@@ -21,7 +21,7 @@ namespace Desafio_03
 
             if (response.IsSuccessful)
             {
-                var popularMovies = JsonConvert.DeserializeObject<List<Infos>>(response.Content);
+                Infos popularMovies = JsonConvert.DeserializeObject<Infos>(response.Content);
                 return popularMovies;
             }
             else

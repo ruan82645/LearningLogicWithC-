@@ -12,7 +12,8 @@ namespace Desafio_03
         {
             Console.WriteLine($"Página: {popularMovies.Page}");
             Console.WriteLine("Filmes Populares:");
-
+            Console.WriteLine();
+            
             foreach (var filme in popularMovies.Results)
             {
                 Console.WriteLine($"Título: {filme.Title}");
