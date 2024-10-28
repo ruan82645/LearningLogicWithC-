@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ruanp\\source\\repos\\AprendendoDateTime\\Adicionando e Removendo tempo\\Adicionando e Removendo tempo.csproj": {}
+    "C:\\Users\\Ruan\\source\\repos\\AprendendoDateTime\\Adicionando e Removendo tempo\\Adicionando e Removendo tempo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ruanp\\source\\repos\\AprendendoDateTime\\Adicionando e Removendo tempo\\Adicionando e Removendo tempo.csproj": {
+    "C:\\Users\\Ruan\\source\\repos\\AprendendoDateTime\\Adicionando e Removendo tempo\\Adicionando e Removendo tempo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\AprendendoDateTime\\Adicionando e Removendo tempo\\Adicionando e Removendo tempo.csproj",
+        "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\AprendendoDateTime\\Adicionando e Removendo tempo\\Adicionando e Removendo tempo.csproj",
         "projectName": "Adicionando e Removendo tempo",
-        "projectPath": "C:\\Users\\ruanp\\source\\repos\\AprendendoDateTime\\Adicionando e Removendo tempo\\Adicionando e Removendo tempo.csproj",
-        "packagesPath": "C:\\Users\\ruanp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ruanp\\source\\repos\\AprendendoDateTime\\Adicionando e Removendo tempo\\obj\\",
+        "projectPath": "C:\\Users\\Ruan\\source\\repos\\AprendendoDateTime\\Adicionando e Removendo tempo\\Adicionando e Removendo tempo.csproj",
+        "packagesPath": "C:\\Users\\Ruan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ruan\\source\\repos\\AprendendoDateTime\\Adicionando e Removendo tempo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ruanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ruan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

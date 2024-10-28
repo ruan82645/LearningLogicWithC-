@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DateTime.Parse(string_para_DateTime)
-build_property.ProjectDir = C:\Users\ruanp\source\repos\AprendendoDateTime\ParsingDates\
+build_property.ProjectDir = C:\Users\Ruan\source\repos\AprendendoDateTime\ParsingDates\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

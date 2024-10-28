@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ruanp\\source\\repos\\AprendendoDateTime\\Comparando Datas\\Comparando Datas.csproj": {}
+    "C:\\Users\\Ruan\\source\\repos\\AprendendoDateTime\\Comparando Datas\\Comparando Datas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ruanp\\source\\repos\\AprendendoDateTime\\Comparando Datas\\Comparando Datas.csproj": {
+    "C:\\Users\\Ruan\\source\\repos\\AprendendoDateTime\\Comparando Datas\\Comparando Datas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\AprendendoDateTime\\Comparando Datas\\Comparando Datas.csproj",
+        "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\AprendendoDateTime\\Comparando Datas\\Comparando Datas.csproj",
         "projectName": "Comparando Datas",
-        "projectPath": "C:\\Users\\ruanp\\source\\repos\\AprendendoDateTime\\Comparando Datas\\Comparando Datas.csproj",
-        "packagesPath": "C:\\Users\\ruanp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ruanp\\source\\repos\\AprendendoDateTime\\Comparando Datas\\obj\\",
+        "projectPath": "C:\\Users\\Ruan\\source\\repos\\AprendendoDateTime\\Comparando Datas\\Comparando Datas.csproj",
+        "packagesPath": "C:\\Users\\Ruan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ruan\\source\\repos\\AprendendoDateTime\\Comparando Datas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ruanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ruan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
