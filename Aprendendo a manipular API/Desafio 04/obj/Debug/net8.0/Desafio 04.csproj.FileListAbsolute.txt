@@ -1,0 +1,19 @@
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\bin\Debug\net8.0\Desafio 04.exe
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\bin\Debug\net8.0\Desafio 04.deps.json
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\bin\Debug\net8.0\Desafio 04.runtimeconfig.json
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\bin\Debug\net8.0\Desafio 04.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\bin\Debug\net8.0\Desafio 04.pdb
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\bin\Debug\net8.0\RestSharp.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\obj\Debug\net8.0\Desafio 04.csproj.AssemblyReference.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\obj\Debug\net8.0\Desafio 04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\obj\Debug\net8.0\Desafio 04.AssemblyInfoInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\obj\Debug\net8.0\Desafio 04.AssemblyInfo.cs
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\obj\Debug\net8.0\Desafio 04.csproj.CoreCompileInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\obj\Debug\net8.0\Desafio 04.sourcelink.json
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\obj\Debug\net8.0\Desafio 04.csproj.Up2Date
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\obj\Debug\net8.0\Desafio 04.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\obj\Debug\net8.0\refint\Desafio 04.dll
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\obj\Debug\net8.0\Desafio 04.pdb
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\obj\Debug\net8.0\Desafio 04.genruntimeconfig.cache
+C:\Users\Ruan\source\repos\Aprendendo a manipular API\Desafio 04\obj\Debug\net8.0\ref\Desafio 04.dll

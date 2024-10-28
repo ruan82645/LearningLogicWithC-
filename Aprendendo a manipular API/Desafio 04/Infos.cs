@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Desafio_04
 {
-    internal class Infos
+    internal class Info
     {
+        public string ip {  get; set; }
     }
 }
