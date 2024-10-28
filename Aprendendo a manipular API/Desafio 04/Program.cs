@@ -13,10 +13,13 @@ int sleep = tempo.Segundos();
 Console.WriteLine("por quanto tempo quer rodar o programa? (em segundos)");
 int tempoDuracao = tempo.Segundos();
 DateTime duracao = DateTime.Now.AddMilliseconds(tempoDuracao);
+int i = 1;
 
 while (DateTime.Now < duracao)
 {
     string ip = await api.getIp();
     arquivo.Escrever(ip);
     Thread.Sleep(sleep);
+    Console.WriteLine(i);
+    i++;
 }
