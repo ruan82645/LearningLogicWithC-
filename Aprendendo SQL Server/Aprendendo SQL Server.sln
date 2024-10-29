@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aprendendo SQL Server", "Aprendendo SQL Server\Aprendendo SQL Server.csproj", "{DD0BE2D7-AECB-40D7-A2B0-63842F218951}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD0BE2D7-AECB-40D7-A2B0-63842F218951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0BE2D7-AECB-40D7-A2B0-63842F218951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0BE2D7-AECB-40D7-A2B0-63842F218951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0BE2D7-AECB-40D7-A2B0-63842F218951}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA9E1564-6FBA-483D-9B2E-413B35C642B0}
+	EndGlobalSection
+EndGlobal
