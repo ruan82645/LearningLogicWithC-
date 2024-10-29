@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("01 Aprendendo SQL Server")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("03 Tipagem no SQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28aae39b5f94c4aa52fb7c4fefba3975893c024e")]
-[assembly: System.Reflection.AssemblyProductAttribute("01 Aprendendo SQL Server")]
-[assembly: System.Reflection.AssemblyTitleAttribute("01 Aprendendo SQL Server")]
+[assembly: System.Reflection.AssemblyProductAttribute("03 Tipagem no SQL")]
+[assembly: System.Reflection.AssemblyTitleAttribute("03 Tipagem no SQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

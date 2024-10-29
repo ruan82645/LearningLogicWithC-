@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\ConsoleApp1\\02 Como cadstrar uma tabela.csproj",
-      "projectName": "02 Como cadstrar uma tabela",
-      "projectPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\ConsoleApp1\\02 Como cadstrar uma tabela.csproj",
+      "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\03 Tipagem no SQL\\03 Tipagem no SQL.csproj",
+      "projectName": "03 Tipagem no SQL",
+      "projectPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\03 Tipagem no SQL\\03 Tipagem no SQL.csproj",
       "packagesPath": "C:\\Users\\Ruan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\03 Tipagem no SQL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ruan\\AppData\\Roaming\\NuGet\\NuGet.Config",
