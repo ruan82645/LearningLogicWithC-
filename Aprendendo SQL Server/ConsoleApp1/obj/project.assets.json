@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Aprendendo SQL Server\\01 Aprendendo SQL Server.csproj",
-      "projectName": "01 Aprendendo SQL Server",
-      "projectPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Aprendendo SQL Server\\01 Aprendendo SQL Server.csproj",
+      "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Ruan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Aprendendo SQL Server\\obj\\",
+      "outputPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ruan\\AppData\\Roaming\\NuGet\\NuGet.Config",
