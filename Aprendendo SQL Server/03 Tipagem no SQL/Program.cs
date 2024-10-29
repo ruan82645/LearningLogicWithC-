@@ -22,3 +22,20 @@
 // Exemplo: DECIMAL(10, 2) pode armazenar 12345678.90
 // Nesse caso, o número não pode ter 11 ou 9 caracteres no total e nem ter 1 ou 3 casas decimais
 // tudo que entrar nesse campo deve ter exatamente 8 caracteres antes do ponto e 2 decimais depois do ponto
+
+
+// 2) Textos:
+
+// VARCHAR(x):
+// Armazena strings de comprimento variável com até x caracteres. Exemplo:
+// VARCHAR(50) para nomes.
+// posso ter nomes com comprimentos variados, mas até 50 caracteres
+
+// CHAR(x):
+// Armazena strings de comprimento fixo.
+// Por exemplo, CHAR(10) sempre armazena 10 caracteres (com espaços adicionais, se necessário).
+// Obrugatoriamente vai armazenar 10 caracteres de texto, não podendo ser menos e nem mais.
+
+// TEXT:
+// Armazena grandes quantidades de texto (até 2 GB).
+// Útil para descrições ou comentários longos.
