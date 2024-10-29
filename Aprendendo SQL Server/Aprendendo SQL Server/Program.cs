@@ -14,7 +14,22 @@
 // também há nome do pet, idade do pet, doenças anteriores, raça, e etc...
 // Agora imagine que esa planilha está organizada da seguinte forma:
 
-// | nomeDono |    email      | endereço |  profissão  | nomePet | idadePet | doençasAnteriores  |   raça   |
-//---------------------------------------------------------------------------------------------
-// | Larissa  | lri@gmail.com |  QE 40   | Professora  |  Oddie  | 12 anos  | problema de coluna | salsicha |
+// | nomeDono |    email      | endereço |  profissão  | nomePet | idadePet | doençasAnteriores  |   raça    |
+//------------------------------------------------------------------------------------------------------------
+// | Larissa  | lri@gmail.com | QE 40    | Professora  | Oddie   | 12 anos  | problema de coluna | salsicha  |
+// | Larissa  | lri@gmail.com | QE 40    | Professora  | Pipoca  | 04 anos  | trauma de chuva    | vira-lata |
+
+// Perceba que se a mesma pessoa tiver mais de um pet, toda vez irei repetir os dados do dono,
+// quando eu quiser adicionar um novo pet, terei que novamente colocar as informações do mesmo dono, etc
+// tornando totalmente impratico e de dificil manutenção
+
+// Agora imagine que existam duas páginas(abas) na mesma planilha, uma dessas, teria as informações de donos
+// enquanto na outra, somente dos pets
+// digamos que colocamos todos os dados de um cliente humano e demos um número único para ele, um "id".
+// nesse id vão estar todas as informações do dono, por exemplo:" id 032 | Larissa Ribeiro "
+// o id 032 vai ter: nome, email, endereço e profissão.
+// Agora quando adicionarmos um pet novo, não precisamos repetir todas as informações do dono
+// podemos apenas colocar o id do dono ali, então vamos saber que aquele pet pertence a tal dono
+
+// Dessa forma, o cliente seria cadastrado uma unica vez, sem repetições bobas, vou mostrar em exemplo
 
