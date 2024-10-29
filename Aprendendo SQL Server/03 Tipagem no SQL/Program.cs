@@ -26,7 +26,7 @@
 
 // 2) Textos:
 
-// VARCHAR(x):
+// string = VARCHAR(x):
 // Armazena strings de comprimento variável com até x caracteres. Exemplo:
 // VARCHAR(50) para nomes.
 // posso ter nomes com comprimentos variados, mas até 50 caracteres
@@ -39,3 +39,28 @@
 // TEXT:
 // Armazena grandes quantidades de texto (até 2 GB).
 // Útil para descrições ou comentários longos.
+
+
+// 3) Booleanos
+
+// BIT:
+// Armazena valores booleanos (0 para falso e 1 para verdadeiro ou true e false também).
+// Pode ser usado para indicar status (ex: Ativo/Inativo).
+
+// 4) Datas e Horas:
+
+// DATE:
+// Armazena datas(sem hora).
+// Exemplo: 2024 - 10 - 29.
+
+// TIME: Armazena hora(sem data).
+// Exemplo: 14:30:00.
+
+// DATETIME:
+// Armazena data e hora combinadas.
+// Exemplo: 2024 - 10 - 29 14:30:00.
+
+// TIMESTAMP:
+// Semelhante ao DATETIME, mas também pode incluir informações sobre o fuso horário.
+// Útil quando seu servidor depender de alguma coisa que varie conforme usuarios de outro fuso acessem
+// digamos que a pessoa cadastrou o aniversario dela. uma mensagem pode aparecer para ela na hora do nascimento
