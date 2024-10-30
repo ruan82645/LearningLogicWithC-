@@ -60,6 +60,7 @@ Nesse Módulo, vamos entender melhor o que é, quais funções, modos de uso e p
                     se voce sabe que as coisas escritas lá não são reservadas, pode escrever sem eles!!!
                        (imagem de referencia: https://postimg.cc/ppKs2SZk)
 
+
          Aspas Simples: No Sql, além de strings serem representadas por aspas simples e não duplas, ela também tem outro uso.
                         se após o select, antes ou depois de selecionar uma coluna real, colocarmos algo dentro de aspas simples,
                         como uma palavra ou um nome. Será formada uma nova coluna apenas com aquilo que escreveu repetidamente.
@@ -68,6 +69,7 @@ Nesse Módulo, vamos entender melhor o que é, quais funções, modos de uso e p
                         e forme uma ao lado chamada sobrenome com a palavra "Alves" em cada linha!)
                            (imagem de referencia: https://postimg.cc/0zMWTN4M)   
                            (imagem de referencia: https://postimg.cc/CnxJmMDK)   
+
 
          Unir dois campos: As vezes queremos unir dois campos em um único, como por exemplo nome e sobrenome,
                            idade e ano de nascimento, função do trabalho e data de contratação, etc...
@@ -106,10 +108,10 @@ Nesse Módulo, vamos entender melhor o que é, quais funções, modos de uso e p
               e mais alguma coisa, usamos o and normalmente como se escrevessemos na vida real (where isso and aquilo)
                  (imagem para referencia: https://postimg.cc/TpYVKjzM)
 
+
          OR: Também sendo bem auto explicativo, o "or" substitui o "||" dentro do SQL, tranzendo multiplas informações-
              com base no seu filtro
                 (imagem para referencia: https://postimg.cc/Ln1HBGKz)
-
                 
 
          Condições Booleanas: O Where pode ser usado como um if para criar uma verificação que diz se a condição é true ou false
@@ -125,8 +127,29 @@ Nesse Módulo, vamos entender melhor o que é, quais funções, modos de uso e p
                                  (imagem para referencia: https://postimg.cc/Ty20Jqb6)
 
 
-                    
-        
+         BETWEEN: O Between serve para filtrar dados que estejam entre um determinado filtro colocado.
+                  Ele não retorna apenas resultados númericos, mas também podemos usa-lo para Datas e strings,
+                  embora strings, ele sempre separe por ordem alfabética. Mas como funciona? Para usa ele-
+                  escrevemos o Where, então a coluna de onde queremos puxar os dados, aí colocamos o Between
+                  seguido de onde queremos o resultado até onde queremos(usando o and no meio deles)
+                  "where Clinte_ID between 7 and 15"
+                     (imagem para referencia: https://postimg.cc/06mWVd5X)
+
+
+          Like: Like é usado para fazer pesquisas de acordo com um padrão que você vai estabelecer em uma-
+                coluna de texto, ela serve para pesquisar por uma palavra em especifico, se o texto
+                começa com certos caracteres, se termina com certos caracteres, se tem certos caracteres no meio do texto...
+                (where Nomes_Cliente like 'Janderson') "traga as informações de quem se chamar Janderson".
+                        Like é comumente acompanhado de operadores como "%" e "_" e vou explicar para que serve cada um desses.
+                "%" significa "qualquer tipo de texto", e dependendo de onde você o coloca dentro do padrão, significa uma coisa,
+                se colocado antes da plavra de pesquisa, como: (like '%gmail.com') vai significar "...@gmail.com", ele traz-
+                quem terminar com aquela palavra ou caracter, mas se colocarmos no final por exemplo: (like 'rib%'), ele traz-
+                quem começar com rib, sem se importar com vem depois. Também podemos usar em ambas as pontas-
+                ou fazer diversas combinações: (like '%ado%'), (like 'tec%vivo%ando'), esses são exemplos onde o primeiro-
+                deve ter "ado" no meio da palavra, enquanto o outro deve conter "tec,vivo,ando" dentro da plavra.
+                        "_" representa um unico caracter, pode ser qualquer um, mas apenas um por "_", então se eu coloco:
+                (like '61 9________') ele vai me trazer quem começa com "61 9", mas quem tem exatos 8 digitos após
+                              
                               
 
 
