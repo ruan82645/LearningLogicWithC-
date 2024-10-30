@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("01 Aprendendo SQL Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28aae39b5f94c4aa52fb7c4fefba3975893c024e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+165a0518ad119480ada68e32b829962ab20cf20e")]
 [assembly: System.Reflection.AssemblyProductAttribute("01 Aprendendo SQL Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("01 Aprendendo SQL Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

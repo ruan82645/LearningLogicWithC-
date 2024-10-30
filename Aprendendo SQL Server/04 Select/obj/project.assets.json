@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\ConsoleApp1\\02 Como cadastrar uma tabela.csproj",
-      "projectName": "02 Como cadastrar uma tabela",
-      "projectPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\ConsoleApp1\\02 Como cadastrar uma tabela.csproj",
+      "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\04 Select\\04 Select.csproj",
+      "projectName": "04 Select",
+      "projectPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\04 Select\\04 Select.csproj",
       "packagesPath": "C:\\Users\\Ruan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\04 Select\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ruan\\AppData\\Roaming\\NuGet\\NuGet.Config",

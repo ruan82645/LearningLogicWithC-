@@ -60,3 +60,4 @@
 // cada estoque tem um id, cada loja tem ids diferentes que podem ser determinada cidade, tamanho, etc
 
 // para cada coisa, podemos ter varios ids, que nos ajudam a conectar tópicos diferentes de uma forma mais fácil e organizada
+
