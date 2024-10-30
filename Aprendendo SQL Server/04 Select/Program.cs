@@ -101,6 +101,16 @@ Nesse Módulo, vamos entender melhor o que é, quais funções, modos de uso e p
  A cláusula WHERE é usada para filtrar os resultados com base em condições.
  Somente os registros que atendem à condição especificada serão incluídos no resultado.
  O que digitamos após o where é o que desejamos recebeber daquela coluna, daquela tabela.
+                            
+         AND: Como seu proprio nome já diz: "e". Ele é o substituto do "&" aqui em SQL, quando queremos nos referir a algo
+              e mais alguma coisa, usamos o and normalmente como se escrevessemos na vida real (where isso and aquilo)
+                 (imagem para referencia: https://postimg.cc/TpYVKjzM)
+
+         OR: Também sendo bem auto explicativo, o "or" substitui o "||" dentro do SQL, tranzendo multiplas informações-
+             com base no seu filtro
+                (imagem para referencia: https://postimg.cc/Ln1HBGKz)
+
+                
 
          Condições Booleanas: O Where pode ser usado como um if para criar uma verificação que diz se a condição é true ou false
                               Mas como isso acontece? Como dito antes aqui, podemos fazer coisas como: "Where idade = 15", ou
@@ -113,7 +123,10 @@ Nesse Módulo, vamos entender melhor o que é, quais funções, modos de uso e p
                               dentro de um parente e um "and" fora, dessa forma ele verifica se uma das condições é true,
                               se ela for, aí sim ele verifica se "and" bate, se sim, vai trazer o resultado.
                                  (imagem para referencia: https://postimg.cc/Ty20Jqb6)
+
+
                     
+        
                               
 
 
