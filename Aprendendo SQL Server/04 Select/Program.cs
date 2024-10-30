@@ -51,21 +51,31 @@
 
 // Vamos nos lembrar ao menos da sintaxe simples do Select, que seria " *Select* blabla *from* blabla *where* blabla = blabla " 
 
-// TABELAS:
+// CAMPOS (COLUNAS):
 
 //         Colchetes: muitas vezes veremos nomes de tabelas ou campos entre colchetes, isso não é obrigatório.
 //                    É uma forma do SQL separar um possivel nome reservado pelo sistema do nome que está lá.
 //                    Imagine que "name" já está reservado, se voce usar o "select name" daria erro, pois a palavra está reservada,
 //                    agora se usassemos "select [name]", daria certo. Mas lembrando, não é uma obrigação,
 //                    se voce sabe que as coisas escritas lá não são reservadas, pode escrever sem eles!!!
-//                    imagem de referencia: https://postimg.cc/ppKs2SZk
+//                    (imagem de referencia: https://postimg.cc/ppKs2SZk)
 
-//     Aspas Simples: No Sql, além de strings serem representadas por aspas simples e não duplas, ela também tem outro uso.
-//                    se após o select, antes ou depois de selecionar uma coluna real, colocarmos algo dentro de aspas simples,
-//                    como uma palavra ou um nome. Será formada uma nova coluna apenas com aquilo que escreveu repetidamente.
-//                    também podemos nomear essa coluna colocando "as nomeColuna".
-//                    Ou seja... "Select [nomes], 'Alves' as sobrenomes from..." (isso quer dizer, selecione a coluna nomes-
-//                    e forme uma ao lado chamada sobrenome com a palavra "Alves" em cada linha
-                        
+//         Aspas Simples: No Sql, além de strings serem representadas por aspas simples e não duplas, ela também tem outro uso.
+//                        se após o select, antes ou depois de selecionar uma coluna real, colocarmos algo dentro de aspas simples,
+//                        como uma palavra ou um nome. Será formada uma nova coluna apenas com aquilo que escreveu repetidamente.
+//                        também podemos nomear essa coluna colocando "as nomeColuna".
+//                        Ou seja... "Select [nomes], 'Alves' as sobrenomes from..." (isso quer dizer, selecione a coluna nomes-
+//                        e forme uma ao lado chamada sobrenome com a palavra "Alves" em cada linha!)
+//                        (imagem de referencia: https://postimg.cc/0zMWTN4M)   
+//                        (imagem de referencia: https://postimg.cc/CnxJmMDK)   
+
+//         Unir dois campos: As vezes queremos unir dois campos em um único, como por exemplo nome e sobrenome,
+//                           idade e ano de nascimento, função do trabalho e data de contratação, etc...
+//                           Se quisermos pegar esses dois e formar um campo novo onde duas informações se encontrem juntas,
+//                           podemos fazer da seguinte forma: após o select para selecionar a coluna, abrimos parenteses e-
+//                           concatenamos os nomes das duas colunas com um +, por exemplo: (nome + ' ' + sobrenome).
+//                           a concatenação é igual das outras linguagens, colocamos vazio para espaço e tudo mais...
+//                           Após isso, se quisermos, podemos nomear essa nova coluna com um "as nomeColuna"
+//                           (imagem de referencia: https://postimg.cc/7JJ9pssv)
 
 
