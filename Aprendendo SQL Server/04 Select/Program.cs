@@ -79,7 +79,7 @@ Nesse Módulo, vamos entender melhor o que é, quais funções, modos de uso e p
                               (imagem de referencia: https://postimg.cc/7JJ9pssv)
 
 
-TABELAS:
+ TABELAS:
 
          Apelidos: imagine uma pesquisa onde tenhamos que filtrar MUITOS dados, isso geraria uma pesquisa longa
                    com muitas linhas, e muitas delas estariam se referenciando a uma tabela, outras à outras tabelas,
@@ -96,6 +96,25 @@ TABELAS:
                       (imagem de referencia: https://postimg.cc/3WDgQbCR)
                       (imagem de referencia: https://postimg.cc/CzGkzB2p)
 
+ WHERE:
+
+ A cláusula WHERE é usada para filtrar os resultados com base em condições.
+ Somente os registros que atendem à condição especificada serão incluídos no resultado.
+ O que digitamos após o where é o que desejamos recebeber daquela coluna, daquela tabela.
+
+         Condições Booleanas: O Where pode ser usado como um if para criar uma verificação que diz se a condição é true ou false
+                              Mas como isso acontece? Como dito antes aqui, podemos fazer coisas como: "Where idade = 15", ou
+                              "Where cargo = gerente". Quer dizer que ele só me tratá os resultados da pessoa que tiver 15 anos,
+                              ou no outro caso, só vai me trazer o resultado de quem for gerente. Mas eu posso unir ambas!
+                              Diferente das outras linguagens que usamos "|| e &", aqui nós escrevemos "or e and".
+                              Se eu escrever "Where idade > 35 and cargo = gerente", os resultados que forem true, vão vir,
+                              e pronto, essa é minha lista de possiveis novos diretores. Mas e se eu quiser misturar or e and?
+                              Podemos fazer isso separando as verificações, colocando por exemplo uma verificação "or"-
+                              dentro de um parente e um "and" fora, dessa forma ele verifica se uma das condições é true,
+                              se ela for, aí sim ele verifica se "and" bate, se sim, vai trazer o resultado.
+                                 (imagem para referencia: https://postimg.cc/Ty20Jqb6)
+                    
+                              
 
 
 */
