@@ -136,20 +136,48 @@ Nesse Módulo, vamos entender melhor o que é, quais funções, modos de uso e p
                      (imagem para referencia: https://postimg.cc/06mWVd5X)
 
 
-          Like: Like é usado para fazer pesquisas de acordo com um padrão que você vai estabelecer em uma-
-                coluna de texto, ela serve para pesquisar por uma palavra em especifico, se o texto
-                começa com certos caracteres, se termina com certos caracteres, se tem certos caracteres no meio do texto...
-                (where Nomes_Cliente like 'Janderson') "traga as informações de quem se chamar Janderson".
-                        Like é comumente acompanhado de operadores como "%" e "_" e vou explicar para que serve cada um desses.
-                "%" significa "qualquer tipo de texto", e dependendo de onde você o coloca dentro do padrão, significa uma coisa,
-                se colocado antes da plavra de pesquisa, como: (like '%gmail.com') vai significar "...@gmail.com", ele traz-
-                quem terminar com aquela palavra ou caracter, mas se colocarmos no final por exemplo: (like 'rib%'), ele traz-
-                quem começar com rib, sem se importar com vem depois. Também podemos usar em ambas as pontas-
-                ou fazer diversas combinações: (like '%ado%'), (like 'tec%vivo%ando'), esses são exemplos onde o primeiro-
-                deve ter "ado" no meio da palavra, enquanto o outro deve conter "tec,vivo,ando" dentro da plavra.
-                        "_" representa um unico caracter, pode ser qualquer um, mas apenas um por "_", então se eu coloco:
-                (like '61 9________') ele vai me trazer quem começa com "61 9", mas quem tem exatos 8 digitos após
-                              
+         Like: Like é usado para fazer pesquisas de acordo com um padrão que você vai estabelecer em uma-
+               coluna de texto, ela serve para pesquisar por uma palavra em especifico, se o texto
+               começa com certos caracteres, se termina com certos caracteres, se tem certos caracteres no meio do texto...
+               (where Nomes_Cliente like 'Janderson') "traga as informações de quem se chamar Janderson".
+               Like é comumente acompanhado de operadores como "%" e "_" e vou explicar para que serve cada um desses.
+                  https://postimg.cc/w1bMwL4N
+                       "%" significa "qualquer texto", e dependendo de onde você o coloca dentro do padrão, significa uma coisa.
+               Se colocado antes da plavra de pesquisa, como: (like '%gmail.com') vai significar "...@gmail.com", ele traz-
+               quem terminar com aquela palavra ou caracter, mas se colocarmos no final por exemplo: (like 'rib%'), ele traz-
+               quem começar com rib, sem se importar com vem depois. Também podemos usar em ambas as pontas-
+               ou fazer diversas combinações: (like '%ado%'), (like 'tec%vivo%ando'), esses são exemplos onde o primeiro-
+               deve ter "ado" no meio da palavra, enquanto o outro deve conter "tec,vivo,ando" dentro da plavra.
+                  https://postimg.cc/crSn3RP4
+                  https://postimg.cc/yD63QVVM
+                  https://postimg.cc/QF69vRCH
+                       "_" representa um unico caracter, pode ser qualquer um, mas apenas um por "_", então se eu coloco:
+               (like '61 9________') ele vai me trazer quem começa com "61 9", mas quem tem exatos 8 digitos após
+                  https://postimg.cc/nMZmjKyV
+                  https://postimg.cc/LYv8ZPPh
+                  https://postimg.cc/ZvRKPqPH
+                   
+            
+         IS, IS NOT: Esse operador simples e tem basicamente um unico uso... retornar dados onde uma coluna seja nula ou não.
+                     Imagine a tebela de clientes de sempre, nessa tabela, existem clientes que deixaram o telefone em branco
+                     e você deseja mandar um email para todas essas pessoas que não preencheram esse dado, pedindo para colocarem.
+                     Quando vamos solicitar os dados, verificamos quem é nulo ou não é nulo e ele nos traz os clientes certos.
+                     por exemplo (where telefones is null), ou (where telefone is not null)
+                        https://postimg.cc/Z9bRYj9X
+                        https://postimg.cc/t1BgsPWJ
+
+        
+         ORDER BY: O operador ORDER BY é utilizado para ordenar os resultados de uma consulta SQL. 
+                   Ele é normalmente usado após aplicar filtros com outros operadores, como o List, =, is, etc.
+                   Por exemplo, se você estiver filtrando nomes que começam com a letra "B", 
+                    você pode usar ORDER BY para organizar esses resultados selecionando uma coluna específica, 
+                    como o nome ou a data. 
+                    Você pode escolher se deseja que a ordenação seja em ordem crescente ou decrescente.
+                    (where idade > 35 order by Nome desc) - aqui nesse exemplo, ele traz todos maiores de 35 anos,
+                    depois disso eu escolhi a coluna Nome como referencia e usei o order by para listar todos em decrescente.
+                    (where idade > 35 order by Nome) - a mesma coisa, porem vai ser em ordem crescente(alfabetica)
+                       https://postimg.cc/ZBm1zDCy
+                       https://postimg.cc/WF7xN6kY
                               
 
 
