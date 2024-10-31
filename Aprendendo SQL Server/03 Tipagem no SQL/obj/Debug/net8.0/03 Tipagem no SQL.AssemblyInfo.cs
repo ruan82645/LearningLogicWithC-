@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("03 Tipagem no SQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+165a0518ad119480ada68e32b829962ab20cf20e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+062ad96658ee6731d05b933c1c03b5900343ec58")]
 [assembly: System.Reflection.AssemblyProductAttribute("03 Tipagem no SQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("03 Tipagem no SQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
