@@ -90,5 +90,48 @@ e retorna esse número
     na proxima ele vai pensar "ok, agora eu conto todo mundo que tiver loja_id = 2 nessa tabela..."
 
 -------------------------------------------------------------------------------------------------------------------------
+INNER JOIN:
+
+Ok... Eu sei que explicação de Count foi longa e chata, mas você precisava entender o conceito de iteração no sql
+e de como cada tabela as vezes tem um id em comum com outra tabela, e que com isso podemos usar as duas para calcular coisas
+
+Mas... E se por acaso quisessemos calcular o total de vendas de cada loja, a soma do dinheiro mesmo,
+e o id da tabela de referencia que voce está usando não tem na tabela onde mostra as vendas?
+
+vamos voltar novamente para o exemplos das Lojas... A tabela lojas tem loja_id, assim como a tabela pedidos também tem,
+é assim que identificamos de onde vem cada um, 
+porém essa tabela pedidos, mostra apenas: a data, o cliente, o id da loja e o id dos itens do pedido?
+os valores não estão lá, na verdade em cada pedido temos um id que leva para outra tabela,
+e lá sim tem o preço do que foi pedido?
+
+concorda comigo que a tabela Lojas leva para a tabela pedidos e pedidos leva para a tabela itens do pedido?
+
+eu quero calcular o quanto foi vendido em cada loja, pra isso eu preciso do campo de valores de itens do pedido,
+mas itens do pedido não tem loja_id, então não posso fazer aquele filtro onde o id atual é igual ao que está sendo procurado
+
+pra resolver isso, eu teria que ligar os dados da tabela pedidos aos dados da tabela itens do pedido,
+eu preciso transformar elas em um, pois assim, eu teria o loja_id na mesma tabela onde tenho o preço de cada pedido
+
+É pra isso que temos o INNER JOIN, ele serve para unir duas tabelas para que tenhamos todos os dados em uma unica,
+para usar ele, precisamos escolher quem desejamos unir a tabela da conta atual e dizer o que amobs tem em comum
+
+digamos que as duas tabelas tenham "pedido_id", é isso que elas tem em comum, o id de uma é igual o id da outra
+
+Sua estrutura é (""contaMatematica(...)" from "tabela1" inner join "tabela2" on "tabela1".id_igual = "tabela2".id_igual")
+
+com base nisso, vamos fazer então a união de ambas e fazer a soma de cada loja
+
+("Select id_loja,nome_loja,
+       (select soma(price) from Detalhes_pedido
+        inner join Pedido on Detalhes_pedido.id_pedido = Pedido.id_pedido
+        where pedido.id_loja = Lojas.id_loja) as total vendido
+From Lojas)
+
+"Selecione a soma dos preços na tabela 'Detalhes_pedido', 
+onde o 'id' da loja na tabela 'Pedido' corresponda ao 'id' da loja na tabela 'Lojas' que estamos analisando no momento."
+--------------------------------------------------------------------------------------------------------------------------
+
+
+
 
  */
