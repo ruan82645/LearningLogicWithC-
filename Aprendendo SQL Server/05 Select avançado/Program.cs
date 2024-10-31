@@ -55,20 +55,40 @@ se apenas executassemos essa subquery, ele exibiria o mesmo resultado para todas
 afinal, não dissemos que na primeira contagem ele conte os pedidos da loja 1, na segunda ele conte a da loja 2...
 
 Antes de mostrar como podemos usar um filtro assim, precisamos entender como o SQL se comporta ao trazer os dados para nós.
+quando selecionamos quais campos desejamos trazer de uma tabela, o Sql faz como um foreach,
+para cada tabela, vou trazer esses resultados e tudo relacionado a ele... 
+Então primeiro ele executa e traz os dados da linha 1,
+depois ele executa de novo e traz os dados da linha 2 e assim por diante até acabar. 
+Concorda comigo que se a cada "iteração", a linha é sobre uma loja diferente(um produto diferente)
+o id desse produto atual var ser diferente a cada iteração? 
 
+primeira iteração:
+         | id_loja = 1 | loja_nome = carrefour | local_loja = Brasilia |
+segunda iteração:
+         | id_loja = 2 | loja_nome = Pão de açucar | local_loja = São Paulo |
 
+Se a cada iteração o id muda, e a outra tabela que usamos o count também possui id_loja para se conectarem,
+concorda que podemos aplicar um filtro para fazer ele contar +1 a cada vez que a venda atual-
+tiver o mesmo id da loja que está iterando no momento?
 
+ele agora estaria iterando sobre a loja com id-1, então ele pegaria e contaria todos que tivessem o id-1 e passaria a bola,
+depois estaria iterando sobre a loja com id-2, então ele pegaria e contaria todos que tivessem o id-2
 
+Ok, e como eu faria isso em código? 
 
-Inner join serve para unir as informações de duas planilhas através de algo que as duas tenham em comum.
-Mas pra que isso e como assim algo em comum?
+"Select 
+Loja_id,
+Loja_nome,
+    (select count(*) from pedidos where pedidos.Loja_id = Lojas.Loja_id) as pedidos_por_Loja
+From
+   Lojas"
 
-Digamos que para fazer uma conta de somar qual o valor total vendido de uma unica loja, nós precisamos de uma lista-
-onde tenha o valor de cada pedido, certo? 
+    a tabela pedido tem o Loja_id para sabermos de qual loja veio cada pedido, e agora pensa comigo:
+na primeira iteração, estamos passando pelo Lojas.Loja_id que é 1 no momento,
+quando chega no count lá na tabela pedidos, ele olha e pensa, "vou contar só quem tiver loja_id = 1 nessa tabela..."
+e retorna esse número
+    na proxima ele vai pensar "ok, agora eu conto todo mundo que tiver loja_id = 2 nessa tabela..."
 
-
-
-
-
+-------------------------------------------------------------------------------------------------------------------------
 
  */
