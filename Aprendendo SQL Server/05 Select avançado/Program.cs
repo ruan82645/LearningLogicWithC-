@@ -130,8 +130,40 @@ From Lojas)
 "Selecione a soma dos preços na tabela 'Detalhes_pedido', 
 onde o 'id' da loja na tabela 'Pedido' corresponda ao 'id' da loja na tabela 'Lojas' que estamos analisando no momento."
 --------------------------------------------------------------------------------------------------------------------------
+AGORA SIM, OPERADORES DE CALCULO!!
 
+todos os operadores que vou mostrar, tem exatamente a mesma sintaxe, então se entendermos suas estruturas,
+vamos saber utilizar todos eles sem problema algum!
 
+Eles são: 
 
+SUM()-soma,
+AVG()-média,
+MAX()-maior valor,
+MIN()-menor valor
+
+Como usar eles? em uma SubQuery, selecionamos o operador matemático e qual coluna vamos calcular, depois de onde vem essa coluna
+ --- Select Sum(preço) from pedidos 
+Após isso, podemos aplicar filtros normalmente, usar o inner join, where, o que quisermos e dar nome para a tabela gerada
+
+| Preço  | n_pedido | id_pedido | id_loja |  |   traga a soma do valor de cada loja, a média de valor de cada uma,
+-------------------------------------------  |   maior valor e menor valor de cada uma
+| 450,00 | pedido 1 |     1     |    2    |  |
+| 200,00 | pedido 2 |     2     |    1    |  | Select id_loja, nome_loja
+| 10,50  | pedido 3 |     3     |    2    |  |    (select sum(preço) from pedido where pedido.id_loja = lojas.id_loja) as soma,
+| 320,00 | pedido 1 |     4     |    2    |  |    (select avg(preço) from pedido where pedido.id_loja = lojas.id_loja) as media,
+| 300,00 | pedido 2 |     5     |    3    |  |    (select max(preço) from pedido where pedido.id_loja = lojas.id_loja) as maior,
+| 17,80  | pedido 3 |     6     |    1    |  |    (select min(preço) from pedido where pedido.id_loja = lojas.id_loja) as menor
+| 450,00 | pedido 1 |     7     |    3    |  | From Lojas
+| 200,00 | pedido 2 |     8     |    2    |  |    
+| 16,50  | pedido 3 |     9     |    1    |  |    RESULTADO:
+
+                                                 | id_loja | nome_loja | soma   | media  | maior  | menor  |
+                                                 ------------------------------------------------------
+                                                 |    1    | Brasilia  | 227,00 | 75,67  | 200,00 | 10,50  |
+                                                 |    2    | São Paulo | 770,00 | 385,00 | 450,00 | 320,00 |
+                                                 |    3    | Tocantins | 917,80 | 305,93 | 450,00 | 17,80  |
+                                                 
+                                               
 
  */
