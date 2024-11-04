@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("04 Select Basico")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9867e1f02a0605e76074dfee97a77dc73627bb5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3e7919619da53457386103cc0f5b428b96497e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("04 Select Basico")]
 [assembly: System.Reflection.AssemblyTitleAttribute("04 Select Basico")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

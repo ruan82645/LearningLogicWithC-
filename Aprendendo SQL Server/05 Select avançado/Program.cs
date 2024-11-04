@@ -206,7 +206,7 @@ From clientes         ---- Errado (Ordem do agrupamento está diferente do selec
 Group by cidade, nome")
 
 
-Isso significa que para cada tipo de nome, terei uma coluna diferente
+Quando usamos o Group by significa que para cada tipo de nome, terei uma coluna diferente
 
 "Select nome, cidade 
 From clientes
