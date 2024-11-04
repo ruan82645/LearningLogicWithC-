@@ -175,6 +175,53 @@ isso significa que serão exibidos para cada estado seu numero de pedidos especi
 Mais um exemplo que posso dar... Separar por sexo por exemplo; Você quer saber informações sobre pessoas de mesmo sexo,
 então podemos usar group by para agrupar os dados por sexo, então todas as informações estariam separadas por sexo.
 
+Group by é aplicado após de onde vem os campo originais, ou seja, vem depois de declarar de qual tabela puxamos as informações,
+também após os Joins caso necessários. E para usarmos devemos escrever após ele por quais campos devemos agrupar, e sempre-
+na mesma ordem de como foram declarados quais campos seriam exibidos na consulta.
+Como assim???? Quando usamos o select pela primeira vez, decidimos quais campos vão aparecer na consulta... por exemplo;
+
+("Select nome, cidade
+From clientes")
+
+agora quando vamos agrupar, decidimos quais desses campos citados queremos usar para fazer o agrupamento,
+podendo ser um ou mais dependendo de qual resultado você quer atingir. Nesse caso, digamos que eu queira agrupar apenas por nome-
+nesse caso, vou colocar no Group By apenas nome, mas se eu quiser ambos os dois? nome e cidade? No Group by, vou colocar os dois,
+mas sempre na mesma ordem que digitou lá no inicio
+
+
+("Select nome, cidade
+From clientes         ---- CERTO
+Group by nome")
+
+("Select nome, cidade
+From clientes         ---- CERTO
+Group by cidade")
+
+("Select nome, cidade
+From clientes         ---- CERTO
+Group by nome, cidade")
+
+("Select nome, cidade
+From clientes         ---- Errado (Ordem do agrupamento está diferente do select, deveria ser "nome, cidade" e não "cidade, nome")
+Group by cidade, nome")
+
+
+Isso significa que para cada tipo de nome, terei uma coluna diferente
+
+"Select nome, cidade 
+From clientes
+Group By nome 
+
+antonio | guará
+ruan    | guará
+Larissa | guará
+Sulses  | samambaia
+Antonio | samambaia
+
+Se eu tiver 3 nomes iguais nesse exemplo, e 2 forem de uma mesma cidade e um de cidade diferente, vão haver duas colunas.
+Observe o Antionio, se tivessem 20 antonios que moram no guará, eles estariam todos na primeira linha, e se houvessem-
+5 Antonio que moram em samambaia, estariam todos juntos na ultima linha
+
 
 
                                                
