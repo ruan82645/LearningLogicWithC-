@@ -113,7 +113,9 @@ pra resolver isso, eu teria que ligar os dados da tabela pedidos aos dados da ta
 eu preciso transformar elas em um, pois assim, eu teria o loja_id na mesma tabela onde tenho o preço de cada pedido
 
 É pra isso que temos o INNER JOIN, ele serve para unir duas tabelas para que tenhamos todos os dados em uma unica,
-para usar ele, precisamos escolher quem desejamos unir a tabela da conta atual e dizer o que amobs tem em comum
+para usar ele, precisamos escolher quem desejamos unir a tabela da conta atual e dizer o que ambos tem em comum.
+Lembrando que ele sempre deve estar depois da estrutura From de alguma tabela
+("From "tabela5" inner join...")
 
 digamos que as duas tabelas tenham "pedido_id", é isso que elas tem em comum, o id de uma é igual o id da outra
 
@@ -164,6 +166,17 @@ Após isso, podemos aplicar filtros normalmente, usar o inner join, where, o que
                                                  |    2    | São Paulo | 770,00 | 385,00 | 450,00 | 320,00 |
                                                  |    3    | Tocantins | 917,80 | 305,93 | 450,00 | 17,80  |
                                                  
+
+------------------------------------------------------------------------------------------------------------------------
+GROUP BY
+
+Group by serve para agrupar resultados a partir de um campo selecionado, por exemplo: "agrupar numero de pedidos por estado",
+isso significa que serão exibidos para cada estado seu numero de pedidos especifico.
+Mais um exemplo que posso dar... Separar por sexo por exemplo; Você quer saber informações sobre pessoas de mesmo sexo,
+então podemos usar group by para agrupar os dados por sexo, então todas as informações estariam separadas por sexo.
+
+
+
                                                
 
  */

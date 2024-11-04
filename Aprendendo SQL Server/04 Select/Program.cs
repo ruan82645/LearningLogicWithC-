@@ -1,4 +1,8 @@
 ﻿/*
+ 
+
+// SELECT BÁSICO
+
 Nesse Módulo, vamos entender melhor o que é, quais funções, modos de uso e por existe o Select.
  E uma novidade que coloquei, imagens para ajudar na compreensão!! Abra os links para ver as imagens
 
@@ -50,7 +54,7 @@ Nesse Módulo, vamos entender melhor o que é, quais funções, modos de uso e p
  ESTRUTURA SIMPLES:
 
  Vamos nos lembrar ao menos da sintaxe simples do Select, que seria " *Select* blabla *from* blabla *where* blabla = blabla " 
-
+-------------------------------------------------------
  CAMPOS (COLUNAS):
 
          Colchetes: muitas vezes veremos nomes de tabelas ou campos entre colchetes, isso não é obrigatório.
@@ -80,7 +84,7 @@ Nesse Módulo, vamos entender melhor o que é, quais funções, modos de uso e p
                            Após isso, se quisermos, podemos nomear essa nova coluna com um "as nomeColuna"
                               (imagem de referencia: https://postimg.cc/7JJ9pssv)
 
-
+-------------------------------------------------------
  TABELAS:
 
          Apelidos: imagine uma pesquisa onde tenhamos que filtrar MUITOS dados, isso geraria uma pesquisa longa
@@ -98,6 +102,7 @@ Nesse Módulo, vamos entender melhor o que é, quais funções, modos de uso e p
                       (imagem de referencia: https://postimg.cc/3WDgQbCR)
                       (imagem de referencia: https://postimg.cc/CzGkzB2p)
 
+-------------------------------------------------------
  WHERE:
 
  A cláusula WHERE é usada para filtrar os resultados com base em condições.
@@ -169,6 +174,7 @@ Nesse Módulo, vamos entender melhor o que é, quais funções, modos de uso e p
         
          ORDER BY: O operador ORDER BY é utilizado para ordenar os resultados de uma consulta SQL. 
                    Ele é normalmente usado após aplicar filtros com outros operadores, como o List, =, is, etc.
+                   Ele vai sempre no final da consulta que acabou de ser feita, sendo a ultima linha
                    Por exemplo, se você estiver filtrando nomes que começam com a letra "B", 
                     você pode usar ORDER BY para organizar esses resultados selecionando uma coluna específica, 
                     como o nome ou a data. 

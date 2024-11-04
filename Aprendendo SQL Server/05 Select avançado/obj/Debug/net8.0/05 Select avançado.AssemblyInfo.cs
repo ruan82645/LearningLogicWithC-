@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("05 Select avançado")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("05 Select Avançado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+062ad96658ee6731d05b933c1c03b5900343ec58")]
-[assembly: System.Reflection.AssemblyProductAttribute("05 Select avançado")]
-[assembly: System.Reflection.AssemblyTitleAttribute("05 Select avançado")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9867e1f02a0605e76074dfee97a77dc73627bb5a")]
+[assembly: System.Reflection.AssemblyProductAttribute("05 Select Avançado")]
+[assembly: System.Reflection.AssemblyTitleAttribute("05 Select Avançado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

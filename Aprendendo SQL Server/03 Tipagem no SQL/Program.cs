@@ -17,11 +17,10 @@
 // Exemplo: 3.14, -0.001.
 
 // DECIMAL(p, s):
-// Armazena números decimais com precisão fixa, onde "p" é o número total de dígitos dentro do campo
+// Armazena números decimais, onde "p" é o número total de dígitos que pode estar dentro do campo
 // e "s" é o número de dígitos à direita do ponto decimal, a quantidade de decimais obrigatoria
-// Exemplo: DECIMAL(10, 2) pode armazenar 12345678.90
-// Nesse caso, o número não pode ter 11 ou 9 caracteres no total e nem ter 1 ou 3 casas decimais
-// tudo que entrar nesse campo deve ter exatamente 8 caracteres antes do ponto e 2 decimais depois do ponto
+// Exemplo: DECIMAL(10, 2) pode armazenar 12345678.90 ou 123.80
+// Nesse caso, o número não pode ter 11 caracteres no total, mas pode ter menos.
 
 
 // 2) Textos:
