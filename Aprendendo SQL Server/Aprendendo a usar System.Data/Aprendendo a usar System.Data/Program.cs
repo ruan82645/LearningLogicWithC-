@@ -61,4 +61,18 @@
 
 // Lembrando que passei os comandos mais básicos para conexão e para exibição de dados, podemos fazer muito mais
 // e faremos muito mais aqui, desde exibir, inserir, deletar, editar. Tentar aplicar isso em um pequeno programa de verdade-
-// onde realmente terá funções para o usuário,
+// onde realmente terá funções para o usuário.
+
+
+// Ah sim, esse é o código completo para poder analisar:
+
+using (SqlConnection conection = new SqlConnection("Data Source=.; Initial Catalog=Banco_Teste; User ID=ruan;password=ruan82645; MultipleActiveResultSets=True; TrustServerCertificate=True"))
+{
+    conection.Open();
+    SqlCommand command = new SqlCommand("Select * from Clientes", conection);
+    SqlDataReader columns = command.ExecuteReader();
+    while (columns.Read())
+    {
+        Console.WriteLine(columns["Nome"]);
+    }
+}
