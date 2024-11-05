@@ -1,0 +1,23 @@
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\bin\Debug\net8.0\09 Conectando SQL ao C#.exe
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\bin\Debug\net8.0\09 Conectando SQL ao C#.deps.json
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\bin\Debug\net8.0\09 Conectando SQL ao C#.runtimeconfig.json
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\bin\Debug\net8.0\09 Conectando SQL ao C#.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\bin\Debug\net8.0\09 Conectando SQL ao C#.pdb
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\obj\Debug\net8.0\09 Conectando SQL ao C#.csproj.AssemblyReference.cache
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\obj\Debug\net8.0\09 Conectando SQL ao C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\obj\Debug\net8.0\09 Conectando SQL ao C#.AssemblyInfoInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\obj\Debug\net8.0\09 Conectando SQL ao C#.AssemblyInfo.cs
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\obj\Debug\net8.0\09 Conectando SQL ao C#.csproj.CoreCompileInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\obj\Debug\net8.0\09 Conectando SQL ao C#.sourcelink.json
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\obj\Debug\net8.0\09 Conec.33CB764A.Up2Date
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\obj\Debug\net8.0\09 Conectando SQL ao C#.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\obj\Debug\net8.0\refint\09 Conectando SQL ao C#.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\obj\Debug\net8.0\09 Conectando SQL ao C#.pdb
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\obj\Debug\net8.0\09 Conectando SQL ao C#.genruntimeconfig.cache
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\09 Conectando SQL ao C#\obj\Debug\net8.0\ref\09 Conectando SQL ao C#.dll

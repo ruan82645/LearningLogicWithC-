@@ -3,3 +3,4 @@ C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo SQL Server\obj\Debug
 C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo SQL Server\obj\Debug\net8.0\01 Aprendendo SQL Server.AssemblyInfo.cs
 C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo SQL Server\obj\Debug\net8.0\01 Aprendendo SQL Server.csproj.CoreCompileInputs.cache
 C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo SQL Server\obj\Debug\net8.0\01 Aprendendo SQL Server.sourcelink.json
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo SQL Server\obj\Debug\net8.0\01 Aprendendo SQL Server.csproj.AssemblyReference.cache
