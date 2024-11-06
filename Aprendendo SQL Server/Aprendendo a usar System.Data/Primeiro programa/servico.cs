@@ -29,5 +29,20 @@ namespace Primeiro_programa
 
             return dataset;
         }
+
+        public int atualizar(string query)
+        {
+            string database = "Data Source=.; Initial Catalog=Banco_Teste; User ID=ruan;password=ruan82645; MultipleActiveResultSets=True; TrustServerCertificate=True";
+
+            SqlConnection conection = new SqlConnection(database);
+
+            conection.Open();
+
+            SqlCommand command = new SqlCommand(query, conection);
+
+            int atualizado = command.ExecuteNonQuery();
+
+            return atualizado;
+        }
     }
 }
