@@ -3,44 +3,37 @@ using Primeiro_programa;
 using System.Data;
 using System.Data.Sql;
 
-servico data = new servico();
+Exibicao data = new Exibicao();
+Selecao selecao = new Selecao();
 
 
 Console.WriteLine("O que deseja fazer?");
 Console.WriteLine("Exibir ou editar alguma tabela?");
-Console.WriteLine("digite 'exibir' ou 'editar'");
 
-Console.WriteLine("Opção inválida");
+string selecao1 = selecao.Verificacao();
 
-for (int i = 3; i == 1; i--)
+if(selecao1 == "exibir")
 {
-    Console.WriteLine(i + "...");
-    Thread.Sleep(1000);
-    Console.Clear();
+    var infos = data.ExibirTabelas();
+
+    for(int i = 0; i < infos.Tables[0].Rows.Count; i++)
+    {
+        string tableName = infos.Tables[0].Rows[i]["TABLE_NAME"].ToString();
+
+        Console.WriteLine($"{tableName} - [{i}]");
+    }
+
+    
 }
 
-
-string selecao1 = Console.ReadLine();
-
-if(selecao1.ToLower() == "exibir")
-{
-
-}
-else if(selecao1.ToLower() == "editar")
-{
-
-}
-else
-{
-    Console.WriteLine("Opção inválida");
-}
+Console.ReadKey();
 
 string query = "select * from Clientes";
-DataSet table = data.Exibir(query);
+DataSet table = data.ExibirCampos(query);
 
 foreach (DataRow column in table.Tables[0].Rows)
 {
-    Console.WriteLine($@"{column["nome"]} - {column["email"]}");  
+    Console.WriteLine($@"{column["nome"]} - {column["email"]}");
 }
 
 

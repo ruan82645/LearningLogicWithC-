@@ -9,9 +9,9 @@ using System.Data.SqlClient;
 
 namespace Primeiro_programa
 {
-    public class servico
+    public class Exibicao
     {
-        public DataSet Exibir(string query)
+        public DataSet ExibirCampos(string query)
         {
             DataSet dataset = new DataSet();
 
@@ -30,9 +30,13 @@ namespace Primeiro_programa
             return dataset;
         }
 
-        public int atualizar(string query)
+        public DataSet ExibirTabelas()
         {
+            DataSet dataset = new DataSet();
+
             string database = "Data Source=.; Initial Catalog=Banco_Teste; User ID=ruan;password=ruan82645; MultipleActiveResultSets=True; TrustServerCertificate=True";
+
+            string query = "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE'";
 
             SqlConnection conection = new SqlConnection(database);
 
@@ -40,9 +44,12 @@ namespace Primeiro_programa
 
             SqlCommand command = new SqlCommand(query, conection);
 
-            int atualizado = command.ExecuteNonQuery();
+            SqlDataAdapter adapter = new SqlDataAdapter(command);
 
-            return atualizado;
+            adapter.Fill(dataset, "tabela1");
+
+            return dataset;
         }
+
     }
 }
