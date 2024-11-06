@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -27,6 +29,34 @@ namespace Primeiro_programa
                     Console.Clear();
                 }
                 return Verificacao();
+            }
+        }
+        //---------------------------------------------------------
+        public int SelecaoIndex(DataSet tabela)
+        {
+            Console.WriteLine("\nselecione um índice");
+            string numero = Console.ReadLine();
+
+            int index;
+            bool sucesso = int.TryParse(numero, out index);
+
+            if (sucesso)
+            {
+                if (index > tabela.Tables[0].Rows.Count)
+                {
+                    Console.WriteLine("índice diferente do que está na lista");
+                    return SelecaoIndex(tabela);
+                }
+                else
+                {
+                    return index;
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("apenas números são aceitos");
+                return SelecaoIndex(tabela);
             }
         }
     }
