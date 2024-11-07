@@ -86,7 +86,7 @@ namespace Primeiro_programa
             }
         }
 
-    public DataSet ExibirColunas(string nomeTabela)
+    public DataSet BuscarDadosDasColunas(string nomeTabela)
         {
             DataSet dataset = new DataSet();
 

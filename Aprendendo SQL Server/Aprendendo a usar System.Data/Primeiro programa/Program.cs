@@ -20,16 +20,37 @@ if (selecao1 == "exibir")
 }
 else if (selecao1 == "editar")
 {
-    var infos = data.TrazerColunaComNomeDasTabelas();
-    data.ExibirOsNomesDasTabelas();
+    string nomeTabela = data.ConjuntoDeAcoesParaExibicaoQueRetornaNomeDaTabela();
 
-    int index = selecao.SelecaoIndex(infos);
+    Console.WriteLine("O que deseja fazer?");
+    Console.WriteLine("*editar* registro, *inserir* novo registro, *deletar* registro");
+    Console.WriteLine("digite uma das palavras chave");
 
-    string tabelaEscolhida = $"{infos.Tables[0].Rows[index]["TABLE_NAME"].ToString()}";
+    string selecaoEdicao = selecao.VerificacaoDeEdicao();
 
-    DataSet campos = data.BuscarCampos($"select * from {tabelaEscolhida}");
+    if (selecaoEdicao == "editar")
+    {
+        Console.WriteLine("De quem é o id que deseja editar?");
+        int id = selecao.VerificacaoNumeral();
 
+        Console.WriteLine("digite os dados separados por virgula");
+        DataSet colunas = data.BuscarDadosDasColunas(nomeTabela);
+        Console.WriteLine(colunas.Tables[0].Rows.Count.ToString());
+        Console.ReadKey();
 
+    }
+    else if (selecaoEdicao == "inserir")
+    {
+
+    }
+    else if(selecaoEdicao == "deletar")
+    {
+
+    }
+    else
+    {
+
+    }
 }
 
 Console.ReadKey();

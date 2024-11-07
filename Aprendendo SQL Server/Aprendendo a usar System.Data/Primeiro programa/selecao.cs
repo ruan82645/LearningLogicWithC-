@@ -80,5 +80,24 @@ namespace Primeiro_programa
                 return Verificacao();
             }
         }
+        //-------------------------------------------------------------
+        public int VerificacaoNumeral()
+        {
+            Console.WriteLine("\nselecione um número");
+            string numero = Console.ReadLine();
+
+            int number;
+            bool sucesso = int.TryParse(numero, out number);
+
+            if (sucesso)
+            {
+                return number;
+            }
+            else
+            {
+                Console.WriteLine("apenas números são aceitos");
+                return VerificacaoNumeral();
+            }
+        }
     }
 }
