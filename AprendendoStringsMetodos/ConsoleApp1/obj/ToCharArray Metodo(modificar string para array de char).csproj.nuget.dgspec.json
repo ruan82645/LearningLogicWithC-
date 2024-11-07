@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ruanp\\source\\repos\\AprendendoStringsMetodos\\ConsoleApp1\\ToCharArray Metodo(modificar string para array de char).csproj": {}
+    "C:\\Users\\Ruan\\source\\repos\\AprendendoStringsMetodos\\ConsoleApp1\\ToCharArray Metodo(modificar string para array de char).csproj": {}
   },
   "projects": {
-    "C:\\Users\\ruanp\\source\\repos\\AprendendoStringsMetodos\\ConsoleApp1\\ToCharArray Metodo(modificar string para array de char).csproj": {
+    "C:\\Users\\Ruan\\source\\repos\\AprendendoStringsMetodos\\ConsoleApp1\\ToCharArray Metodo(modificar string para array de char).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ruanp\\source\\repos\\AprendendoStringsMetodos\\ConsoleApp1\\ToCharArray Metodo(modificar string para array de char).csproj",
+        "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\AprendendoStringsMetodos\\ConsoleApp1\\ToCharArray Metodo(modificar string para array de char).csproj",
         "projectName": "ToCharArray Metodo(modificar string para array de char)",
-        "projectPath": "C:\\Users\\ruanp\\source\\repos\\AprendendoStringsMetodos\\ConsoleApp1\\ToCharArray Metodo(modificar string para array de char).csproj",
-        "packagesPath": "C:\\Users\\ruanp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ruanp\\source\\repos\\AprendendoStringsMetodos\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\Ruan\\source\\repos\\AprendendoStringsMetodos\\ConsoleApp1\\ToCharArray Metodo(modificar string para array de char).csproj",
+        "packagesPath": "C:\\Users\\Ruan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ruan\\source\\repos\\AprendendoStringsMetodos\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ruanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ruan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

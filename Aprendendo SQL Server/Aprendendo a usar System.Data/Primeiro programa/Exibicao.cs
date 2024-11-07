@@ -11,7 +11,7 @@ namespace Primeiro_programa
 {
     public class Exibicao
     {
-        public DataSet ExibirCampos(string query)
+        public DataSet BuscarCampos(string query)
         {
             DataSet dataset = new DataSet();
 
@@ -30,7 +30,31 @@ namespace Primeiro_programa
             return dataset;
         }
 
-        public DataSet ExibirTabelas()
+        public void ExibirCampos(string tabelaNome)
+        {
+            var campos = BuscarCampos($"Select * from {tabelaNome}");
+            var tabela = campos.Tables[0];
+
+            foreach (DataRow row in tabela.Rows)
+            {
+                foreach (DataColumn column in tabela.Columns)
+                {
+                    if (row[column] == DBNull.Value)
+                    {
+                        Console.Write($"vazio - ");
+                    }
+                    else
+                    {
+                        var tipo = new Tipagem();
+                        Console.Write($"{row[column]} - ");
+                    }
+
+                }
+                Console.WriteLine();
+            }
+        }
+
+        public DataSet TrazerColunaComNomeDasTabelas()
         {
             DataSet dataset = new DataSet();
 
@@ -46,12 +70,24 @@ namespace Primeiro_programa
 
             SqlDataAdapter adapter = new SqlDataAdapter(command);
 
-            adapter.Fill(dataset, "tabela1");
+            adapter.Fill(dataset, "tabelas");
 
             return dataset;
         }
 
-        public DataSet ExibirColunas(string nomeTabela)
+        public void ExibirOsNomesDasTabelas()
+        {
+            var infos = TrazerColunaComNomeDasTabelas();
+
+            for (int i = 0; i < infos.Tables[0].Rows.Count; i++)
+            {
+                string tableName = infos.Tables[0].Rows[i]["TABLE_NAME"].ToString();
+
+                Console.WriteLine($"{tableName} - [{i}]");
+            }
+        }
+
+    public DataSet ExibirColunas(string nomeTabela)
         {
             DataSet dataset = new DataSet();
 

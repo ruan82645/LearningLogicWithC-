@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ToCharArray_Metodo(modificar_string_para_array_de_char)
-build_property.ProjectDir = C:\Users\ruanp\source\repos\AprendendoStringsMetodos\ConsoleApp1\
+build_property.ProjectDir = C:\Users\Ruan\source\repos\AprendendoStringsMetodos\ConsoleApp1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

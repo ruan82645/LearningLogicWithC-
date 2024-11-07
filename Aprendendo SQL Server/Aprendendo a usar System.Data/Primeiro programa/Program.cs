@@ -1,10 +1,12 @@
 ﻿
 using Primeiro_programa;
 using System.Data;
+using System.Data.Common;
 using System.Data.Sql;
 
 Exibicao data = new Exibicao();
 Selecao selecao = new Selecao();
+Tipagem tipagem = new Tipagem();    
 
 
 Console.WriteLine("O que deseja fazer?");
@@ -14,33 +16,38 @@ string selecao1 = selecao.Verificacao();
 
 if (selecao1 == "exibir")
 {
-    var infos = data.BuscarTabelas();
-    var tabela = infos.Tables[0];
+    var infos = data.TrazerColunaComNomeDasTabelas();
+    data.ExibirOsNomesDasTabelas();
+    //-------------------------------------------------
+    int index = selecao.SelecaoIndex(infos);
 
-    data.ExibirTabelas();
+    string tabelaEscolhida = $"{infos.Tables[0].Rows[index]["TABLE_NAME"].ToString()}";
 
-    Console.WriteLine("\nselecione o indice de quem quer exibir");
+    DataSet campos = data.BuscarCampos($"select * from {tabelaEscolhida}");
 
-    int index;
-
-    string numero = Console.ReadLine();
-
-    bool sucesso = int.TryParse(numero, out index);
-
-    if (sucesso)
+    foreach (DataRow row in campos.Tables[0].Rows)
     {
-        if (index > infos.Tables[0].Rows.Count)
+        foreach (DataColumn column in campos.Tables[0].Columns)
         {
-            Console.WriteLine("ERRO");
-        }
-        else
-        {
-            data.ExibirCampos(tabela.Rows[index]["TABLE_NAME"].ToString());
-        }
+            if (row[column] == DBNull.Value)
+            {
+                int m = tipagem.Padding(column);
+                Console.Write($"vazio".PadRight(m) + "- ");
+            }
+            else
+            {
+                int m = tipagem.Padding(column);
+                Console.Write($"{row[column]}".PadRight(m) + "- ");
+            }
 
+        }
+        Console.WriteLine();
     }
-    Console.ReadKey();
 }
+
+
+
+
 
 
 
