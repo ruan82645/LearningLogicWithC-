@@ -6,7 +6,7 @@ using System.Data.Sql;
 
 Exibicao data = new Exibicao();
 Selecao selecao = new Selecao();
-Tipagem tipagem = new Tipagem();    
+//Tipagem tipagem = new Tipagem();    
 
 
 Console.WriteLine("O que deseja fazer?");
@@ -31,18 +31,19 @@ if (selecao1 == "exibir")
         {
             if (row[column] == DBNull.Value)
             {
-                int m = tipagem.Padding(column);
-                Console.Write($"vazio".PadRight(m) + "- ");
+                //int m = tipagem.Padding(column, tabelaEscolhida);
+                Console.Write($"vazio");
             }
             else
             {
-                int m = tipagem.Padding(column);
-                Console.Write($"{row[column]}".PadRight(m) + "- ");
+                //int m = tipagem.Padding(column, tabelaEscolhida);
+                Console.Write($"{row[column]}");
             }
 
         }
         Console.WriteLine();
     }
+    Console.ReadKey();
 }
 
 

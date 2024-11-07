@@ -44,8 +44,7 @@ namespace Primeiro_programa
                         Console.Write($"vazio - ");
                     }
                     else
-                    {
-                        var tipo = new Tipagem();
+                    {   
                         Console.Write($"{row[column]} - ");
                     }
 
