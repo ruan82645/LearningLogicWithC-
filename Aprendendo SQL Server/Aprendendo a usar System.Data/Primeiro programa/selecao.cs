@@ -59,5 +59,26 @@ namespace Primeiro_programa
                 return SelecaoIndex(tabela);
             }
         }
+        //-----------------------------------------------------------
+        public string VerificacaoDeEdicao()
+        {
+            string selecao1 = Console.ReadLine().ToLower();
+
+            if (selecao1 == "editar" || selecao1 == "inserir" || selecao1 == "deletar")
+            {
+                return selecao1.ToLower();
+            }
+            else
+            {
+                Console.WriteLine("Opção inválida");
+                for (int i = 3; i > 0; i--)
+                {
+                    Console.WriteLine(i + "...");
+                    Thread.Sleep(1000);
+                    Console.Clear();
+                }
+                return Verificacao();
+            }
+        }
     }
 }
