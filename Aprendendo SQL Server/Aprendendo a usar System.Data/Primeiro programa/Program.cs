@@ -17,7 +17,7 @@ string selecao1 = selecao.Verificacao();
 
 if (selecao1 == "exibir")
 {
-    data.ConjuntoDeAcoesParaExibicao();
+    data.ConjuntoDeAcoesParaExibicao(); 
 }
 else if (selecao1 == "editar")
 {
@@ -74,7 +74,7 @@ else if (selecao1 == "editar")
         Conexao con = new Conexao();
         var conn = con.Connection();
 
-        
+   
         SqlDataAdapter columnAdapter = new SqlDataAdapter($"SELECT COLUMN_NAME, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '{nomeTabela}'", conn);
         DataTable columnsTable = new DataTable();
         columnAdapter.Fill(columnsTable);
@@ -95,7 +95,6 @@ else if (selecao1 == "editar")
         }
         Console.WriteLine();
 
-        
         var valoresParaPassar = new List<SqlParameter>();
         foreach (var (Name, DataType) in inserirColunas)
         {
@@ -123,27 +122,40 @@ else if (selecao1 == "editar")
                     break;
             }
 
-            
+           
+            valoresParaPassar.Add(new SqlParameter($"@{Name}", convertedValue));
+        }
 
-    } 
-else if (selecaoEdicao == "deletar")
-{
+       
+        string insertQuery = $"INSERT INTO {nomeTabela} ({string.Join(", ", inserirColunas.Select(c => c.Name))}) " +
+                             $"VALUES ({string.Join(", ", inserirColunas.Select(c => $"@{c.Name}"))})";
 
-    Console.WriteLine("De quem é o id que deseja deletar o registro?");
-    int id = selecao.VerificacaoNumeral();
+        using (SqlCommand command = new SqlCommand(insertQuery, conn))
+        {
+            command.Parameters.AddRange(valoresParaPassar.ToArray());
+            command.ExecuteNonQuery();
+            Console.WriteLine("Novo registro inserido com sucesso!");
 
-    DataSet coluna = data.BuscarDadosDasColunas(nomeTabela);
+        }
+    }
+    else if (selecaoEdicao == "deletar")
+    {
 
-    Conexao con = new Conexao();
-    var connection = con.Connection();
+        Console.WriteLine("De quem é o id que deseja deletar o registro?");
+        int id = selecao.VerificacaoNumeral();
 
-    SqlCommand Command = new SqlCommand($"delete from {nomeTabela} where {coluna.Tables[0].Rows[0]["COLUMN_NAME"].ToString()} = {id}", connection);
-    Command.ExecuteNonQuery();
-}
-else
-{
+        DataSet coluna = data.BuscarDadosDasColunas(nomeTabela);
 
-}
+        Conexao con = new Conexao();
+        var connection = con.Connection();
+
+        SqlCommand Command = new SqlCommand($"delete from {nomeTabela} where {coluna.Tables[0].Rows[0]["COLUMN_NAME"].ToString()} = {id}", connection);
+        Command.ExecuteNonQuery();
+    }
+    else
+    {
+
+    }
 }
 
 Console.ReadKey();
