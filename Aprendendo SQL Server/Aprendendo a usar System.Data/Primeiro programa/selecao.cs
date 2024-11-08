@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Linq;
 using System.Reflection.Emit;
@@ -98,6 +99,32 @@ namespace Primeiro_programa
                 Console.WriteLine("apenas números são aceitos");
                 return VerificacaoNumeral();
             }
+        }
+
+        //-------------------------------------------------------------
+
+        public object ConverterTipo(string input, string TypeOfColumn)
+        {
+            object convertedValue;
+            switch (TypeOfColumn.ToLower())
+            {
+                case "int":
+                    convertedValue = int.Parse(input);
+                    break;
+                case "decimal":
+                    convertedValue = decimal.Parse(input);
+                    break;
+                case "datetime":
+                    convertedValue = DateTime.Parse(input);
+                    break;
+                case "string":
+                    convertedValue = $"'{input}'";
+                    break;
+                default:
+                    convertedValue = input;
+                    break;
+            }
+            return convertedValue;
         }
     }
 }

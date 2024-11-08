@@ -50,19 +50,7 @@ else if (selecao1 == "editar")
 
         string[] alteracoes = alteracao.Split(',');
 
-        int i = 0;
-        foreach (string campo in colunas.Tables[0].Rows)
-        {
-            if (!(campo.Contains("id")) || !(campo.Contains("Id")))
-            {
-
-                foreach (var alts in alteracoes)
-                {
-                    string query = $@"uptade {nomeTabela} set {campo} = '{alts[i]}'";
-                }
-            }
-
-        }
+       
 
 
         Console.WriteLine();
@@ -101,26 +89,8 @@ else if (selecao1 == "editar")
             Console.Write($"Insira o valor para '{Name}' ({DataType}): ");
             string input = Console.ReadLine();
 
-            
-            object convertedValue;
-            switch (DataType.ToLower())
-            {
-                case "int":
-                    convertedValue = int.Parse(input);
-                    break;
-                case "decimal":
-                    convertedValue = decimal.Parse(input);
-                    break;
-                case "datetime":
-                    convertedValue = DateTime.Parse(input);
-                    break;
-                case "string":
-                    convertedValue = $"'{input}'";
-                    break;
-                default:
-                    convertedValue = input;
-                    break;
-            }
+
+            object convertedValue = selecao.ConverterTipo(input, DataType);
 
            
             valoresParaPassar.Add(new SqlParameter($"@{Name}", convertedValue));
