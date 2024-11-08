@@ -3,6 +3,7 @@ using Primeiro_programa;
 using System.Data;
 using System.Data.Common;
 using System.Data.Sql;
+using System.Data.SqlClient;
 
 Exibicao data = new Exibicao();
 Selecao selecao = new Selecao();
@@ -35,17 +36,57 @@ else if (selecao1 == "editar")
 
         Console.WriteLine("digite os dados separados por virgula");
         DataSet colunas = data.BuscarDadosDasColunas(nomeTabela);
-        Console.WriteLine(colunas.Tables[0].Rows.Count.ToString());
-        Console.ReadKey();
+
+        foreach (DataRow campo in colunas.Tables[0].Rows)
+        {
+            if (!(campo.ItemArray[0].ToString().Contains("id"))  )
+            {
+                Console.Write($"{campo.ItemArray[0].ToString()},");
+            }
+           
+        }
+
+        string alteracao = Console.ReadLine();
+
+        string[] alteracoes = alteracao.Split(',');
+
+        int i = 0;
+        foreach (string campo in colunas.Tables[0].Rows)
+        {
+            if (!(campo.Contains("id")) || !(campo.Contains("Id")))
+            {
+                
+                foreach (var alts in alteracoes)
+                {
+                    string query = $@"uptade {nomeTabela} set {campo} = '{alts[i]}'";
+                }
+            }
+              
+        }
+        
+
+        Console.WriteLine();
+
 
     }
     else if (selecaoEdicao == "inserir")
     {
+        
 
     }
     else if(selecaoEdicao == "deletar")
     {
 
+        Console.WriteLine("De quem é o id que deseja deletar o registro?");
+        int id = selecao.VerificacaoNumeral();
+
+        DataSet coluna = data.BuscarDadosDasColunas(nomeTabela);
+
+        Conexao con = new Conexao();
+        var connection = con.Connection();
+
+        SqlCommand Command = new SqlCommand($"delete from {nomeTabela} where {coluna.Tables[0].Rows[0]["COLUMN_NAME"].ToString()} = {id}", connection);
+        Command.ExecuteNonQuery();
     }
     else
     {
