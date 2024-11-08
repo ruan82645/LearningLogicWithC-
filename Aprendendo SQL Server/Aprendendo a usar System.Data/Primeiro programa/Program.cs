@@ -17,7 +17,7 @@ string selecao1 = selecao.Verificacao();
 
 if (selecao1 == "exibir")
 {
-    data.ConjuntoDeAcoesParaExibicao(); 
+    data.ConjuntoDeAcoesParaExibicao();
 }
 else if (selecao1 == "editar")
 {
@@ -39,11 +39,11 @@ else if (selecao1 == "editar")
 
         foreach (DataRow campo in colunas.Tables[0].Rows)
         {
-            if (!(campo.ItemArray[0].ToString().Contains("id"))  )
+            if (!(campo.ItemArray[0].ToString().Contains("id")))
             {
                 Console.Write($"{campo.ItemArray[0].ToString()},");
             }
-           
+
         }
 
         string alteracao = Console.ReadLine();
@@ -55,15 +55,15 @@ else if (selecao1 == "editar")
         {
             if (!(campo.Contains("id")) || !(campo.Contains("Id")))
             {
-                
+
                 foreach (var alts in alteracoes)
                 {
                     string query = $@"uptade {nomeTabela} set {campo} = '{alts[i]}'";
                 }
             }
-              
+
         }
-        
+
 
         Console.WriteLine();
 
@@ -74,90 +74,76 @@ else if (selecao1 == "editar")
         Conexao con = new Conexao();
         var conn = con.Connection();
 
-        DataSet dataSet = new DataSet();
-
-            SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM INFORMATION_SCHEMA.TABLES", conn);
-            adapter.Fill(dataSet, "Tabelas");
-
-            // Carregar os metadados das colunas da tabela escolhida
-            SqlDataAdapter columnAdapter = new SqlDataAdapter($"SELECT COLUMN_NAME, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '{tableName}'", connection);
-            DataTable columnsTable = new DataTable();
-            columnAdapter.Fill(columnsTable);
+        
+        SqlDataAdapter columnAdapter = new SqlDataAdapter($"SELECT COLUMN_NAME, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '{nomeTabela}'", conn);
+        DataTable columnsTable = new DataTable();
+        columnAdapter.Fill(columnsTable);
 
 
-            var inserirColunas = new List<(string Name, string DataType)>();
+        var inserirColunas = new List<(string Name, string DataType)>();
 
-            Console.WriteLine("Campos disponíveis para preenchimento:");
-            foreach (DataRow columnRow in columnsTable.Rows)
+        Console.WriteLine("Campos disponíveis para preenchimento:");
+        foreach (DataRow columnRow in columnsTable.Rows)
+        {
+            string columnName = columnRow["COLUMN_NAME"].ToString();
+            string dataType = columnRow["DATA_TYPE"].ToString();
+
+            if (!columnName.ToLower().Contains("id"))
             {
-                string columnName = columnRow["COLUMN_NAME"].ToString();
-                string dataType = columnRow["DATA_TYPE"].ToString();
-
-                if (!columnName.ToLower().Contains("id"))
-                {
-                    inserirColunas.Add((columnName, dataType));  
-                }
+                inserirColunas.Add((columnName, dataType));
             }
-            Console.WriteLine();
+        }
+        Console.WriteLine();
 
-            // Coletar os valores do usuário de acordo com o tipo de dado esperado
-            var valoresParaPassar = new List<SqlParameter>();
-            foreach (var (Name, DataType) in inserirColunas)
+        
+        var valoresParaPassar = new List<SqlParameter>();
+        foreach (var (Name, DataType) in inserirColunas)
+        {
+            Console.Write($"Insira o valor para '{Name}' ({DataType}): ");
+            string input = Console.ReadLine();
+
+            
+            object convertedValue;
+            switch (DataType.ToLower())
             {
-                Console.Write($"Insira o valor para '{Name}' ({DataType}): ");
-                string input = Console.ReadLine();
-
-                // Converter o valor de entrada de acordo com o tipo de dado
-                object convertedValue;
-                switch (DataType.ToLower())
-                {
-                    case "int":
-                        convertedValue = int.Parse(input);
-                        break;
-                    case "decimal":
-                        convertedValue = decimal.Parse(input);
-                        break;
-                    case "datetime":
-                        convertedValue = DateTime.Parse(input);
-                        break;
-                    default:
-                        convertedValue = input; // para tipos string e outros
-                        break;
-                }
-
-                // Adicionar o valor como um parâmetro SQL
-                valoresParaPassar.Add(new SqlParameter($"@{Name}", convertedValue));
+                case "int":
+                    convertedValue = int.Parse(input);
+                    break;
+                case "decimal":
+                    convertedValue = decimal.Parse(input);
+                    break;
+                case "datetime":
+                    convertedValue = DateTime.Parse(input);
+                    break;
+                case "string":
+                    convertedValue = $"'{input}'";
+                    break;
+                default:
+                    convertedValue = input;
+                    break;
             }
 
-            // Construir e executar a query de inserção com parâmetros
-            string insertQuery = $"INSERT INTO {tableName} ({string.Join(", ", inserirColunas.Select(c => c.Name))}) " +
-                                 $"VALUES ({string.Join(", ", inserirColunas.Select(c => $"@{c.Name}"))})";
+            
 
-            using (SqlCommand command = new SqlCommand(insertQuery, connection))
-            {
-                command.Parameters.AddRange(valoresParaPassar.ToArray());
-                command.ExecuteNonQuery();
-                Console.WriteLine("Novo registro inserido com sucesso!");
+    } 
+else if (selecaoEdicao == "deletar")
+{
 
-            }
-    else if(selecaoEdicao == "deletar")
-    {
+    Console.WriteLine("De quem é o id que deseja deletar o registro?");
+    int id = selecao.VerificacaoNumeral();
 
-        Console.WriteLine("De quem é o id que deseja deletar o registro?");
-        int id = selecao.VerificacaoNumeral();
+    DataSet coluna = data.BuscarDadosDasColunas(nomeTabela);
 
-        DataSet coluna = data.BuscarDadosDasColunas(nomeTabela);
+    Conexao con = new Conexao();
+    var connection = con.Connection();
 
-        Conexao con = new Conexao();
-        var connection = con.Connection();
+    SqlCommand Command = new SqlCommand($"delete from {nomeTabela} where {coluna.Tables[0].Rows[0]["COLUMN_NAME"].ToString()} = {id}", connection);
+    Command.ExecuteNonQuery();
+}
+else
+{
 
-        SqlCommand Command = new SqlCommand($"delete from {nomeTabela} where {coluna.Tables[0].Rows[0]["COLUMN_NAME"].ToString()} = {id}", connection);
-        Command.ExecuteNonQuery();
-    }
-    else
-    {
-
-    }
+}
 }
 
 Console.ReadKey();
