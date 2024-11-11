@@ -34,4 +34,15 @@ Por ser complexo e trabalhoso demais, não é o metodo mais utilizado.
     Aqui, usaremos apenas o DataBase First para fazer os programas
 
 
+NUGETS:
+
+    Para trabalhar com o Entity, nós usamos três Nugets, sendo um: O proprio Entity da Microsoft, o programa do nosso banco(-
+pode ser SqlServer, MySql, PostGree, etc...), e o Design(ele que se encarrega de criar as classes por nós e fazer o mapemento)
+
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.SqlServer
+
+
+
  */

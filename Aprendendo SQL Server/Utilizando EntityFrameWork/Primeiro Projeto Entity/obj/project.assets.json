@@ -4007,11 +4007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Utilizando EntityFrameWork\\Utilizando EntityFrameWork.csproj",
-      "projectName": "Utilizando EntityFrameWork",
-      "projectPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Utilizando EntityFrameWork\\Utilizando EntityFrameWork.csproj",
+      "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Primeiro Projeto Entity\\Primeiro Projeto Entity.csproj",
+      "projectName": "Primeiro Projeto Entity",
+      "projectPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Primeiro Projeto Entity\\Primeiro Projeto Entity.csproj",
       "packagesPath": "C:\\Users\\Ruan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Utilizando EntityFrameWork\\obj\\",
+      "outputPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Primeiro Projeto Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ruan\\AppData\\Roaming\\NuGet\\NuGet.Config",

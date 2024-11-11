@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Utilizando EntityFrameWork")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Primeiro Projeto Entity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13c6adcacd01af3d1df35b87c4a890c24f7b2523")]
-[assembly: System.Reflection.AssemblyProductAttribute("Utilizando EntityFrameWork")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Utilizando EntityFrameWork")]
+[assembly: System.Reflection.AssemblyProductAttribute("Primeiro Projeto Entity")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Primeiro Projeto Entity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
