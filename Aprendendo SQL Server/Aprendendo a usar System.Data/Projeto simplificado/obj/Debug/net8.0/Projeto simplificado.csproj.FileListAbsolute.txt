@@ -1,0 +1,23 @@
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\bin\Debug\net8.0\Projeto simplificado.exe
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\bin\Debug\net8.0\Projeto simplificado.deps.json
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\bin\Debug\net8.0\Projeto simplificado.runtimeconfig.json
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\bin\Debug\net8.0\Projeto simplificado.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\bin\Debug\net8.0\Projeto simplificado.pdb
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\obj\Debug\net8.0\Projeto simplificado.csproj.AssemblyReference.cache
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\obj\Debug\net8.0\Projeto simplificado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\obj\Debug\net8.0\Projeto simplificado.AssemblyInfoInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\obj\Debug\net8.0\Projeto simplificado.AssemblyInfo.cs
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\obj\Debug\net8.0\Projeto simplificado.csproj.CoreCompileInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\obj\Debug\net8.0\Projeto simplificado.sourcelink.json
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\obj\Debug\net8.0\Projeto .7323D58F.Up2Date
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\obj\Debug\net8.0\Projeto simplificado.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\obj\Debug\net8.0\refint\Projeto simplificado.dll
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\obj\Debug\net8.0\Projeto simplificado.pdb
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\obj\Debug\net8.0\Projeto simplificado.genruntimeconfig.cache
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Aprendendo a usar System.Data\Projeto simplificado\obj\Debug\net8.0\ref\Projeto simplificado.dll

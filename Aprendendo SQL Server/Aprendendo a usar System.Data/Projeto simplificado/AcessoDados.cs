@@ -11,10 +11,10 @@ namespace Projeto_simplificado
 {
     internal class AcessoDados
     {
-        public DataSet ExecutarSqL(string query)
+        public DataSet ExecutarSql(string query)
         {
             DataSet dataset = new DataSet();
-            SqlConnection conn = new SqlConnection("Data Source=.; Initial Catalog=Banco_Teste; User ID=ruan;password=ruan82645; MultipleActiveResultSets=True; TrustServerCertificate=True");
+            SqlConnection conn = new SqlConnection("Data Source=.; Initial Catalog=Banco_Teste; User ID=ruan;password=82645; MultipleActiveResultSets=True; TrustServerCertificate=True");
             conn.Open();
             SqlCommand command = new SqlCommand(query, conn);
             SqlDataAdapter adapter = new SqlDataAdapter(command);
@@ -24,7 +24,7 @@ namespace Projeto_simplificado
 
         public int ExecutarNonSql(string query)
         {
-            SqlConnection conn = new SqlConnection("Data Source=.; Initial Catalog=Banco_Teste; User ID=ruan;password=ruan82645; MultipleActiveResultSets=True; TrustServerCertificate=True");
+            SqlConnection conn = new SqlConnection("Data Source=.; Initial Catalog=Banco_Teste; User ID=ruan;password=82645; MultipleActiveResultSets=True; TrustServerCertificate=True");
             conn.Open();
             SqlCommand command = new SqlCommand(query, conn);
             

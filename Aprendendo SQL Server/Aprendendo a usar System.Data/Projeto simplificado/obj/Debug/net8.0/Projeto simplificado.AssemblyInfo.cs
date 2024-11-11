@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projeto simplificado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b731ed8b536fd505cd5f2286dbcc421ad87c80e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01537fbb4f170c6e7e8f2bbdb3dfdf9adfd66b09")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projeto simplificado")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projeto simplificado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

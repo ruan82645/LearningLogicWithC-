@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aprendendo a usar System.Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Primeiro programa", "Primeiro programa\Primeiro programa.csproj", "{131A3FFB-3B85-4E9C-A2E8-6600BB04F8D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto simplificado", "Projeto simplificado\Projeto simplificado.csproj", "{558175F7-404F-48E3-9ABB-A08DB2CF51C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{131A3FFB-3B85-4E9C-A2E8-6600BB04F8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{131A3FFB-3B85-4E9C-A2E8-6600BB04F8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{131A3FFB-3B85-4E9C-A2E8-6600BB04F8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558175F7-404F-48E3-9ABB-A08DB2CF51C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558175F7-404F-48E3-9ABB-A08DB2CF51C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558175F7-404F-48E3-9ABB-A08DB2CF51C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558175F7-404F-48E3-9ABB-A08DB2CF51C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
