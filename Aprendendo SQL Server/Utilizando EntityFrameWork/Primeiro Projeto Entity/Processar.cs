@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Primeiro_projeto_Entity.Data;
+using Primeiro_projeto_Entity.Models;
 
 namespace Projeto_simplificado
 {
     internal class Processar
     {
+        BancoTesteContext contexto = new BancoTesteContext();
+
         Listar listar = new Listar();
         int idCliente = 0;
-        AcessoDados db = new AcessoDados();
+
         public void processarEditar(string comando)
         {
             int idCliente = listar.ExtrairIdClienteDoTexto(comando);
@@ -18,20 +23,23 @@ namespace Projeto_simplificado
             Console.WriteLine($"digite o nome que deseja alterar do id \"{idCliente}\" ");
             string nome = Console.ReadLine();
 
-            int alterados = db.ExecutarNonSql($"update Clientes set nome={nome} where id_client ={idCliente}");
+            var cliente = contexto.Clientes.Find(idCliente);
 
-            Console.WriteLine($"sucesso, {alterados} registros alterados");
+            cliente.Nome = nome;
 
             listar.ListarClientesCompletos();
+
         }
 
         public void processarExcluir(string comando)
         {
             int idCliente = listar.ExtrairIdClienteDoTexto(comando);
 
-            int alterados = db.ExecutarNonSql($"delete from Clientes where id_clientes={idCliente}");
+            var cliente = contexto.Clientes.Find(idCliente);
 
-            Console.WriteLine($"sucesso, {alterados} registros deletados");
+            contexto.Remove(cliente);
+
+            Console.WriteLine($"sucesso, registros deletados");
 
             listar.ListarClientesCompletos();
         }
@@ -44,9 +52,14 @@ namespace Projeto_simplificado
 
             string[] DadosInsercao = comandoLimpo.Split(",");
 
-            db.ExecutarNonSql($@"Insert into Clientes
-                                (nome,email,telefone,salario)
-                                values('{comandoLimpo[1]}','{comandoLimpo[2]}','{comandoLimpo[3]}','{comandoLimpo[4].ToString().Replace(",", ".")})");
+            
+            contexto.Clientes.Add(new Primeiro_projeto_Entity.Models.Cliente()
+            {
+                Nome = DadosInsercao[1],
+                Email = DadosInsercao[2],
+                Telefone = DadosInsercao[3],
+                Salario = decimal.Parse(DadosInsercao[4])
+            });
 
 
             listar.ListarClientesCompletos();

@@ -2,7 +2,7 @@
 using Projeto_simplificado;
 using System.Data.SqlClient;
 using System.Data;
-
+using Primeiro_projeto_Entity.Data;
 
 static class MeuPrograma
 {
@@ -12,7 +12,7 @@ static class MeuPrograma
         Listar listar = new Listar();
         Processar processar = new Processar();
 
-        listar.ListarClientes();
+        listar.ListarClientesCompletos();
         listar.exibirMenuNavegacao();
 
         string comando = Console.ReadLine().ToLower();

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Primeiro_projeto_Entity.Data;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -9,27 +10,17 @@ namespace Projeto_simplificado
 {
     internal class Listar
     {
-        public void ListarClientes()
-        {
 
-            AcessoDados db = new AcessoDados();
-            var clientes = db.ExecutarSql("select * from Clientes");
-
-            foreach (DataRow cliente in clientes.Tables[0].Rows)
-            {
-                Console.WriteLine(cliente["id_client"] + " - " + cliente["nome"]);
-            }
-        }
+        BancoTesteContext contexto = new BancoTesteContext();
 
         public void ListarClientesCompletos()
         {
 
-            AcessoDados db = new AcessoDados();
-            var clientes = db.ExecutarSql("select * from Clientes");
+            var clientes = contexto.Clientes.ToList();
 
-            foreach (DataRow cliente in clientes.Tables[0].Rows)
+            foreach (var cliente in clientes)
             {
-                Console.WriteLine($"ID: {cliente["id_client"]} | NOME:{cliente["nome"]} | EMAIL:{cliente["email"]} | TELEFONE:{cliente["telefone"]} | SALARIO:{cliente["salario"].ToString()} ");
+                Console.WriteLine($"Id: {cliente.IdClient}, Nome:{cliente.Nome}, Telefone:{cliente.Telefone}, Salario:{cliente.Salario.ToString().Replace(".",",")}");
             }
         }
 
