@@ -1,4 +1,4 @@
-﻿//Vamos então ao Split, como ele funciona? 
+﻿    //Vamos então ao Split, como ele funciona? 
 //Split funciona dividindo uma string e armazenando em um array
 //lembre-se, todos esses metodos alteram uma string e passam o valor para outra
 //nesse caso em especifico, é em um array, mas nna maioria é uma string normal

@@ -18,4 +18,20 @@ vai mudar, depois apenas atribuimos o seu valor e como ele vai funcionar, mas el
 não nos preocupamos em como será pago, nem em como ela vai chegar lá, nem se vai ter fila, ou se vai acontecer algo. Nós-
 sabemos que em algum tempo ela aparecerá com os 20 pães, e é justamente isso que o Entity Faz, não precisamos prever tudo-
 para nos precaver escrevendo dezenas de códigos; Ele apenas vai e executa, resolvendo os proprios problemas
+
+DATA-BASE FIRST VS CODE FIRST
+
+    Existem duas formas de fazer o Entity se comunicar com o código C#, essas duas formas recebem esses nomes:-
+DataBase First ou CodeFirst. Esses dois são comandos que damos inicialmente que faz a ligação entre ambos os programas.
+
+    O DataBase First opera a partir de um banco de dados já existente, espelhando todo seu conteúdo dentro do C# automaticamente,
+criando classes, e tudo para facilidade do usuário em acessar os dados.
+
+    O CodeFirst seria recriar manualmente as classes e mapeamento de dados dentro do C# para aí sim podermos ligar os dois.
+Por ser complexo e trabalhoso demais, não é o metodo mais utilizado.
+
+
+    Aqui, usaremos apenas o DataBase First para fazer os programas
+
+
  */
