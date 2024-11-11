@@ -3996,7 +3996,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.EntityFrameworkCore >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10"
     ]
@@ -4007,11 +4006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Primeiro Projeto Entity\\Primeiro Projeto Entity.csproj",
-      "projectName": "Primeiro Projeto Entity",
-      "projectPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Primeiro Projeto Entity\\Primeiro Projeto Entity.csproj",
+      "projectUniqueName": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Primeiro projeto Entity\\Primeiro projeto Entity.csproj",
+      "projectName": "Primeiro projeto Entity",
+      "projectPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Primeiro projeto Entity\\Primeiro projeto Entity.csproj",
       "packagesPath": "C:\\Users\\Ruan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Primeiro Projeto Entity\\obj\\",
+      "outputPath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Primeiro projeto Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ruan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4046,10 +4045,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[8.0.10, )"
-          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JYmaxIA/07o=",
+  "dgSpecHash": "qT8HzSiIsCE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Primeiro Projeto Entity\\Primeiro Projeto Entity.csproj",
+  "projectFilePath": "C:\\Users\\Ruan\\source\\repos\\Aprendendo SQL Server\\Utilizando EntityFrameWork\\Primeiro projeto Entity\\Primeiro projeto Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ruan\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Ruan\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
