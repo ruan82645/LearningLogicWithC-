@@ -8,7 +8,7 @@ static class MeuPrograma
 {
     static void Main()
     {
-
+        while (true) {
         Listar listar = new Listar();
         Processar processar = new Processar();
 
@@ -26,16 +26,22 @@ static class MeuPrograma
         }
         else if (comando.StartsWith("excluir"))
         {
-            idCliente = listar.ExtrairIdClienteDoTexto(comando);
+            processar.ProcessarExcluir(comando);
 
         }
-        else
+        else if (comando.StartsWith("inserir"))
+        {
+            processar.ProcessarInserir(comando);
+
+        }
+            else
         {
             Console.WriteLine("Comando Inválido");
         }
+            
+        }
+        
     }
-
-
 }
 
 

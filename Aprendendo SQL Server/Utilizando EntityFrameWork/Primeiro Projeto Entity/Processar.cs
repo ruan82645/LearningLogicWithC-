@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Primeiro_projeto_Entity.Data;
 using Primeiro_projeto_Entity.Models;
+using Models = Primeiro_projeto_Entity.Models;
 
 namespace Projeto_simplificado
 {
     internal class Processar
     {
         BancoTesteContext contexto = new BancoTesteContext();
+
 
         Listar listar = new Listar();
         int idCliente = 0;
@@ -27,24 +29,27 @@ namespace Projeto_simplificado
 
             cliente.Nome = nome;
 
+            contexto.SaveChanges();
+
             listar.ListarClientesCompletos();
 
         }
 
-        public void processarExcluir(string comando)
+        public void ProcessarExcluir(string comando)
         {
             int idCliente = listar.ExtrairIdClienteDoTexto(comando);
 
             var cliente = contexto.Clientes.Find(idCliente);
 
             contexto.Remove(cliente);
+            contexto.SaveChanges();
 
             Console.WriteLine($"sucesso, registros deletados");
 
             listar.ListarClientesCompletos();
         }
 
-        public void processarInserir(string comando)
+        public void ProcessarInserir(string comando)
         {
             string comandoLimpo = listar.LimparComando(comando);
 
@@ -53,7 +58,7 @@ namespace Projeto_simplificado
             string[] DadosInsercao = comandoLimpo.Split(",");
 
             
-            contexto.Clientes.Add(new Primeiro_projeto_Entity.Models.Cliente()
+            contexto.Clientes.Add(new Models.Cliente()
             {
                 Nome = DadosInsercao[1],
                 Email = DadosInsercao[2],
@@ -61,6 +66,7 @@ namespace Projeto_simplificado
                 Salario = decimal.Parse(DadosInsercao[4])
             });
 
+            contexto.SaveChanges();
 
             listar.ListarClientesCompletos();
         }

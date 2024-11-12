@@ -27,7 +27,7 @@ namespace Projeto_simplificado
             SqlConnection conn = new SqlConnection("Data Source=.; Initial Catalog=Banco_Teste; User ID=ruan;password=82645; MultipleActiveResultSets=True; TrustServerCertificate=True");
             conn.Open();
             SqlCommand command = new SqlCommand(query, conn);
-            
+
             return command.ExecuteNonQuery();
 
         }

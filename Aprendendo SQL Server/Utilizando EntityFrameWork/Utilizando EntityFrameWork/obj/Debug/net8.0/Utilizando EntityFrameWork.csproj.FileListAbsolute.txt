@@ -1,0 +1,5 @@
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Utilizando EntityFrameWork\Utilizando EntityFrameWork\obj\Debug\net8.0\Utilizando EntityFrameWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Utilizando EntityFrameWork\Utilizando EntityFrameWork\obj\Debug\net8.0\Utilizando EntityFrameWork.AssemblyInfoInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Utilizando EntityFrameWork\Utilizando EntityFrameWork\obj\Debug\net8.0\Utilizando EntityFrameWork.AssemblyInfo.cs
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Utilizando EntityFrameWork\Utilizando EntityFrameWork\obj\Debug\net8.0\Utilizando EntityFrameWork.csproj.CoreCompileInputs.cache
+C:\Users\Ruan\source\repos\Aprendendo SQL Server\Utilizando EntityFrameWork\Utilizando EntityFrameWork\obj\Debug\net8.0\Utilizando EntityFrameWork.sourcelink.json

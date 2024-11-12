@@ -9,16 +9,30 @@ static class MeuPrograma
     static void Main()
     {
 
-        AcessoDados db = new AcessoDados(); 
+        Listar listar = new Listar();
+        Processar processar = new Processar();  
 
-        var clientes = db.ExecutarSql("select * from Clientes");
+        listar.ListarClientes();
+        listar.exibirMenuNavegacao();
+        
+        string comando = Console.ReadLine().ToLower();
+        int idCliente = 0;
 
-        foreach(DataRow cliente in clientes.Tables[0].Rows)
+        if (comando.StartsWith("editar"))
         {
-            Console.WriteLine(cliente["nome"]);
+            processar.processarEditar(comando);
+            
+            
         }
+        else if (comando.StartsWith("excluir"))
+        {
+            idCliente = listar.ExtrairIdClienteDoTexto(comando); 
 
-        db.ExecutarNonSql("Update clientes set email = 'email@gmail.com'");
+        }
+        else
+        {
+            Console.WriteLine("Comando Inválido");
+        }
     }
 
     
